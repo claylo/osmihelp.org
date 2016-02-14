@@ -1,0 +1,305 @@
+@color-slate: #59656F;
+
+/*
+ * import the bootstrap less theme
+ */
+@import "./bootstrap-theme";
+
+.no-lead-padding {
+  margin-top: 0;
+}
+
+.abs-img-container {
+  position: absolute;
+  pointer-events: none;
+}
+
+.btn, button {
+  font-family: @font-family-sans-serif;
+}
+
+.navbar {
+  @media (min-width: @screen-sm-min) {
+    margin-bottom: 0;
+    border-bottom-width: 0;
+  }
+}
+
+// make the red donate button stand out!
+.navbar-inverse .navbar-nav > li > a.btn-primary {
+  color: white;
+}
+
+.navbar-brand {
+  font-family: @font-family-sans-serif;
+  a.btn, img {
+    height: 25px;
+  }
+  &.navbar-btn {
+    @media (max-width: @screen-xs-max) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+#logo {
+  z-index: 2;
+  @media (min-width: @screen-sm-min) {
+    width: 330px;
+    margin-top: 45px;
+    margin-left: 60px;
+  }
+  @media (min-width: @screen-md-min) {
+    width: 450px;
+    margin-top: 45px;
+    margin-left: 70px;
+  }
+  @media (min-width: @screen-lg-min) {
+    width: 600px;
+    margin-top: 45px;
+    margin-left: 80px;
+  }
+}
+
+#logo-translucent {
+  width:1000px;
+  margin-top:-400px;
+  margin-left:-700px;
+  opacity: .5;
+  @media (min-width: @screen-sm-min) {
+    z-index: 1;
+    width:1050px;
+    margin-top:-512px;
+    margin-left:-512px;
+  }
+  @media (min-width: @screen-md-min) {
+    width:1200px;
+    margin-top:-512px;
+    margin-left:-512px;
+  }
+  @media (min-width: @screen-lg-min) {
+    width:1300px;
+    margin-top:-512px;
+    margin-left:-512px;
+  }
+}
+
+.header-primary {
+  color: @brand-primary;
+}
+
+.panel-osmi {
+  p {
+    font-weight: 300;
+  }
+  .fa {
+    color: @color-slate;
+  }
+  @media (min-width: @screen-md-min) {
+    min-height: 460px;
+  }
+  @media (max-width: @screen-sm-max) and (min-width: @screen-sm-min) {
+    font-size: 14px;
+    min-height: 390px;
+  }
+}
+
+h2.header-osmi-box {
+  color: @brand-primary;
+  font-size: 48px;
+  margin-top: .25em;
+  @media (max-width: @screen-sm-max) and (min-width: @screen-sm-min) {
+    font-size: 36px;
+  }
+}
+
+#hero-image-container {
+  position: relative;
+}
+
+#logo-container-xs {
+  margin-bottom: 1em;
+}
+
+.abs-box {
+  position: absolute;
+  pointer-events: none;
+}
+
+#hero-image-box-left {
+  bottom: 0;
+  top: 0;
+  width: 200px;
+  background-color: rgba(216,216,216,.4);
+  border: 1px solid @gray-light;
+  border-top-width:0;
+}
+
+#hero-image-box-bottom {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  background-color: rgba(255,255,255,.7);
+  border: 1px solid @gray-dark;
+}
+
+#hero-image-box-subtitle {
+  font-size: 32px;
+  font-weight: 300;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  line-height: 28px;
+  font-family: @font-family-serif;
+  @media (min-width: @screen-sm-min) {
+    font-size: 30px;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    line-height: 32px;
+  }
+  @media (min-width: @screen-md-min) {
+    font-size: 30px;
+    left: 40%;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    line-height: 32px;
+  }
+  @media (min-width: @screen-lg-min) {
+    left: 45%;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    line-height: 34px;
+    letter-spacing: -1px;
+  }
+}
+
+#hero-bottom {
+  background-color: @gray-base;
+  min-height: 2em;
+  padding: .5em;
+  color: @gray-lighter;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.content-container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  @media (min-width: @screen-sm-min) {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
+
+.container-fluid .container {
+  padding:0;
+}
+
+.talks-container {
+  background: url('../img/osmi-logo-translucent.png') lighten(@color-slate, 30%) no-repeat fixed 50% 50%;
+}
+
+.content-header {
+  color: @brand-primary;
+  border-bottom: 1px @gray-light solid;
+  margin-bottom: .5em;
+  padding-bottom: .25em;
+}
+
+
+h2.content-header {
+  font-size: 48px;
+  @media (min-width: @screen-sm-min) {
+    font-size: 64px;
+  }
+}
+
+h3.content-header {
+  font-size: 30px;
+  @media (min-width: @screen-sm-min) {
+    font-size: 40px;
+  }
+}
+
+.col-content {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+.col-quote {
+  color: @gray-light;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+.talk-event {
+  margin-bottom: 4px;
+}
+
+.talk-date {
+  margin-bottom: 4px;
+}
+
+.watch-list, .upcoming-list {
+  max-height: 415px;
+  overflow: auto;
+}
+
+.watch-list-event, .upcoming-list-event {
+  font-size: 22px;
+}
+
+/*
+this flexbox stuff is so we can have nicely aligned sponsor logos
+*/
+.col-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+.col-flex .sponsor-logo-wrapper {
+  max-width: 250px;
+  max-height: 300px;
+  flex: 1 1 250px; // have to be specific about width b/c of webkit bug
+  font-size: 32px;
+  font-family: @font-family-sans-serif;
+  text-align: center;
+  border: 1px solid @gray-light;
+  padding: 1em;
+}
+
+.resource-description {
+  margin-left: 2em;
+  font-weight: 300;
+  font-size: .9em;
+}
+
+
+.footer-container {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  @media (min-width: @screen-sm-min) {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  background-color: @color-slate;
+  color: white;
+  li {
+    font-family: @font-family-sans-serif;
+    font-size: 24px;
+    a {
+      color: lighten(@brand-danger, 40%);
+    }
+  }
+}

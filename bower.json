@@ -1,0 +1,31 @@
+{
+  "name": "osmi-feb2016",
+  "version": "0.0.0",
+  "authors": [
+    "Ed Finkler <coj@funkatron.com>"
+  ],
+  "description": "",
+  "main": "public/index.php",
+  "moduleType": [],
+  "license": "Proprietary",
+  "homepage": "http://micit.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "fontawesome": "~4.5.0",
+    "lodash": "~3.10.1",
+    "bootstrap-social": "~4.11.0",
+    "bootbox.js": "~4.4.0",
+    "parsleyjs": "~2.2.0",
+    "vue": "~1.0.15",
+    "vue-strap": "~1.0.7"
+  }
+}
