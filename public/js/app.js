@@ -236,12 +236,6 @@ window.UPCOMING_PRESENTATIONS = [
         'event_location': 'Salt Lake City, UT'
     },
     {
-        'event_url': 'http://pytennessee.org',
-        'event_name': 'PyTennessee 2016',
-        'event_date': 'February 6-7',
-        'event_location': 'Nashville, TN'
-    },
-    {
         'event_url': 'http://thecombine.org',
         'event_name': 'The Combine',
         'event_date': 'April 7-9',
