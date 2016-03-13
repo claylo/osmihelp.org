@@ -4,6 +4,14 @@
  */
 window.PRESENTATIONS = [
     {
+        "ytid": "9VcDzjeNfqQ",
+        "video_url": "http://j.mp/osmiskiphp16video",
+        "slides_url": "http://j.mp/osmiskiphp16slides",
+        "event_name": "SkiPHP 2016",
+        "event_date": "January 2016",
+        "audio_url": null
+    },
+    {
         "ytid": "80IMTbZv8-I",
         "video_url": "http://j.mp/osminodevember2015video",
         "slides_url": "http://j.mp/osminodevember2015slides",
@@ -229,12 +237,6 @@ window.PRESENTATIONS = [
 ];
 
 window.UPCOMING_PRESENTATIONS = [
-    {
-        'event_url': 'http://www.skiphp.com/',
-        'event_name': 'SkiPHP 2016',
-        'event_date': 'January 14-15',
-        'event_location': 'Salt Lake City, UT'
-    },
     {
         'event_url': 'http://thecombine.org',
         'event_name': 'The Combine',
