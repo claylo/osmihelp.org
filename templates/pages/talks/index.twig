@@ -1,0 +1,113 @@
+{# file pages/talks/index.twig #}
+{% extends 'layouts/default.twig' %}
+
+{% block content %}
+
+    <template id="presentation-player-tpl">
+        <div v-if="video_url" class="video-box">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="//www.youtube-nocookie.com/embed/${ ytid }" class="embed-responsive-item" allowfullscreen></iframe>
+            </div>
+            <h3 class="talk-event"><a href="${ video_url }" target="_blank">${ event_name }</a></h3>
+            <div class="talk-date">${ event_date }</div>
+            <div class="talk-links">
+                <a class="btn btn-primary" href="${ video_url }" target="_blank"><i class="fa fa-youtube-square"></i> Video</a>
+                <a class="btn btn-primary" href="${ slides_url }" target="_blank"><i class="fa fa-paperclip"></i> Slides</a>
+            </div>
+        </div>
+        <div v-if="audio_url" class="audio-box">
+            <audio v-bind:src="audio_url"></audio>
+            <h3 class="talk-event"><a href="${ audio_url }">${ event_name }</a></h3>
+            <div class="talk-date">${ event_date }</div>
+            <div class="talk-links">
+                <a class="btn btn-primary" href="${ audio_url }"><i class="fa fa-file-sound-o"></i> Audio</a>
+                <a class="btn btn-primary" href="${ slides_url }"><i class="fa fa-paperclip"></i> Slides</a>
+            </div>
+        </div>
+    </template>
+
+    <template id="presentation-item-tpl">
+        <a class="list-group-item" v-if="video_url" v-on:click.prevent="viewPresentation" href="${video_url}" target="_blank">
+            <i class="fa fa-eye fa-fw pull-right"></i>
+            <div class="watch-list-event">${event_name}</div>
+            <div class="watch-list-date">${event_date}</div>
+        </a>
+        <a class="list-group-item" v-if="audio_url" v-on:click.prevent="viewPresentation" href="${audio_url}" target="_blank">
+            <i class="fa fa-volume-up fa-fw pull-right"></i>
+            <div class="watch-list-event">${event_name}</div>
+            <div class="watch-list-date">${event_date}</div>
+        </a>
+    </template>
+
+    <template id="upcoming-presentation-item-tpl">
+        <a class="list-group-item" href="${ event_url }" target="_blank">
+            <i class="fa fa-calendar fa-fw pull-right"></i>
+            <div class="upcoming-list-event">${ event_name }</div>
+            <div class="upcoming-list-date">${ event_date }</div>
+            <div class="upcoming-list-location">${ event_location }</div>
+        </a>
+    </template>
+
+    <div class="container-fluid content-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="content-header" id="talks">Talks</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <presentation-player
+                            v-ref:selected-presentation-component
+                            :event_name='selectedPresentation.event_name'
+                            :event_date='selectedPresentation.event_date'
+                            :slides_url='selectedPresentation.slides_url'
+                            :video_url='selectedPresentation.video_url'
+                            :ytid='selectedPresentation.ytid'
+                            :audio_url='selectedPresentation.audio_url'
+                    ></presentation-player>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <h3>Watch</h3>
+                    <div class="watch-list list-group">
+                        <presentation-item
+                                v-ref:presentation-item-components
+                                v-for="presentation in presentations"
+                                :event_name='presentation.event_name'
+                                :event_date='presentation.event_date'
+                                :slides_url='presentation.slides_url'
+                                :video_url='presentation.video_url'
+                                :ytid='presentation.ytid'
+                                :audio_url='presentation.audio_url'
+                                :index="$index"
+                        ></presentation-item>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <h3>Upcoming</h3>
+                    <div class="upcoming-list list-group">
+                        <upcoming-presentation-item
+                                v-ref:upcoming-presentation-item-components
+                                v-for="presentation in upcomingPresentations"
+                                :event_url='presentation.event_url'
+                                :event_name='presentation.event_name'
+                                :event_date='presentation.event_date'
+                                :event_location='presentation.event_location'
+                                :index="$index"
+                        ></upcoming-presentation-item>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-offset-1 col-sm-10 text-center">
+                    <hr>
+                    <i class="fa fa-info-circle"></i>
+                    These works are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
