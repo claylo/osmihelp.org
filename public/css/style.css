@@ -10165,6 +10165,14 @@ button {
     margin-bottom: 0;
   }
 }
+#logo,
+#logo-translucent {
+  display: none;
+}
+body.splash #logo,
+body.splash #logo-translucent {
+  display: block;
+}
 #logo {
   z-index: 2;
 }
