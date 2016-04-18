@@ -154,6 +154,7 @@
 </script>
 
 <script>
+    // global JS stuff
     $(document).ready(function() {
         $.localScroll({
             duration: 200,
@@ -162,6 +163,8 @@
         });
     });
 </script>
+
+{% block page_js %}<script></script>{% endblock %}
 
 </body>
 </html>

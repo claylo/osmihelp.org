@@ -7,7 +7,7 @@
 
     <title>Open Sourcing Mental Illness - Changing how we talk about mental health in the tech community - Stronger Than Fear</title>
 
-    <meta name="generated" content="Mon Apr 18 2016 11:04:49 GMT-0400 (EDT)">
+    <meta name="generated" content="Mon Apr 18 2016 12:23:56 GMT-0400 (EDT)">
 
     <meta property="og:url" content="http://osmihelp.org/" />
     <meta property="og:title" content="Open Sourcing Mental Illness - Changing how we talk about mental health in the tech community - Stronger Than Fear" />
@@ -353,6 +353,7 @@
 </script>
 
 <script>
+    // global JS stuff
     $(document).ready(function() {
         $.localScroll({
             duration: 200,
@@ -361,6 +362,26 @@
         });
     });
 </script>
+
+    <script>
+        $(document).ready(function() {
+            /* this fades out the red logo as you scroll down */
+            $(window).bind("scroll", function() {
+                var zero_opacity_height = 300;
+                $this = $(this);
+                $logo = $('#logo');
+                var opacity = 1;
+                if ($this.scrollTop() < zero_opacity_height ) { //Fade in at a level of height
+                    opacity = Math.max(1 - ($this.scrollTop() / zero_opacity_height));
+                    $logo.css('opacity', opacity);
+                } else {
+                    opacity = 0;
+                    $logo.css('opacity', opacity);
+                }
+                console.log($this.scrollTop(), opacity, $logo.offset().top);
+            });
+        })
+    </script>
 
 </body>
 </html>
