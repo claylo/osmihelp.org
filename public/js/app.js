@@ -267,6 +267,12 @@ window.UPCOMING_PRESENTATIONS = [
         'event_location': 'New York, NY'
     },
     {
+        'event_url': 'https://2016.neo.wordcamp.org/',
+        'event_name': 'WordCamp Northeast Ohio',
+        'event_date': 'June 11-12',
+        'event_location': 'Kent, OH'
+    },
+    {
         'event_url': 'http://www.yapcna.org/yn2016/',
         'event_name': 'Yet Another Perl Conference::NA 2016',
         'event_date': 'June 20-22',
