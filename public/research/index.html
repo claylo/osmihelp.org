@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Talks :: Open Sourcing Mental Illness - Changing how we talk about mental health in the tech community - Stronger Than Fear</title>
+    <title>Research :: Open Sourcing Mental Illness - Changing how we talk about mental health in the tech community - Stronger Than Fear</title>
 
     <meta name="generated" content="Mon Apr 18 2016 11:04:49 GMT-0400 (EDT)">
 
@@ -68,140 +68,60 @@
 </nav>
 
 
-    <template id="presentation-player-tpl">
-        <div>
-            <div v-if="video_url" class="video-box">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="//www.youtube-nocookie.com/embed/${ ytid }" class="embed-responsive-item" allowfullscreen></iframe>
-                </div>
-                <h3 class="talk-event"><a href="${ video_url }" target="_blank">${ event_name }</a></h3>
-                <div class="talk-date">${ event_date }</div>
-                <div class="talk-links">
-                    <a class="btn btn-primary" href="${ video_url }" target="_blank"><i class="fa fa-youtube-square"></i> Video</a>
-                    <a class="btn btn-primary" href="${ slides_url }" target="_blank"><i class="fa fa-paperclip"></i> Slides</a>
-                </div>
-            </div>
-            <div v-if="!video_url && speakerdeck_embed_id" class="slides-box">
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="speakerdeck-iframe"
-                            frameborder="0"
-                            :src="'//speakerdeck.com/player/' + speakerdeck_embed_id "
-                            allowfullscreen="allowfullscreen"
-                            style="width: 100%;"
-                            ></iframe>
-                </div>
-                <h3 class="talk-event"><a href="${ slides_url }" target="_blank">${ event_name }</a></h3>
-                <div class="talk-date">${ event_date }</div>
-                <div class="talk-links">
-                    <a class="btn btn-primary" href="${ slides_url }" target="_blank"><i class="fa fa-paperclip"></i> Slides</a>
-                </div>
-            </div>
-            <div v-if="audio_url" class="audio-box">
-                <audio :src="audio_url"></audio>
-                <h3 class="talk-event"><a href="${ audio_url }">${ event_name }</a></h3>
-                <div class="talk-date">${ event_date }</div>
-                <div class="talk-links">
-                    <a class="btn btn-primary" href="${ audio_url }"><i class="fa fa-file-sound-o"></i> Audio</a>
-                    <a class="btn btn-primary" href="${ slides_url }"><i class="fa fa-paperclip"></i> Slides</a>
-                </div>
-            </div>
-        </div>
-    </template>
 
-    <template id="presentation-item-tpl">
-        <div>
-            <a class="list-group-item" v-if="video_url" @click.prevent="viewPresentation" href="${video_url}" target="_blank">
-                <i class="fa fa-eye fa-fw pull-right"></i>
-                <div class="watch-list-event">${event_name}</div>
-                <div class="watch-list-date">${event_date}</div>
-            </a>
-            <a class="list-group-item" v-if="!video_url && speakerdeck_embed_id" @click.prevent="viewPresentation" href="${slides_url}" target="_blank">
-                <i class="fa fa-photo fa-fw pull-right"></i>
-                <div class="watch-list-event">${event_name}</div>
-                <div class="watch-list-date">${event_date}</div>
-            </a>
-            <a class="list-group-item" v-if="audio_url" @click.prevent="viewPresentation" href="${audio_url}" target="_blank">
-                <i class="fa fa-volume-up fa-fw pull-right"></i>
-                <div class="watch-list-event">${event_name}</div>
-                <div class="watch-list-date">${event_date}</div>
-            </a>
-        </div>
-    </template>
-
-    <template id="upcoming-presentation-item-tpl">
-        <a class="list-group-item" href="${ event_url }" target="_blank">
-            <i class="fa fa-calendar fa-fw pull-right"></i>
-            <div class="upcoming-list-event">${ event_name }</div>
-            <div class="upcoming-list-date">${ event_date }</div>
-            <div class="upcoming-list-location">${ event_location }</div>
-        </a>
-    </template>
-
-    <div class="content-container" id="talks">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-offset-1 col-md-10">
-                    <h1 class="content-header"><i class="fa fa-film"></i> Talks</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-md-offset-1 col-md-10">
-                    <presentation-player
-                            v-ref:selected-presentation-component
-                            :speakerdeck_embed_id='selectedPresentation.speakerdeck_embed_id'
-                            :speakerdeck_embed_ratio='selectedPresentation.speakerdeck_embed_ratio'
-                            :event_name='selectedPresentation.event_name'
-                            :event_date='selectedPresentation.event_date'
-                            :slides_url='selectedPresentation.slides_url'
-                            :video_url='selectedPresentation.video_url'
-                            :ytid='selectedPresentation.ytid'
-                            :audio_url='selectedPresentation.audio_url'
-                    ></presentation-player>
-                </div>
-                <div class="col-md-5 col-md-offset-1 col-xs-12">
-                    <h3>Watch</h3>
-                    <div class="watch-list list-group">
-                        <presentation-item
-                                v-ref:presentation-item-components
-                                v-for="presentation in presentations"
-                                :speakerdeck_embed_id='presentation.speakerdeck_embed_id'
-                                :speakerdeck_embed_ratio='presentation.speakerdeck_embed_ratio'
-                                :event_name='presentation.event_name'
-                                :event_date='presentation.event_date'
-                                :slides_url='presentation.slides_url'
-                                :video_url='presentation.video_url'
-                                :ytid='presentation.ytid'
-                                :audio_url='presentation.audio_url'
-                                :index="$index"
-                        ></presentation-item>
-                    </div>
-                </div>
-                <div class="col-md-5 col-xs-12">
-                    <h3>Upcoming</h3>
-                    <div class="upcoming-list list-group">
-                        <upcoming-presentation-item
-                                v-ref:upcoming-presentation-item-components
-                                v-for="presentation in upcomingPresentations"
-                                :event_url='presentation.event_url'
-                                :event_name='presentation.event_name'
-                                :event_date='presentation.event_date'
-                                :event_location='presentation.event_location'
-                                :index="$index"
-                        ></upcoming-presentation-item>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-offset-1 col-sm-10 text-center">
-                    <hr>
-                    <i class="fa fa-info-circle"></i>
-                    These works are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
-                </div>
-            </div>
+<div class="container content-container" id="Research">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="content-header"><i class="fa fa-flask"></i> Research</h1>
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-4 col-quote">
+            This has by far been the most valuable talk I've attended at this conference and many others.<br>
+            &mdash; <a href="https://joind.in/talk/view/9988#comments" target="_blank">Stefan Koopmanschap</a>
+        </div>
+        <div class="col-sm-8 col-xs-12 col-content">
+            <h3 class="no-lead-padding content-header">OSMI Mental Health in Tech Survey</h3>
+
+            <h3>2016</h3>
+            <p>Currently over 1100 responses, the ongoing 2016 survey aims to measure attitudes towards mental health
+                in the tech workplace, and examine the frequency of mental health disorders among tech workers.</p>
+            <p>
+                <a class="btn btn-primary" href="http://j.mp/osmisurvey2016"><i class="fa fa-check-square"></i> Take the survey now!</a>
+                <a class="btn btn-primary" href="http://j.mp/osmisurvey2016"><i class="fa fa-bar-chart"></i> View basic report</a>
+            </p>
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <p class="text-info">
+                        <i class="fa fa-pull-left fa-3x fa-creative-commons"></i>
+                        <small>These works are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.</small>
+                    </p>
+                </div>
+            </div>
+
+            <h3>2014</h3>
+            <p>With over 1200 responses, we believe the 2014 Mental Health in Tech Survey is the largest survey
+            done on mental health in the tech industry.</p>
+
+            <p>
+                <a class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/1cr65P3ciL2tD4W4KOCTz4Ik67iD52S_DKHXypqgta2o/edit?usp=sharing"><i class="fa fa-table"></i> Get raw data</a>
+                <a class="btn btn-primary" href="https://docs.google.com/forms/d/1FqpxZXORRNDQ4niSeqLx0Qy2VfUod_qlAvpnOyTEB9k/viewanalytics"><i class="fa fa-pie-chart"></i> View basic report</a>
+                <a class="btn btn-primary" href="/talks"><i class="fa fa-photo"></i> View talks using data</a>
+            </p>
+
+            <div class="panel panel-info">
+                <div class="panel-body">
+                    <p class="text-info">
+                        <i class="fa fa-pull-left fa-3x fa-creative-commons"></i>
+                        <small>These works are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</small>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
 
 
 <div class="container-fluid footer-container" id="contact">

@@ -6,39 +6,63 @@
 {% block content %}
 
     <template id="presentation-player-tpl">
-        <div v-if="video_url" class="video-box">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="//www.youtube-nocookie.com/embed/${ ytid }" class="embed-responsive-item" allowfullscreen></iframe>
+        <div>
+            <div v-if="video_url" class="video-box">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="//www.youtube-nocookie.com/embed/${ ytid }" class="embed-responsive-item" allowfullscreen></iframe>
+                </div>
+                <h3 class="talk-event"><a href="${ video_url }" target="_blank">${ event_name }</a></h3>
+                <div class="talk-date">${ event_date }</div>
+                <div class="talk-links">
+                    <a class="btn btn-primary" href="${ video_url }" target="_blank"><i class="fa fa-youtube-square"></i> Video</a>
+                    <a class="btn btn-primary" href="${ slides_url }" target="_blank"><i class="fa fa-paperclip"></i> Slides</a>
+                </div>
             </div>
-            <h3 class="talk-event"><a href="${ video_url }" target="_blank">${ event_name }</a></h3>
-            <div class="talk-date">${ event_date }</div>
-            <div class="talk-links">
-                <a class="btn btn-primary" href="${ video_url }" target="_blank"><i class="fa fa-youtube-square"></i> Video</a>
-                <a class="btn btn-primary" href="${ slides_url }" target="_blank"><i class="fa fa-paperclip"></i> Slides</a>
+            <div v-if="!video_url && speakerdeck_embed_id" class="slides-box">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="speakerdeck-iframe"
+                            frameborder="0"
+                            :src="'//speakerdeck.com/player/' + speakerdeck_embed_id "
+                            allowfullscreen="allowfullscreen"
+                            style="width: 100%;"
+                            ></iframe>
+                </div>
+                <h3 class="talk-event"><a href="${ slides_url }" target="_blank">${ event_name }</a></h3>
+                <div class="talk-date">${ event_date }</div>
+                <div class="talk-links">
+                    <a class="btn btn-primary" href="${ slides_url }" target="_blank"><i class="fa fa-paperclip"></i> Slides</a>
+                </div>
             </div>
-        </div>
-        <div v-if="audio_url" class="audio-box">
-            <audio v-bind:src="audio_url"></audio>
-            <h3 class="talk-event"><a href="${ audio_url }">${ event_name }</a></h3>
-            <div class="talk-date">${ event_date }</div>
-            <div class="talk-links">
-                <a class="btn btn-primary" href="${ audio_url }"><i class="fa fa-file-sound-o"></i> Audio</a>
-                <a class="btn btn-primary" href="${ slides_url }"><i class="fa fa-paperclip"></i> Slides</a>
+            <div v-if="audio_url" class="audio-box">
+                <audio :src="audio_url"></audio>
+                <h3 class="talk-event"><a href="${ audio_url }">${ event_name }</a></h3>
+                <div class="talk-date">${ event_date }</div>
+                <div class="talk-links">
+                    <a class="btn btn-primary" href="${ audio_url }"><i class="fa fa-file-sound-o"></i> Audio</a>
+                    <a class="btn btn-primary" href="${ slides_url }"><i class="fa fa-paperclip"></i> Slides</a>
+                </div>
             </div>
         </div>
     </template>
 
     <template id="presentation-item-tpl">
-        <a class="list-group-item" v-if="video_url" v-on:click.prevent="viewPresentation" href="${video_url}" target="_blank">
-            <i class="fa fa-eye fa-fw pull-right"></i>
-            <div class="watch-list-event">${event_name}</div>
-            <div class="watch-list-date">${event_date}</div>
-        </a>
-        <a class="list-group-item" v-if="audio_url" v-on:click.prevent="viewPresentation" href="${audio_url}" target="_blank">
-            <i class="fa fa-volume-up fa-fw pull-right"></i>
-            <div class="watch-list-event">${event_name}</div>
-            <div class="watch-list-date">${event_date}</div>
-        </a>
+        <div>
+            <a class="list-group-item" v-if="video_url" @click.prevent="viewPresentation" href="${video_url}" target="_blank">
+                <i class="fa fa-eye fa-fw pull-right"></i>
+                <div class="watch-list-event">${event_name}</div>
+                <div class="watch-list-date">${event_date}</div>
+            </a>
+            <a class="list-group-item" v-if="!video_url && speakerdeck_embed_id" @click.prevent="viewPresentation" href="${slides_url}" target="_blank">
+                <i class="fa fa-photo fa-fw pull-right"></i>
+                <div class="watch-list-event">${event_name}</div>
+                <div class="watch-list-date">${event_date}</div>
+            </a>
+            <a class="list-group-item" v-if="audio_url" @click.prevent="viewPresentation" href="${audio_url}" target="_blank">
+                <i class="fa fa-volume-up fa-fw pull-right"></i>
+                <div class="watch-list-event">${event_name}</div>
+                <div class="watch-list-date">${event_date}</div>
+            </a>
+        </div>
     </template>
 
     <template id="upcoming-presentation-item-tpl">
@@ -50,18 +74,20 @@
         </a>
     </template>
 
-    <div class="container-fluid content-container">
+    <div class="content-container" id="talks">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <h2 class="content-header" id="talks">Talks</h2>
+                <div class="col-xs-12 col-md-offset-1 col-md-10">
+                    <h1 class="content-header"><i class="fa fa-film"></i> Talks</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-md-offset-1 col-md-10">
                     <presentation-player
                             v-ref:selected-presentation-component
+                            :speakerdeck_embed_id='selectedPresentation.speakerdeck_embed_id'
+                            :speakerdeck_embed_ratio='selectedPresentation.speakerdeck_embed_ratio'
                             :event_name='selectedPresentation.event_name'
                             :event_date='selectedPresentation.event_date'
                             :slides_url='selectedPresentation.slides_url'
@@ -70,12 +96,14 @@
                             :audio_url='selectedPresentation.audio_url'
                     ></presentation-player>
                 </div>
-                <div class="col-sm-6 col-xs-12">
+                <div class="col-md-5 col-md-offset-1 col-xs-12">
                     <h3>Watch</h3>
                     <div class="watch-list list-group">
                         <presentation-item
                                 v-ref:presentation-item-components
                                 v-for="presentation in presentations"
+                                :speakerdeck_embed_id='presentation.speakerdeck_embed_id'
+                                :speakerdeck_embed_ratio='presentation.speakerdeck_embed_ratio'
                                 :event_name='presentation.event_name'
                                 :event_date='presentation.event_date'
                                 :slides_url='presentation.slides_url'
@@ -86,7 +114,7 @@
                         ></presentation-item>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xs-12">
+                <div class="col-md-5 col-xs-12">
                     <h3>Upcoming</h3>
                     <div class="upcoming-list list-group">
                         <upcoming-presentation-item

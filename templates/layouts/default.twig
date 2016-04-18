@@ -32,7 +32,7 @@
 <body id="app" class="{% block body_class %}{% endblock %}">
 <div id="logo" class="abs-img-container hidden-xs"><img src="/img/osmi-logo-big.png" class="img-responsive"></div>
 <div id="logo-translucent" class="abs-img-container"><img src="/img/osmi-logo-translucent.png" class="img-responsive"></div>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -53,11 +53,13 @@
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="btn btn-link navbar-btn" href="/talks/">Talks</a></li>
-                <li><a class="btn btn-link navbar-btn" href="/#about">About OSMI</a></li>
+
+                <li><a class="btn btn-link navbar-btn" href="/#about">About</a></li>
+                <li><a class="btn btn-link navbar-btn" href="/talks">Talks</a></li>
+                <li><a class="btn btn-link navbar-btn" href="/research">Research</a></li>
                 <li><a class="btn btn-link navbar-btn" href="/resources">Resources</a></li>
+                <li><a class="btn btn-link navbar-btn" href="/#helpus">Help</a></li>
                 <li><a class="btn btn-link navbar-btn" href="http://blog.osmihelp.org">Blog</a></li>
-                <li><a class="btn btn-link navbar-btn" href="/#sponsors">Sponsors</a></li>
                 <li><a class="btn btn-link navbar-btn" href="#contact">Contact</a></li>
                 <li><a class="btn btn-primary navbar-btn" href="http://j.mp/osmi2015campaign">Donate</a></li>
             </ul>
@@ -67,11 +69,11 @@
 
 {% block content %}{% endblock %}
 
-<div class="container-fluid footer-container">
+<div class="container-fluid footer-container" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <h3 id="contact">Contact</h3>
+                <h3>Contact</h3>
                 <ul class="contact-list fa-ul">
                     <li class="contact-list-item"><i class="fa-li fa fa-twitter-square"></i>
                         <a href="https://twitter.com/funkatron" target="_blank">Ed Finkler on Twitter</a></li>
@@ -116,7 +118,7 @@
                     <div class="input-group">
                         <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email address" required>
                                 <span class="input-group-btn">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
                                 </span>
                     </div><!-- /input-group -->
 
@@ -125,7 +127,7 @@
                     <div class="clear"></div>
                 </form>
                 <hr>
-                <a class="btn btn-primary btn-lg btn-block" href="http://j.mp/osmi2015campaign">Donate Now!</a>
+                <a class="btn btn-success btn-lg btn-block" href="http://j.mp/osmi2015campaign">Donate Now!</a>
 
             </div>
         </div>
@@ -134,8 +136,10 @@
 
 
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+<script src="/bower_components/jquery.localScroll/jquery.localScroll.min.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/bower_components/vue/dist/vue.min.js"></script>
+<script src="/bower_components/vue/dist/vue.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-strap/1.0.3/vue-strap.js"></script>
 <script type="text/javascript" src="/js/audio.min.js"></script>
 <script type="text/javascript" src="/js/app.js"></script>
@@ -147,7 +151,17 @@
 
     ga('create', 'UA-73822500-1', 'auto');
     ga('send', 'pageview');
-
 </script>
+
+<script>
+    $(document).ready(function() {
+        $.localScroll({
+            duration: 200,
+            offset: -75,
+            hash: true
+        });
+    });
+</script>
+
 </body>
 </html>

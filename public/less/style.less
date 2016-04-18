@@ -1,9 +1,29 @@
 @color-slate: #59656F;
+@fixed-nav-padding: 63px;
 
 /*
  * import the bootstrap less theme
  */
 @import "./bootstrap-theme";
+
+/* This is for the fixed navbar */
+body {
+  padding-top: @fixed-nav-padding;
+}
+
+body {
+  .navbar {
+    background-image: url('/img/osmi-logo-translucent.png');
+    background-size: 800px 800px;
+    background-position: -200px -300px;
+    background-repeat: no-repeat;
+  }
+}
+body.splash {
+  .navbar {
+    background-image: none;
+  }
+}
 
 .no-lead-padding {
   margin-top: 0;
@@ -30,6 +50,10 @@
   color: white;
 }
 
+.navbar-fixed-top {
+  z-index: 1000;
+}
+
 .navbar-brand {
   font-family: @font-family-sans-serif;
   a.btn, img {
@@ -43,53 +67,58 @@
   }
 }
 
+.navbar-nav li a.btn {
+  color: white;
+}
+
 #logo, #logo-translucent {
   display: none;
 }
 body.splash {
+  background-image: none;
   #logo, #logo-translucent {
     display: block;
   }
 }
 
 #logo {
-  z-index: 2;
+  z-index: 1002;
   @media (min-width: @screen-sm-min) {
     width: 330px;
-    margin-top: 45px;
+    margin-top: 45px - @fixed-nav-padding;
     margin-left: 60px;
   }
   @media (min-width: @screen-md-min) {
     width: 450px;
-    margin-top: 45px;
+    margin-top: 45px - @fixed-nav-padding;
     margin-left: 70px;
   }
   @media (min-width: @screen-lg-min) {
     width: 600px;
-    margin-top: 45px;
+    margin-top: 45px - @fixed-nav-padding;
     margin-left: 80px;
   }
 }
 
 #logo-translucent {
   width:1000px;
-  margin-top:-400px;
+  margin-top:-400px - @fixed-nav-padding;
   margin-left:-700px;
   opacity: .5;
   @media (min-width: @screen-sm-min) {
-    z-index: 1;
+    z-index: 1001;
     width:1050px;
-    margin-top:-512px;
+    margin-top:-512px - @fixed-nav-padding;
     margin-left:-512px;
   }
   @media (min-width: @screen-md-min) {
     width:1200px;
-    margin-top:-512px;
+    margin-top:-512px - @fixed-nav-padding;
     margin-left:-512px;
   }
   @media (min-width: @screen-lg-min) {
     width:1300px;
-    margin-top:-512px;
+    margin-top:-512px - @fixed-nav-padding;
     margin-left:-512px;
   }
 }
@@ -99,6 +128,8 @@ body.splash {
 }
 
 .panel-osmi {
+  background-color: white;
+  color: @gray-dark;
   p {
     font-weight: 300;
   }
@@ -111,6 +142,9 @@ body.splash {
   @media (max-width: @screen-sm-max) and (min-width: @screen-sm-min) {
     font-size: 14px;
     min-height: 390px;
+  }
+  a {
+    color: @brand-primary;
   }
 }
 
@@ -200,11 +234,10 @@ h2.header-osmi-box {
 }
 
 .content-container {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  margin-top: .5em;
+  margin-bottom: 1em;
   @media (min-width: @screen-sm-min) {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1em;
   }
 }
 
@@ -221,8 +254,16 @@ h2.header-osmi-box {
   border-bottom: 1px @gray-light solid;
   margin-bottom: .5em;
   padding-bottom: .25em;
+  margin-top: 0em;
 }
 
+
+h1.content-header {
+  font-size: 64px;
+  @media (min-width: @screen-sm-min) {
+    font-size: 80px;
+  }
+}
 
 h2.content-header {
   font-size: 48px;
@@ -259,13 +300,21 @@ h3.content-header {
 }
 
 .watch-list, .upcoming-list {
-  max-height: 415px;
+  max-height: 390px;
   overflow: auto;
 }
 
 .watch-list-event, .upcoming-list-event {
   font-size: 22px;
 }
+
+.scrolling-list-indicator {
+  background-color: @gray-lighter;
+  color: @gray-light;
+  overflow: auto;
+  padding: 3px;
+}
+
 
 /*
 this flexbox stuff is so we can have nicely aligned sponsor logos
@@ -294,6 +343,23 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   font-size: .9em;
 }
 
+.alt-container {
+  background-color: desaturate(@brand-success, 10%);
+  color: white;
+  a {
+    color: lighten(@brand-danger, 40%);
+  }
+  .col-quote {
+    color: @gray-dark;
+  }
+}
+.alt-container-2 {
+  background-color: lighten(@color-slate, 40%);
+  color: @gray-darker;
+  .col-quote {
+    color: @gray-dark;
+  }
+}
 
 .footer-container {
   padding-top: 1em;
@@ -314,8 +380,5 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 }
 
 .highlight-row {
-  background-color: desaturate(lighten(@brand-primary, 35%), 25%);
   padding: 0 0 1.5em;
-  border-top: 1px solid @gray-light;
-  border-bottom: 1px solid @gray-light;
 }

@@ -4,6 +4,17 @@
  */
 window.PRESENTATIONS = [
     {
+        "ytid": null,
+        "video_url": null,
+        "speakerdeck_embed_id": "aa971ab9d8e242d49223e1e728f78e18",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        'slides_url': 'http://j.mp/osmithecombine2016slides',
+        'event_url': 'http://thecombine.org',
+        'event_name': 'The Combine',
+        'event_date': 'April 2016',
+        "audio_url": null
+    },
+    {
         "ytid": "9VcDzjeNfqQ",
         "video_url": "http://j.mp/osmiskiphp16video",
         "slides_url": "http://j.mp/osmiskiphp16slides",
@@ -238,98 +249,127 @@ window.PRESENTATIONS = [
 
 window.UPCOMING_PRESENTATIONS = [
     {
-        'event_url': 'http://thecombine.org',
-        'event_name': 'The Combine',
-        'event_date': 'April 7-9',
-        'event_location': 'Bloomington, IN'
-    },
-    {
         'event_url': 'http://www.kalamazoox.org/',
         'event_name': 'Kalamazoo X 2016',
         'event_date': 'April 30',
         'event_location': 'Kalamazoo, MI'
+    },
+    {
+        'event_url': 'https://2016.minneapolis.wordcamp.org/',
+        'event_name': 'Minneapolis Wordcamp',
+        'event_date': 'May 21-22',
+        'event_location': 'Minneapolis, MN'
+    },
+    {
+        'event_url': 'http://2016.empirejs.org/',
+        'event_name': 'EmpireJS',
+        'event_date': 'May 26-27',
+        'event_location': 'New York, NY'
+    },
+    {
+        'event_url': 'http://www.yapcna.org/yn2016/',
+        'event_name': 'Yet Another Perl Conference::NA 2016',
+        'event_date': 'June 20-22',
+        'event_location': 'Orlando, FL'
+    },
+    {
+        'event_url': 'http://pyohio.org/',
+        'event_name': 'PyOhio 2016',
+        'event_date': 'July 30-31',
+        'event_location': 'Columbus, OH'
+    },
+    {
+        'event_url': 'http://pyohio.org/',
+        'event_name': 'Loopconf',
+        'event_date': 'October 5-7',
+        'event_location': 'Ft. Lauderdale, FL'
     }
 ];
 
-$(document).ready(function() {
 
-    /**
-     * config stuff
-     * we have to change the delimiters so twig tags don't clash
-     */
-    Vue.config.debug = true;
-    Vue.config.delimiters = ["${", "}"];
-    Vue.config.unsafeDelimiters = ['{!!', '!!}'];
+/**
+ * config stuff
+ * we have to change the delimiters so twig tags don't clash
+ */
+Vue.config.debug = true;
+Vue.config.delimiters = ["${", "}"];
+Vue.config.unsafeDelimiters = ['{!!', '!!}'];
 
-    var talksSection = new Vue({
-
-        el: '#app',
-
-        components: {
-            'alert': VueStrap.alert,
-            'presentation-item': {
-                template: '#presentation-item-tpl',
-                props: ['event_name', 'event_date', 'slides_url', 'video_url', 'ytid', 'audio_url'],
-                data: function () {
-                    return {};
-                },
-                methods: {
-                    viewPresentation: function () {
-                        this.$dispatch('view-presentation', {
-                            'event_name': this.event_name,
-                            'event_date': this.event_date,
-                            'slides_url': this.slides_url,
-                            'video_url': this.video_url,
-                            'ytid': this.ytid,
-                            'audio_url': this.audio_url
-                        });
-                    }
-                }
+var talksSection = new Vue({
+    el: '#app',
+    components: {
+        'alert': VueStrap.alert,
+        'presentation-item': {
+            template: '#presentation-item-tpl',
+            props: ['event_name', 'event_date', 'slides_url', 'video_url', 'ytid', 'audio_url',
+                'speakerdeck_embed_id', 'speakerdeck_embed_ratio'],
+            data: function () {
+                return {};
             },
-            'presentation-player': {
-                template: '#presentation-player-tpl',
-                props: ['event_name', 'event_date', 'slides_url', 'video_url', 'ytid', 'audio_url'],
-                data: function () {
-                    return {};
+            methods: {
+                viewPresentation: function () {
+                    this.$dispatch('view-presentation', {
+                        'event_name': this.event_name,
+                        'event_date': this.event_date,
+                        'slides_url': this.slides_url,
+                        'video_url': this.video_url,
+                        'ytid': this.ytid,
+                        'audio_url': this.audio_url,
+                        "speakerdeck_embed_id": this.speakerdeck_embed_id,
+                        "speakerdeck_embed_ratio": this.speakerdeck_embed_ratio
+                    });
+                    $.scrollTo('#talks', 200);
+
                 }
-            },
-            'upcoming-presentation-item': {
-                template: '#upcoming-presentation-item-tpl',
-                props: ['event_name', 'event_date', 'event_location', 'event_url']
             }
         },
-        data: {
-            // just reference the data set up above
-            selectedPresentation: {
-                "ytid": null,
-                "video_url": null,
-                "slides_url": null,
-                "event_name": null,
-                "event_date": null,
-                "audio_url": null
-            },
-            presentations: window.PRESENTATIONS,
-            upcomingPresentations: window.UPCOMING_PRESENTATIONS
-        },
-
-        events: {
-            /**
-             *
-             * @param presentationData
-             */
-            'view-presentation': function (presentationData) {
-                this.$refs.selectedPresentationComponent.event_name = presentationData.event_name;
-                this.$refs.selectedPresentationComponent.event_date = presentationData.event_date;
-                this.$refs.selectedPresentationComponent.slides_url = presentationData.slides_url;
-                this.$refs.selectedPresentationComponent.video_url = presentationData.video_url;
-                this.$refs.selectedPresentationComponent.ytid = presentationData.ytid;
-                this.$refs.selectedPresentationComponent.audio_url = presentationData.audio_url;
+        'presentation-player': {
+            template: '#presentation-player-tpl',
+            props: ['event_name', 'event_date', 'slides_url', 'video_url', 'ytid', 'audio_url',
+                'speakerdeck_embed_id', 'speakerdeck_embed_ratio'],
+            data: function () {
+                return {};
             }
+        },
+        'upcoming-presentation-item': {
+            template: '#upcoming-presentation-item-tpl',
+            props: ['event_name', 'event_date', 'event_location', 'event_url']
         }
+    },
+    data: {
+        // just reference the data set up above
+        selectedPresentation: {
+            "ytid": null,
+            "video_url": null,
+            "speakerdeck_embed_id": null,
+            "speakerdeck_embed_ratio": null,
+            "slides_url": null,
+            "event_name": null,
+            "event_date": null,
+            "audio_url": null
+        },
+        presentations: window.PRESENTATIONS,
+        upcomingPresentations: window.UPCOMING_PRESENTATIONS
+    },
 
-    });
-
-    // initialize selected presentation;
-    talksSection.selectedPresentation = talksSection.presentations[0];
+    events: {
+        /**
+         *
+         * @param presentationData
+         */
+        'view-presentation': function (presentationData) {
+            this.$refs.selectedPresentationComponent.speakerdeck_embed_id = presentationData.speakerdeck_embed_id;
+            this.$refs.selectedPresentationComponent.speakerdeck_embed_ratio = presentationData.speakerdeck_embed_ratio;
+            this.$refs.selectedPresentationComponent.event_name = presentationData.event_name;
+            this.$refs.selectedPresentationComponent.event_date = presentationData.event_date;
+            this.$refs.selectedPresentationComponent.slides_url = presentationData.slides_url;
+            this.$refs.selectedPresentationComponent.video_url = presentationData.video_url;
+            this.$refs.selectedPresentationComponent.ytid = presentationData.ytid;
+            this.$refs.selectedPresentationComponent.audio_url = presentationData.audio_url;
+        }
+    }
 
 });
+
+// initialize selected presentation;
+talksSection.selectedPresentation = talksSection.presentations[0];
