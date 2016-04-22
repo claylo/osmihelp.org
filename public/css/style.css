@@ -10501,3 +10501,31 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 .highlight-row {
   padding: 0 0 1.5em;
 }
+.long-content {
+  font-size: 16px;
+}
+.long-content p {
+  line-height: 1.75em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.long-content ul li,
+.long-content ol li {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.long-content p + ol,
+.long-content p + ul {
+  margin-top: 0;
+}
+.long-content h1,
+.long-content h2,
+.long-content h3,
+.long-content h4 {
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+.long-content h1.content-header {
+  margin-top: 0;
+  font-size: 56px;
+}
