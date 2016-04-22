@@ -1,19 +1,22 @@
-# Open Sourcing Mental Illness
-# Mental Health in Tech: Guidelines for Executives and HR Professionals
+# Open Sourcing Mental Illness<br>Mental Health in Tech: Guidelines for Executives and HR Professionals
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 304.00px; height: 304.00px;">![OSMI.png-large](images/image00.png)
-
-[toc]
+![](./images/osmi-logo-big.png)
 
 ---
 
-## Disclaimer
+# Disclaimer
 
 This document was compiled by Open Sourcing Mental Illness contributors using EEOC guidelines; these contributors are not attorneys and the Open Sourcing Mental Illness materials do not constitute legal advice of any type. By using these materials, you agree to accept this disclaimer. Every effort has been made to ensure the accuracy of information shared through the Open Sourcing Mental Illness materials, however, because information is constantly evolving, Open Sourcing Mental Illness cannot be held responsible for the accuracy, errors or omissions related to the Open Sourcing Mental Illness materials. The information provided in the Open Sourcing Mental Illness materials are for educational and informational purposes only. You agree to use your own due diligence and judgment before applying any recommendation or advice that you may receive on or through the materials provided by Open Sourcing Mental Illness. Please contact your employment counsel or [info@eeoc.gov](mailto:info@eeoc.gov) for more information and guidance.
 
 ---
 
-## Americans with Disabilities Act Cheat Sheet
+# Table of Contents
+
+<!--TOC max3-->
+
+---
+
+# Americans with Disabilities Act Cheat Sheet
 
 Title I of the Americans with Disabilities Act of 1990 prohibits private employers, state and local governments, employment agencies and labor unions from discriminating against qualified individuals with disabilities in job application procedures, hiring, firing, advancement, compensation, job training, and other terms, conditions, and privileges of employment.
 
@@ -71,133 +74,22 @@ Major life activities that can be impaired by a mental impairment include but ar
 * Post-offer: medical exams are acceptable only if required of similarly situated employees
 * Focus on results rather than means of accomplishing them
 * Engage in an interactive process to determine the needs of an employee who requests an accommodation
-* Contact the EEOC for additional information:    
- * Equal Employment Opportunity Commission    
- * info@eeoc.gov    
- * P.O. Box 7033    
- * Lawrence, Kansas 66044    
- * (800) 669-4000 (Voice), (800) 669-6820 (TDD)
+* Contact the EEOC for additional information:
+    Equal Employment Opportunity Commission
+    [info@eeoc.gov](mailto:info@eeoc.gov)
+    P.O. Box 7033
+    Lawrence, Kansas 66044
+    (800) 669-4000 (Voice), (800) 669-6820 (TDD)
 
 *Adopted from <http://www.adldata.com/wp-content/uploads/2015/11/Age-Discrimination-cheat-sheets-241.pdf>*
 
 ---
 
-## Introduction
+# Introduction
 
-One in four adults suffers from a diagnosable mental illness in any given year (National Alliance on Mental Health, 2013). In tech, 50% of individuals have sought treatment for mental illness, according to one study (Finkler, 2015). This represents a significant percentage of your human talent pool. And those suffering with mental illness include some of the most competent and productive employees. Despite these statistics, mental illness is not being talked about in the tech community. Only 26% of those working in tech are aware of their company’s mental health resources and how to seek help (Finkler, 2015). And only 35% know of the mental health care options available through their employer. Addressing employee needs can help you reduce turnover, absenteeism, and increase productivity within your organization. The intention of this document is to offer a general understanding of your legal responsibilities. 
+One in four adults suffers from a diagnosable mental illness in any given year (National Alliance on Mental Health, 2013). In tech, 50% of individuals have sought treatment for mental illness, according to one study (Finkler, 2015). This represents a significant percentage of your human talent pool. And those suffering with mental illness include some of the most competent and productive employees. Despite these statistics, mental illness is not being talked about in the tech community. Only 26% of those working in tech are aware of their company’s mental health resources and how to seek help (Finkler, 2015). And only 35% know of the mental health care options available through their employer. Addressing employee needs can help you reduce turnover, absenteeism, and increase productivity within your organization. The intention of this document is to offer a general understanding of your legal responsibilities.
 
 Purpose: The following handbook  consists of compiled  guidelines for executives, HR professionals and other employers to reference when considering legal obligations to employees with mental health impairment, including direction from the Equal Employment Opportunity Commision (EEOC) regarding the Americans with Disabilities Act (ADA).
-
----
-
-## Table of Contents
-
-### Section I - The Americans with Disabilities Act (ADA): Your Responsibilities as an Employer
-
-1. Are you covered?
-2. What employment practices are covered?
-3. Who is protected?
-4. How are essential functions determined?
-5. What are my obligations to provide reasonable accommodations?
-6. What is the best way to identify reasonable accommodations?
-7. When does a reasonable accommodations become an undue hardship?
-8. Can I require medical examinations or ask questions about an individual’s disability?
-9. How will the ADA be enforced and what are the available remedies?
-10. How will EEOC help employers who want to comply with the ADA?
-11. Additional questions and answers on the ADA
-
-###Section II - EEOC Enforcement Guidance on the Americans with Disabilities Act and Psychiatric Disabilities 
-
-1. Psychiatric disability under the ADA
-
-    1. “Impairment”
-
-        1. What is a "mental impairment" under the ADA?
-        2. Are traits or behaviors in themselves mental impairments?  
-
-    1. “Major Life Activities”
-
-        1. What major life activities are limited by mental impairments?
-        2. To establish a psychiatric disability, must an individual always show that s/he is substantially limited in working?
-
-    1. “Substantial Limitation”  
-
-        1. When is an impairment sufficiently severe to substantially limit a major life activity?
-        2. Should the corrective effects of medications be considered when deciding if an impairment is so severe that it substantially limits a major life activity?
-        3. How long does a mental impairment have to last to be substantially limiting?
-        4. Can chronic, episodic disorders be substantially limiting?
-        5. When does an impairment substantially limit an individual's ability to interact with others?
-        6. When does an impairment substantially limit an individual's ability to concentrate?
-        7. When does an impairment substantially limit an individual's ability to sleep?
-        8. When does an impairment substantially limit an individual's ability to care for him/herself?
-
-1. Disclosure of disability
-
-    1. May an employer ask questions on a job application about history of treatment of mental illness, hospitalization, or the existence of mental or emotional illness or psychiatric disability?
-    2. When may an employer lawfully ask an individual about a psychiatric disability under the ADA?
-    3. Do ADA confidentiality requirements apply to information about a psychiatric disability disclosed to an employer?
-    4. How can an employer respond when employees ask questions about a coworker who has a disability?
-
-1. Requesting accommodations
-
-    1. When an individual decides to request reasonable accommodation, what must s/he say to make the request and start the reasonable accommodation process?
-    2. May someone other than the employee request a reasonable accommodation on behalf of an individual with a disability?
-    3. Do requests for reasonable accommodation need to be in writing?
-    4. When should an individual with a disability request a reasonable accommodation to do the job?
-    5. May an employer ask an employee for documentation when the employee requests reasonable accommodation for the job?
-    6. May an employer require an employee to go to a health care professional of the employer's (rather than the employee's) choice for purposes of documenting need for accommodation and disability?
-
-1. Selective types of reasonable accommodation
-
-    1. Does reasonable accommodation include giving an individual with a disability time off from work or a modified work schedule?
-    2. What types of physical changes to the workplace or equipment can serve as accommodations for people with psychiatric disabilities?
-    3. Is it a reasonable accommodation to modify a workplace policy?  
-    4. Is adjusting supervisory methods a form of reasonable accommodation?
-    5. Is it a reasonable accommodation to provide a job coach?
-    6. Is it a reasonable accommodation to make sure that an individual takes medication as prescribed?
-    7. When is reassignment to a different position required as a reasonable accommodation?
-
-1. Conduct
-
-    1. May an employer discipline an individual with a disability for violating a workplace conduct standard if the misconduct resulted from a disability?
-    2. Must an employer make reasonable accommodation for an individual with a disability who violated a conduct rule that is job-related for the position in question and consistent with business necessity?
-    3. How should an employer deal with an employee with a disability who is engaging in misconduct because s/he is not taking his/her medication?
-
-
-### Section III - Accommodating Employees with Mental Health Impairments
-
-1. What are mental health impairments? - Revisited
-2. How prevalent are mental health impairments?
-3. What are some common mental health impairments?
-4. Are mental health impairments considered disabilities under the ADA?
-5. Where can employers get additional information about mental health impairments and the ADA?
-6. Accommodating employees with mental health impairments
-
-    1. Questions to consider
-    2. Accommodation ideas
-
-        1. concentration
-        2. memory
-        3. organization
-        4. time management/completing tasks
-        5. stress/emotions
-        6. panic attacks
-        7. sleep disturbances
-        8. fatigue
-        9. attendance
-        10. coworker interaction
-        11. working effectively
-
-### Section IV - Resources
-
-1. Equal Employment Opportunity Commission
-2. Department of Justice
-3. Architectural and Transportation Barriers Compliance Board
-4. Department of Transportation
-5. Federal Communications Commission
-6. Internal Revenue Service
-
-### Section V - References
 
 ---
 
@@ -378,28 +270,30 @@ A. No. The ADA only requires that you provide an employee with a disability equa
 
 A. The ADA requires that you post a notice in an accessible format to applicants, employees and members of labor organizations, describing the provisions of the Act. EEOC will provide employers with a poster summarizing these and other Federal legal requirements for nondiscrimination. EEOC will also provide guidance on making this information available in accessible formats for people with disabilities.
 
+---
+
 # Section II: EEOC Enforcement Guidance on the Americans with Disabilities Act and Psychiatric Disabilities
 
-## 1. Psychiatric disability under the ADA
+## Psychiatric disability under the ADA
 
-Under the ADA, the term "disability" means:  "(a) A physical or mental impairment that substantially limits one or more of the major life activities of [an] individual; (b) a record of such an impairment; or (c) being regarded as having such an impairment."  
+Under the ADA, the term "disability" means:  "(a) A physical or mental impairment that substantially limits one or more of the major life activities of [an] individual; (b) a record of such an impairment; or (c) being regarded as having such an impairment."
 
-This guidance focuses on the first prong of the ADA's definition of "disability" because of the great number of questions about how it is applied in the context of psychiatric conditions. 
+This guidance focuses on the first prong of the ADA's definition of "disability" because of the great number of questions about how it is applied in the context of psychiatric conditions.
 
-### “Impairment”  
+### “Impairment”
 
 #### **_What is a "mental impairment" under the ADA?_**
 
-The ADA rule defines "mental impairment" to include "[a]ny mental or psychological disorder, such as . . . emotional or mental illness." 6 Examples of "emotional or mental illness[es]" include major depression, bipolar disorder, anxiety disorders (which include panic disorder, obsessive compulsive disorder, and post-traumatic stress disorder), schizophrenia, and personality disorders. The current edition of the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders (DSM) is relevant for identifying these disorders. The DSM has been recognized as an important reference by courts and is widely used by American mental health professionals for diagnostic and insurance reimbursement purposes. 
+The ADA rule defines "mental impairment" to include "[a]ny mental or psychological disorder, such as . . . emotional or mental illness." 6 Examples of "emotional or mental illness[es]" include major depression, bipolar disorder, anxiety disorders (which include panic disorder, obsessive compulsive disorder, and post-traumatic stress disorder), schizophrenia, and personality disorders. The current edition of the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders (DSM) is relevant for identifying these disorders. The DSM has been recognized as an important reference by courts and is widely used by American mental health professionals for diagnostic and insurance reimbursement purposes.
 
-Not all conditions listed in the DSM, however, are disabilities, or even impairments, for purposes of the ADA. For example, the DSM lists several conditions that Congress expressly excluded from the ADA's definition of "disability." While DSM covers conditions involving drug abuse, the ADA provides that the term "individual with a disability" does not include an individual who is currently engaging in the illegal use of drugs, when the covered entity acts on the basis of that use. The DSM also includes conditions that are not mental disorders but for which people may seek treatment (for example, problems with a spouse or child). Because these conditions are not disorders, they are not  
-impairments under the ADA. 
+Not all conditions listed in the DSM, however, are disabilities, or even impairments, for purposes of the ADA. For example, the DSM lists several conditions that Congress expressly excluded from the ADA's definition of "disability." While DSM covers conditions involving drug abuse, the ADA provides that the term "individual with a disability" does not include an individual who is currently engaging in the illegal use of drugs, when the covered entity acts on the basis of that use. The DSM also includes conditions that are not mental disorders but for which people may seek treatment (for example, problems with a spouse or child). Because these conditions are not disorders, they are not
+impairments under the ADA.
 
-Even if a condition is an impairment, it is not automatically a "disability."  To rise to the level of a "disability," an impairment must "substantially limit" one or more major life activities of the individual. 
+Even if a condition is an impairment, it is not automatically a "disability."  To rise to the level of a "disability," an impairment must "substantially limit" one or more major life activities of the individual.
 
 #### **_Are traits or behaviors in themselves mental impairments?_**
 
-No. Traits or behaviors are not, in themselves, mental impairments. For example, stress, in itself, is not automatically a mental impairment. Stress, however, may be shown to be related to a mental or physical impairment. Similarly, traits like irritability, chronic lateness, and poor judgment are not, in themselves, mental impairments, although they may be linked to mental impairments. 
+No. Traits or behaviors are not, in themselves, mental impairments. For example, stress, in itself, is not automatically a mental impairment. Stress, however, may be shown to be related to a mental or physical impairment. Similarly, traits like irritability, chronic lateness, and poor judgment are not, in themselves, mental impairments, although they may be linked to mental impairments.
 
 ### “Major Life Activities”
 
@@ -407,195 +301,192 @@ An impairment must substantially limit one or more major life activities to rise
 
 #### **_What major life activities are limited by mental impairments?_**
 
-The major life activities limited by mental impairments differ from person to person. There is no exhaustive list of major life activities. For some people, mental impairments restrict major life activities such as learning, thinking, concentrating, interacting with others, caring for oneself, speaking, performing manual tasks, or working. Sleeping is also a major life activity that may be limited by mental impairments. 
+The major life activities limited by mental impairments differ from person to person. There is no exhaustive list of major life activities. For some people, mental impairments restrict major life activities such as learning, thinking, concentrating, interacting with others, caring for oneself, speaking, performing manual tasks, or working. Sleeping is also a major life activity that may be limited by mental impairments.
 
 #### **_To establish a psychiatric disability, must an individual always show that s/he is substantially limited in working?_**
 
-No. The first question is whether an individual is substantially limited in a major life activity other than working (e.g., sleeping, concentrating, caring for oneself). Working should be analyzed only if no other major life activity is substantially limited by an impairment. 
+No. The first question is whether an individual is substantially limited in a major life activity other than working (e.g., sleeping, concentrating, caring for oneself). Working should be analyzed only if no other major life activity is substantially limited by an impairment.
 
 ### “Substantial Limitation”
 
-Under the ADA, an impairment rises to the level of a disability if it substantially limits a major life activity. "Substantial limitation" is evaluated in terms of the severity of the limitation and the length of time it restricts a major life activity. The determination that a particular individual has a substantially limiting impairment should be based on information about how the impairment affects that individual and not on generalizations about the condition. Relevant evidence for EEOC investigators includes descriptions of an individual's typical level of functioning at home, at work, and in other settings, as well as evidence showing that the individual's functional limitations are linked to his/her impairment. Expert testimony about substantial limitation is not necessarily required. Credible testimony from the individual with a disability and his/her family members, friends, or coworkers may suffice. 
+Under the ADA, an impairment rises to the level of a disability if it substantially limits a major life activity. "Substantial limitation" is evaluated in terms of the severity of the limitation and the length of time it restricts a major life activity. The determination that a particular individual has a substantially limiting impairment should be based on information about how the impairment affects that individual and not on generalizations about the condition. Relevant evidence for EEOC investigators includes descriptions of an individual's typical level of functioning at home, at work, and in other settings, as well as evidence showing that the individual's functional limitations are linked to his/her impairment. Expert testimony about substantial limitation is not necessarily required. Credible testimony from the individual with a disability and his/her family members, friends, or coworkers may suffice.
 
 #### **_When is an impairment sufficiently severe to substantially limit a major life activity?_**
 
-An impairment is sufficiently severe to substantially limit a major life activity if it prevents an individual from performing a major life activity or significantly restricts the condition, manner, or duration under which an individual can perform a major life activity, as compared to the average person in the general population. An impairment does not significantly restrict major life activities if it results in only mild limitations. 
+An impairment is sufficiently severe to substantially limit a major life activity if it prevents an individual from performing a major life activity or significantly restricts the condition, manner, or duration under which an individual can perform a major life activity, as compared to the average person in the general population. An impairment does not significantly restrict major life activities if it results in only mild limitations.
 
 #### **_Should the corrective effects of medications be considered when deciding if an impairment is so severe that it substantially limits a major life activity?_**
 
-No. The ADA legislative history unequivocally states that the extent to which an impairment limits performance of a major life activity is assessed without regard to mitigating measures, including medications. Thus, an individual who is taking medication for a mental impairment has an ADA disability if there is evidence that the mental impairment, when left untreated, substantially limits a major life activity. Relevant evidence for EEOC investigators includes, for example, a description of how an individual's condition changed when s/he went off medication or needed to have dosages adjusted, or a description of his/her condition before starting medication. 
+No. The ADA legislative history unequivocally states that the extent to which an impairment limits performance of a major life activity is assessed without regard to mitigating measures, including medications. Thus, an individual who is taking medication for a mental impairment has an ADA disability if there is evidence that the mental impairment, when left untreated, substantially limits a major life activity. Relevant evidence for EEOC investigators includes, for example, a description of how an individual's condition changed when s/he went off medication or needed to have dosages adjusted, or a description of his/her condition before starting medication.
 
 #### **_How long does a mental impairment have to last to be substantially limiting?_**
 
 An impairment is substantially limiting if it lasts for more than several months and significantly restricts the performance of one or more major life activities during that time. It is not substantially limiting if it lasts for only a brief time or does not significantly restrict an individual's ability to perform a major life activity. Whether the impairment is substantially limiting is assessed without regard to mitigating measures such as medication.
 
-  
+
 #### **_Can chronic, episodic disorders be substantially limiting?_**
 
 Yes. Chronic, episodic conditions may constitute substantially limiting impairments if they are substantially limiting when active or have a high likelihood of recurrence in substantially limiting forms. For some individuals, psychiatric impairments such as bipolar disorder, major depression, and schizophrenia may remit and intensify, sometimes repeatedly, over the course of several months or several years.
 
 #### **_When does an impairment substantially limit an individual's ability to interact with others?_**
 
-An impairment substantially limits an individual's ability to interact with others if, due to the impairment, s/he is significantly restricted as compared to the average person in the general population. Some unfriendliness with coworkers or a supervisor would not, standing alone, be sufficient to establish a substantial limitation in interacting with others. An individual would be substantially limited, however, if his/her relations with others were characterized on a regular basis by severe problems, for example, consistently high levels of hostility, social withdrawal, or failure to communicate when necessary. 
+An impairment substantially limits an individual's ability to interact with others if, due to the impairment, s/he is significantly restricted as compared to the average person in the general population. Some unfriendliness with coworkers or a supervisor would not, standing alone, be sufficient to establish a substantial limitation in interacting with others. An individual would be substantially limited, however, if his/her relations with others were characterized on a regular basis by severe problems, for example, consistently high levels of hostility, social withdrawal, or failure to communicate when necessary.
 
-These limitations must be long-term or potentially long-term, as opposed to temporary, to justify a finding of ADA disability. 
+These limitations must be long-term or potentially long-term, as opposed to temporary, to justify a finding of ADA disability.
 
 #### **_When does an impairment substantially limit an individual's ability to concentrate?_**
 
-An impairment substantially limits an individual's ability to concentrate if, due to the impairment, s/he is significantly restricted as compared to the average person in the general population. For example, an individual would be substantially limited if s/he was easily and frequently distracted, meaning that his/her attention was frequently drawn to irrelevant sights or sounds or to intrusive thoughts; or if s/he  
-experienced his/her "mind going blank" on a frequent basis. 
+An impairment substantially limits an individual's ability to concentrate if, due to the impairment, s/he is significantly restricted as compared to the average person in the general population. For example, an individual would be substantially limited if s/he was easily and frequently distracted, meaning that his/her attention was frequently drawn to irrelevant sights or sounds or to intrusive thoughts; or if s/he experienced his/her "mind going blank" on a frequent basis.
 
-Such limitations must be long-term or potentially long-term, as opposed to temporary, to justify a finding of ADA disability. 
+Such limitations must be long-term or potentially long-term, as opposed to temporary, to justify a finding of ADA disability.
 
 #### **_When does an impairment substantially limit an individual's ability to sleep?_**
 
-An impairment substantially limits an individual's ability to sleep if, due to the impairment, his/her sleep is significantly restricted as compared to the average person in the general population. These limitations must be long-term or potentially long-term as opposed to temporary to justify a finding of ADA disability. 
+An impairment substantially limits an individual's ability to sleep if, due to the impairment, his/her sleep is significantly restricted as compared to the average person in the general population. These limitations must be long-term or potentially long-term as opposed to temporary to justify a finding of ADA disability.
 
 #### **_When does an impairment substantially limit an individual's ability to care for him/herself?_**
 
-An impairment substantially limits an individual's ability to care for him/herself if, due to the impairment, an individual is significantly restricted as compared to the average person in the general population in performing basic activities such as getting up in the morning, bathing, dressing, and preparing or obtaining food. These limitations must be long-term or potentially long-term as opposed to temporary to justify a finding of ADA disability. 
+An impairment substantially limits an individual's ability to care for him/herself if, due to the impairment, an individual is significantly restricted as compared to the average person in the general population in performing basic activities such as getting up in the morning, bathing, dressing, and preparing or obtaining food. These limitations must be long-term or potentially long-term as opposed to temporary to justify a finding of ADA disability.
 
-Some psychiatric impairments, for example major depression, may result in an individual sleeping too much. In such cases, an individual may be substantially limited if, as a result of the impairment, s/he sleeps so much that s/he does not effectively care for him/herself. Alternatively, the individual may be substantially limited in working. 
+Some psychiatric impairments, for example major depression, may result in an individual sleeping too much. In such cases, an individual may be substantially limited if, as a result of the impairment, s/he sleeps so much that s/he does not effectively care for him/herself. Alternatively, the individual may be substantially limited in working.
 
-  
-## 2. Disclosure of disability  
 
-Individuals with psychiatric disabilities may have questions about whether and when they must disclose their disability to their employer under the ADA. They may have concerns about the potential negative consequences of disclosing a psychiatric disability in the workplace, and about the confidentiality of information that they do disclose. 
+## Disclosure of disability
+
+Individuals with psychiatric disabilities may have questions about whether and when they must disclose their disability to their employer under the ADA. They may have concerns about the potential negative consequences of disclosing a psychiatric disability in the workplace, and about the confidentiality of information that they do disclose.
 
 #### **_May an employer ask questions on a job application about history of treatment of mental illness, hospitalization, or the existence of mental or emotional illness or psychiatric disability?_**
 
-No. An employer may not ask questions that are likely to elicit information about a disability before making an offer of employment. Questions on a job application about psychiatric disability or mental or emotional illness or about treatment are likely to elicit information about a psychiatric disability and therefore are prohibited before an offer of employment is made. 
+No. An employer may not ask questions that are likely to elicit information about a disability before making an offer of employment. Questions on a job application about psychiatric disability or mental or emotional illness or about treatment are likely to elicit information about a psychiatric disability and therefore are prohibited before an offer of employment is made.
 
 #### **_When may an employer lawfully ask an individual about a psychiatric disability under the ADA?_**
 
-An employer may ask for disability-related information, including information about psychiatric disability, only in the following limited  
-circumstances:  
+An employer may ask for disability-related information, including information about psychiatric disability, only in the following limited circumstances:
 
-_Application Stage._  Employers are prohibited from asking disability-related questions before making an offer of employment. An exception, however, is if an applicant asks for reasonable accommodation for the hiring process. If the need for this accommodation is not obvious, an employer may ask an applicant for reasonable documentation about his/her disability. The employer may require the applicant to provide documentation from an appropriate professional concerning his/her disability and functional limitations. A variety of health professionals may provide such documentation regarding psychiatric disabilities including primary health care professionals, psychiatrists, psychologists, psychiatric nurses, and licensed mental health professionals such as licensed clinical social workers and licensed  
+_Application Stage._  Employers are prohibited from asking disability-related questions before making an offer of employment. An exception, however, is if an applicant asks for reasonable accommodation for the hiring process. If the need for this accommodation is not obvious, an employer may ask an applicant for reasonable documentation about his/her disability. The employer may require the applicant to provide documentation from an appropriate professional concerning his/her disability and functional limitations. A variety of health professionals may provide such documentation regarding psychiatric disabilities including primary health care professionals, psychiatrists, psychologists, psychiatric nurses, and licensed mental health professionals such as licensed clinical social workers and licensed
 professional counselors.
 
 An employer should make clear to the applicant why the employer is requesting such information, i.e., to verify the existence of a disability and the need for an accommodation. Furthermore, the employer may request only information necessary to accomplish these limited purposes.
 
-Although an employer may not ask an applicant if s/he will need reasonable accommodation for the job, there is an exception if the employer could reasonably believe, before making a job offer, that the applicant will need accommodation to perform the functions of the job. For an individual with a non-visible disability, this may occur if the individual voluntarily discloses his/her disability or if s/he voluntarily tells the employer that s/he needs reasonable accommodation to perform the job. The employer may then ask certain limited questions, specifically:  
+Although an employer may not ask an applicant if s/he will need reasonable accommodation for the job, there is an exception if the employer could reasonably believe, before making a job offer, that the applicant will need accommodation to perform the functions of the job. For an individual with a non-visible disability, this may occur if the individual voluntarily discloses his/her disability or if s/he voluntarily tells the employer that s/he needs reasonable accommodation to perform the job. The employer may then ask certain limited questions, specifically:
 
-1. whether the applicant needs reasonable accommodation; and  
-2. what type of reasonable accommodation would be needed to perform the functions of the job. 
+1. whether the applicant needs reasonable accommodation; and
+2. what type of reasonable accommodation would be needed to perform the functions of the job.
 
+After making an offer of employment, if the employer requires a post-offer, preemployment medical examination or inquiry. After an employer extends an offer of employment, the employer may require a medical examination (including a psychiatric examination) or ask questions related to disability (including questions about psychiatric disability) if the employer subjects <span class="c2 c23">all entering employees in the same job category to the same inquiries or examinations regardless of disability. The inquiries and examinations do not need to be related to the job.
 
-After making an offer of employment, if the employer requires a post-offer, preemployment medical examination or inquiry. After an employer extends an offer of employment, the employer may require a medical examination (including a psychiatric examination) or ask questions related to disability (including questions about psychiatric disability) if the employer subjects <span class="c2 c23">all entering employees in the same job category to the same inquiries or examinations regardless of disability. The inquiries and examinations do not need to be related to the job. 
-
-During employment, when a disability-related inquiry or medical examination of an employee is "job-related and consistent with business necessity." This requirement may be met when an employer has a reasonable belief, based on objective evidence, that: (1) an employee's ability to perform essential job functions will be impaired by a medical condition; or (2) an employee will pose a direct threat due to a medical condition. Thus, for example, inquiries or medical examinations are permitted if they follow-up on a request for reasonable accommodation when the need for accommodation is not obvious, or if they address reasonable concerns about whether an individual is fit to perform essential functions of his/her position. In addition, inquiries or examinations are permitted if they are required by another Federal law or regulation. In these situations, the inquiries or examinations must not exceed the scope of the specific medical condition and its effect on the employee's ability, with or without reasonable accommodation, to perform essential job functions or to work without posing a direct threat. 
+During employment, when a disability-related inquiry or medical examination of an employee is "job-related and consistent with business necessity." This requirement may be met when an employer has a reasonable belief, based on objective evidence, that: (1) an employee's ability to perform essential job functions will be impaired by a medical condition; or (2) an employee will pose a direct threat due to a medical condition. Thus, for example, inquiries or medical examinations are permitted if they follow-up on a request for reasonable accommodation when the need for accommodation is not obvious, or if they address reasonable concerns about whether an individual is fit to perform essential functions of his/her position. In addition, inquiries or examinations are permitted if they are required by another Federal law or regulation. In these situations, the inquiries or examinations must not exceed the scope of the specific medical condition and its effect on the employee's ability, with or without reasonable accommodation, to perform essential job functions or to work without posing a direct threat.
 
 #### **_Do ADA confidentiality requirements apply to information about a psychiatric disability disclosed to an employer?_**
 
-Yes. Employers must keep all information concerning the medical condition or history of its applicants or employees, including information about psychiatric disability, confidential under the ADA. This includes medical information that an individual voluntarily tells his/her employer. Employers must collect and maintain such information on separate forms and in separate medical files, apart from the usual personnel files. There are limited exceptions to the ADA confidentiality requirements:  
+Yes. Employers must keep all information concerning the medical condition or history of its applicants or employees, including information about psychiatric disability, confidential under the ADA. This includes medical information that an individual voluntarily tells his/her employer. Employers must collect and maintain such information on separate forms and in separate medical files, apart from the usual personnel files. There are limited exceptions to the ADA confidentiality requirements:
 
-1. supervisors and managers may be told about necessary restrictions on the work or duties of the employee and about necessary accommodations;  
-2. first aid and safety personnel may be told if the disability might require emergency treatment; and  
-3. government officials investigating compliance with the ADA must be given relevant information on request. 
+1. supervisors and managers may be told about necessary restrictions on the work or duties of the employee and about necessary accommodations;
+2. first aid and safety personnel may be told if the disability might require emergency treatment; and
+3. government officials investigating compliance with the ADA must be given relevant information on request.
 
 #### **_How can an employer respond when employees ask questions about a coworker who has a disability?_**
 
-If employees ask questions about a coworker who has a disability, the employer must not disclose any medical information in response. Apart from the limited exceptions listed above, the ADA confidentiality provisions prohibit such disclosure. 
+If employees ask questions about a coworker who has a disability, the employer must not disclose any medical information in response. Apart from the limited exceptions listed above, the ADA confidentiality provisions prohibit such disclosure.
 
-An employer also may not tell employees whether it is providing a reasonable accommodation for a particular individual. A statement that an individual receives a reasonable accommodation discloses that the individual probably has a disability because only individuals with disabilities are entitled to reasonable accommodation under the ADA. In response to coworker questions, however, the employer may explain that it is acting for legitimate business reasons or in compliance with federal law. 
+An employer also may not tell employees whether it is providing a reasonable accommodation for a particular individual. A statement that an individual receives a reasonable accommodation discloses that the individual probably has a disability because only individuals with disabilities are entitled to reasonable accommodation under the ADA. In response to coworker questions, however, the employer may explain that it is acting for legitimate business reasons or in compliance with federal law.
 
-As background information for all employees, an employer may find it helpful to explain the requirements of the ADA, including the obligation to provide reasonable accommodation, in its employee handbook or in its employee orientation or training. 
+As background information for all employees, an employer may find it helpful to explain the requirements of the ADA, including the obligation to provide reasonable accommodation, in its employee handbook or in its employee orientation or training.
 
-  
-## 3. Requesting reasonable accommodations  
 
-An employer must provide a reasonable accommodation to the known physical or mental limitations of a qualified individual with a disability unless it can show that the accommodation would impose an undue hardship. An employee's decision about requesting reasonable accommodation may be influenced by his/her concerns about the potential negative consequences of disclosing a psychiatric disability at work. Employees and employers alike have posed numerous questions about what constitutes a request for reasonable accommodation. 
+## Requesting reasonable accommodations
+
+An employer must provide a reasonable accommodation to the known physical or mental limitations of a qualified individual with a disability unless it can show that the accommodation would impose an undue hardship. An employee's decision about requesting reasonable accommodation may be influenced by his/her concerns about the potential negative consequences of disclosing a psychiatric disability at work. Employees and employers alike have posed numerous questions about what constitutes a request for reasonable accommodation.
 
 #### **_When an individual decides to request reasonable accommodation, what must s/he say to make the request and start the reasonable accommodation process?_**
 
-When an individual decides to request accommodation, the individual or his/her representative must let the employer know that s/he needs an adjustment or change at work for a reason related to a medical condition. To request accommodation, an individual may use "plain English" and need not mention the ADA or use the phrase "reasonable accommodation."  
+When an individual decides to request accommodation, the individual or his/her representative must let the employer know that s/he needs an adjustment or change at work for a reason related to a medical condition. To request accommodation, an individual may use "plain English" and need not mention the ADA or use the phrase "reasonable accommodation."
 
 #### **_May someone other than the employee request a reasonable accommodation on behalf of an individual with a disability?_**
 
-Yes, a family member, friend, health professional, or other representative may request a reasonable accommodation on behalf of an individual with a disability. Of course, an employee may refuse to accept an accommodation that is not needed. 
+Yes, a family member, friend, health professional, or other representative may request a reasonable accommodation on behalf of an individual with a disability. Of course, an employee may refuse to accept an accommodation that is not needed.
 
 #### **_Do requests for reasonable accommodation need to be in writing?_**
 
-No. Requests for reasonable accommodation do not need to be in writing. Employees may request accommodations in conversation or may use any other mode of communication. 
+No. Requests for reasonable accommodation do not need to be in writing. Employees may request accommodations in conversation or may use any other mode of communication.
 
 #### **_When should an individual with a disability request a reasonable accommodation to do the job?_**
 
-An individual with a disability is not required to request a reasonable accommodation at the beginning of employment. S/he may request a reasonable accommodation at any time during employment. 
+An individual with a disability is not required to request a reasonable accommodation at the beginning of employment. S/he may request a reasonable accommodation at any time during employment.
 
 #### **_May an employer ask an employee for documentation when the employee requests reasonable accommodation for the job?_**
 
-Yes. When the need for accommodation is not obvious, an employer may ask an employee for reasonable documentation about his/her disability and functional limitations. The employer is entitled to know that the employee has a covered disability for which s/he needs a reasonable accommodation. A variety of health professionals may provide such documentation with regard to psychiatric disabilities. 
+Yes. When the need for accommodation is not obvious, an employer may ask an employee for reasonable documentation about his/her disability and functional limitations. The employer is entitled to know that the employee has a covered disability for which s/he needs a reasonable accommodation. A variety of health professionals may provide such documentation with regard to psychiatric disabilities.
 
 #### **_May an employer require an employee to go to a health care professional of the employer's (rather than the employee's) choice for purposes of documenting need for accommodation and disability?_**
 
-The ADA does not prevent an employer from requiring an employee to go to an appropriate health professional of the employer's choice if the employee initially provides insufficient information to substantiate that s/he has an ADA disability and needs a reasonable accommodation. Of course, any examination must be job-related and consistent with business necessity. If an employer requires an employee to go to a health professional of the employer's choice, the employer must pay all costs associated with the visit(s). 
+The ADA does not prevent an employer from requiring an employee to go to an appropriate health professional of the employer's choice if the employee initially provides insufficient information to substantiate that s/he has an ADA disability and needs a reasonable accommodation. Of course, any examination must be job-related and consistent with business necessity. If an employer requires an employee to go to a health professional of the employer's choice, the employer must pay all costs associated with the visit(s).
 
-## 4. Selecting types of reasonable accommodations  
+## Selecting types of reasonable accommodations
 
-Reasonable accommodations for individuals with disabilities must be determined on a case-by-case basis because workplaces and jobs vary, as do people with disabilities. Accommodations for individuals with psychiatric disabilities may involve changes to workplace policies, procedures, or practices. Physical changes to the workplace or extra equipment also may be effective reasonable accommodations for some people. 
+Reasonable accommodations for individuals with disabilities must be determined on a case-by-case basis because workplaces and jobs vary, as do people with disabilities. Accommodations for individuals with psychiatric disabilities may involve changes to workplace policies, procedures, or practices. Physical changes to the workplace or extra equipment also may be effective reasonable accommodations for some people.
 
-In some instances, the precise nature of an effective accommodation for an individual may not be immediately apparent. Mental health professionals, including psychiatric rehabilitation counselors, may be able to make suggestions about particular accommodations and, of equal importance, help employers and employees communicate effectively about reasonable accommodation. The questions below discuss selected types of reasonable accommodation that may be effective for certain individuals with psychiatric disabilities. 
+In some instances, the precise nature of an effective accommodation for an individual may not be immediately apparent. Mental health professionals, including psychiatric rehabilitation counselors, may be able to make suggestions about particular accommodations and, of equal importance, help employers and employees communicate effectively about reasonable accommodation. The questions below discuss selected types of reasonable accommodation that may be effective for certain individuals with psychiatric disabilities.
 
 #### **_Does reasonable accommodation include giving an individual with a disability time off from work or a modified work schedule?_**
 
-Yes. Permitting the use of accrued paid leave or providing additional unpaid leave for treatment or recovery related to a disability is a reasonable accommodation, unless (or until) the employee's absence imposes an undue hardship on the operation of the employer's business. This includes leaves of absence, occasional leave (e.g., a few hours at a time), and part-time scheduling. 
+Yes. Permitting the use of accrued paid leave or providing additional unpaid leave for treatment or recovery related to a disability is a reasonable accommodation, unless (or until) the employee's absence imposes an undue hardship on the operation of the employer's business. This includes leaves of absence, occasional leave (e.g., a few hours at a time), and part-time scheduling.
 
 A related reasonable accommodation is to allow an individual with a disability to change his/her regularly scheduled working hours, for example, to work 10 AM to 6 PM rather than 9 AM to 5 PM, barring undue hardship. Some medications taken for psychiatric disabilities cause extreme grogginess and lack of concentration in the morning. Depending on the job, a later schedule can enable the employee to perform essential job functions.
 
 #### **_What types of physical changes to the workplace or equipment can serve as accommodations for people with psychiatric disabilities?_**
 
-Simple physical changes to the workplace may be effective accommodations for some individuals with psychiatric disabilities. For example, room dividers, partitions, or other soundproofing or visual barriers between workspaces may accommodate individuals who have disability-related limitations in concentration. Moving an individual away from noisy machinery or reducing other workplace noise that can be adjusted (e.g., lowering the volume or pitch of telephones) are similar reasonable accommodations. Permitting an individual to wear headphones to block out noisy distractions also may be effective. 
+Simple physical changes to the workplace may be effective accommodations for some individuals with psychiatric disabilities. For example, room dividers, partitions, or other soundproofing or visual barriers between workspaces may accommodate individuals who have disability-related limitations in concentration. Moving an individual away from noisy machinery or reducing other workplace noise that can be adjusted (e.g., lowering the volume or pitch of telephones) are similar reasonable accommodations. Permitting an individual to wear headphones to block out noisy distractions also may be effective.
 
-Some individuals who have disability-related limitations in concentration may benefit from access to equipment like a tape recorder for reviewing events such as training sessions or meetings. 
+Some individuals who have disability-related limitations in concentration may benefit from access to equipment like a tape recorder for reviewing events such as training sessions or meetings.
 
 #### **_Is it a reasonable accommodation to modify a workplace policy?_**
 
-Yes. It is a reasonable accommodation to modify a workplace policy when necessitated by an individual's disability-related limitations, barring undue hardship. For example, it would be a reasonable accommodation to allow an individual with a disability, who has difficulty concentrating due to the disability, to take detailed notes during client presentations even though company policy discourages employees from taking extensive notes during such sessions. 
+Yes. It is a reasonable accommodation to modify a workplace policy when necessitated by an individual's disability-related limitations, barring undue hardship. For example, it would be a reasonable accommodation to allow an individual with a disability, who has difficulty concentrating due to the disability, to take detailed notes during client presentations even though company policy discourages employees from taking extensive notes during such sessions.
 
 Granting an employee time off from work or an adjusted work schedule as a reasonable accommodation may involve modifying leave or attendance procedures or policies. As an example, it would be a reasonable accommodation to modify a policy requiring employees to schedule vacation time in advance if an otherwise qualified individual with a disability needed to use accrued vacation time on an unscheduled basis because of disability-related medical problems, barring undue hardship. In addition, an employer, in spite of a "no-leave" policy, may, in appropriate circumstances, be required to provide leave to an employee with a disability as a reasonable accommodation, unless the provision of leave would impose an undue hardship.
 
 #### **_Is adjusting supervisory methods a form of reasonable accommodation?_**
 
-Yes. Supervisors play a central role in achieving effective reasonable accommodations for their employees. In some circumstances, supervisors may be able to adjust their methods as a reasonable accommodation by, for example, communicating assignments, instructions, or training by the medium that is most effective for a particular individual (e.g., in writing, in conversation, or by electronic mail). Supervisors also may provide or arrange additional training or modified training materials. 
+Yes. Supervisors play a central role in achieving effective reasonable accommodations for their employees. In some circumstances, supervisors may be able to adjust their methods as a reasonable accommodation by, for example, communicating assignments, instructions, or training by the medium that is most effective for a particular individual (e.g., in writing, in conversation, or by electronic mail). Supervisors also may provide or arrange additional training or modified training materials.
 
-Adjusting the level of supervision or structure sometimes may enable an otherwise qualified individual with a disability to perform essential job functions. For example, an otherwise qualified individual with a disability who experiences limitations in concentration may request more detailed day-to-day guidance, feedback, or structure in order to perform his job. 
+Adjusting the level of supervision or structure sometimes may enable an otherwise qualified individual with a disability to perform essential job functions. For example, an otherwise qualified individual with a disability who experiences limitations in concentration may request more detailed day-to-day guidance, feedback, or structure in order to perform his job.
 
 #### **_Is it a reasonable accommodation to provide a job coach?_**
 
-Yes. An employer may be required to provide a temporary job coach to assist in the training of a qualified individual with a disability as a reasonable accommodation, barring undue hardship. An employer also may be required to allow a job coach paid by a public or private social service agency to accompany the employee at the job site as a reasonable accommodation. 
+Yes. An employer may be required to provide a temporary job coach to assist in the training of a qualified individual with a disability as a reasonable accommodation, barring undue hardship. An employer also may be required to allow a job coach paid by a public or private social service agency to accompany the employee at the job site as a reasonable accommodation.
 
 #### **_Is it a reasonable accommodation to make sure that an individual takes medication as prescribed?_**
 
-No. Medication monitoring is not a reasonable accommodation. Employers have no obligation to monitor medication because doing so does not remove a barrier that is unique to the workplace. When people do not take medication as prescribed, it affects them on and off the job. 
+No. Medication monitoring is not a reasonable accommodation. Employers have no obligation to monitor medication because doing so does not remove a barrier that is unique to the workplace. When people do not take medication as prescribed, it affects them on and off the job.
 
 #### **_When is reassignment to a different position required as a reasonable accommodation?_**
 
-In general, reassignment must be considered as a reasonable accommodation when accommodation in the present job would cause undue hardship or would not be possible. Reassignment may be considered if there are circumstances under which both the employer and employee voluntarily agree that it is preferable to accommodation in the present position. 
+In general, reassignment must be considered as a reasonable accommodation when accommodation in the present job would cause undue hardship or would not be possible. Reassignment may be considered if there are circumstances under which both the employer and employee voluntarily agree that it is preferable to accommodation in the present position.
 
 Reassignment should be made to an equivalent position that is vacant or will become vacant within a reasonable amount of time. If an equivalent position is not available, the employer must look for a vacant position at a lower level for which the employee is qualified. Reassignment is not required if a vacant position at a lower level is also unavailable.
 
-  
-## 5. Conduct  
 
-Maintaining satisfactory conduct and performance typically is not a problem for individuals with psychiatric disabilities. Nonetheless,  
-circumstances arise when employers need to discipline individuals with such disabilities for misconduct. 
+## Conduct
+
+Maintaining satisfactory conduct and performance typically is not a problem for individuals with psychiatric disabilities. Nonetheless, circumstances arise when employers need to discipline individuals with such disabilities for misconduct.
 
 #### **_May an employer discipline an individual with a disability for violating a workplace conduct standard if the misconduct resulted from a disability?_**
 
-Yes, provided that the workplace conduct standard is job-related for the position in question and is consistent with business necessity. For example, nothing in the ADA prevents an employer from maintaining a workplace free of violence or threats of violence, or from disciplining an employee who steals or destroys property. Thus, an employer may discipline an employee with a disability for engaging in such misconduct if it would impose the same discipline on an employee without a disability. Other conduct standards, however, may not be job-related for the position in question and consistent with business necessity. If they are not, imposing discipline under them could violate the ADA. 
+Yes, provided that the workplace conduct standard is job-related for the position in question and is consistent with business necessity. For example, nothing in the ADA prevents an employer from maintaining a workplace free of violence or threats of violence, or from disciplining an employee who steals or destroys property. Thus, an employer may discipline an employee with a disability for engaging in such misconduct if it would impose the same discipline on an employee without a disability. Other conduct standards, however, may not be job-related for the position in question and consistent with business necessity. If they are not, imposing discipline under them could violate the ADA.
 
 #### **_Must an employer make reasonable accommodation for an individual with a disability who violated a conduct rule that is job-related for the position in question and consistent with business necessity?_**
 
-An employer must make reasonable accommodation to enable an otherwise qualified individual with a disability to meet such a conduct standard in the future, barring undue hardship. Because reasonable accommodation is always prospective, however, an employer is not required to excuse past misconduct. 
+An employer must make reasonable accommodation to enable an otherwise qualified individual with a disability to meet such a conduct standard in the future, barring undue hardship. Because reasonable accommodation is always prospective, however, an employer is not required to excuse past misconduct.
 
 #### **_How should an employer deal with an employee with a disability who is engaging in misconduct because s/he is not taking his/her medication?_**
 
 The employer should focus on the employee's conduct and explain to the employee the consequences of continued misconduct in terms of uniform disciplinary procedures. It is the employee's responsibility to decide about medication and to consider the consequences of not taking medication.
 
-# Section III: Accommodating Employees with Mental Health Impairments
+---
 
-### (From the Job Accommodation Network)
+# Section III: Accommodating Employees with Mental Health Impairments
+*(From the Job Accommodation Network)*
 
 ## What are mental health impairments? _- Revisited_
 
@@ -650,7 +541,7 @@ A person has a disability if he/she has a physical or mental impairment that sub
 
 #### Where can employers get additional information about mental health impairments and the ADA?
 
-JAN provides resources on mental health impairments and the ADA at [http://AskJAN.org/media/psyc.htm](https://www.google.com/url?q=https://askjan.org/media/psyc.htm&sa=D&ust=1460927166055000&usg=AFQjCNEEpuDqAijED8CLKBmBKKM9HUSFiQ). This includes accommodation ideas, information on the ADA and its amendments, and guidance from the EEOC. Two EEOC guidances that may be helpful working through the accommodation process are: The ADA and Psychiatric Disabilities at[http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927166056000&usg=AFQjCNHGpk_FJ3cPcZ7q7xLmWJU6q--nkA) and The ADA: Applying Performance and Conduct Standards to Employees with Disabilities at [http://www.eeoc.gov/facts/performance-conduct.html](https://www.google.com/url?q=http://www.eeoc.gov/facts/performance-conduct.html&sa=D&ust=1460927166056000&usg=AFQjCNGiooqiygNHqCHnT3QOo3bDtYjBAQ).
+JAN provides resources on mental health impairments and the ADA at [http://AskJAN.org/media/psyc.htm](https://www.google.com/url?q=https://askjan.org/media/psyc.htm&sa=D&ust=1460927166055000&usg=AFQjCNEEpuDqAijED8CLKBmBKKM9HUSFiQ). This includes accommodation ideas, information on the ADA and its amendments, and guidance from the EEOC. Two EEOC guidances that may be helpful working through the accommodation process are: The ADA and Psychiatric Disabilities at [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927166056000&usg=AFQjCNHGpk_FJ3cPcZ7q7xLmWJU6q--nkA) and The ADA: Applying Performance and Conduct Standards to Employees with Disabilities at [http://www.eeoc.gov/facts/performance-conduct.html](https://www.google.com/url?q=http://www.eeoc.gov/facts/performance-conduct.html&sa=D&ust=1460927166056000&usg=AFQjCNGiooqiygNHqCHnT3QOo3bDtYjBAQ).
 
 ## Accommodating Employees with Mental Health Impairments
 
@@ -803,131 +694,96 @@ Supervisors can also implement management techniques that support an inclusive w
 * Do not mandate that employees attend work related social functions, and
 * Encourage all employees to move non-work-related conversations out of work areas.
 
+---
 
 # Section IV: Resources
 
 **Equal Employment Opportunity Commission**
-
 P.O. Box 7033
-
 Lawrence, Kansas 66044
-
 (800) 669-4000 (Voice), (800) 669-6820 (TDD)
 
 For more specific information about ADA requirements affecting _public accommodations and State and local government services_ contact:
 
 **Department of Justice**
-
 Office on the Americans with Disabilities Act
-
 Civil Rights Division
-
 P.O. Box 66118
-
 Washington, DC 20035-6118
-
 (202) 514-0301 (Voice)
-
 (202) 514-0381 (TDD)
-
 (202) 514-0383 (TDD)
 
 For more specific information about requirements for _accessible design in new construction and alterations_ contact:
 
 **Architectural and Transportation Barriers Compliance Board**
-
 1111 18th Street, NW
-
 Suite 501
-
 Washington, DC 20036
-
 800-USA-ABLE
-
 800-USA-ABLE (TDD)
 
 For more specific information about ADA requirements affecting _transportation_ contact:
 
 **Department of Transportation**
-
 400 Seventh Street, SW
-
 Washington, DC 20590
-
 (202) 366-9305
-
 (202) 755-7687 (TDD)
 
 For more specific information about ADA requirements for _telecommunications_ contact:
 
 **Federal Communications Commission**
-
 1919 M Street, NW
-
 Washington, DC 20554
-
 (202) 634-1837
-
 (202) 632-1836 (TDD)
 
 For more specific information about federal disability-related _tax credits and deductions for business_ contact:
 
 **Internal Revenue Service**
-
 Department of the Treasury
-
 1111 Constitution Avenue, NW
-
 Washington, DC 20044
-
 (202) 566-2000
+
+---
 
 # Section V: References     
 
 American Psychiatric Association. (2013). _Diagnostic and statistical manual of mental disorders_ (5th ed.). Washington, DC:
-
-> Author.
+&nbsp;&nbsp;&nbsp;&nbsp;Author.
 
 Corbière, M., Lanctôt, N., Lecomte, T., et al., (2010). “A pan-canadian evaluation of supported employment programs dedicated to people with severe mental disorders.” _Community Mental Health Journal_, 46(1), 44–55.
 
 EEOC Regulations To Implement the Equal Employment Provisions of the Americans With Disabilities Act, as Amended, 29
-
-> C.F.R. § 1630 (2011).
+&nbsp;&nbsp;&nbsp;&nbsp;C.F.R. § 1630 (2011).
 
 Finkler, E., (retrieved 2015, April). “Open sourcing mental illness: changing how we talk about mental health in the tech community.” Retrieved from [https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ](https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ) [http://funkatron.com/osmi/](https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ)
 
 Job Accommodation Network. (2015). _Accommodation and compliance series: Employees with mental health impairments._
-
-> Retrieved from <span class="c5 c37">[https://askjan.org/media/Psychiatric.html](https://www.google.com/url?q=https://askjan.org/media/Psychiatric.html&sa=D&ust=1460927166107000&usg=AFQjCNHuo4Ijvy5G1JwOInv3Hd6-ZDoB3g)<span class="c5 c33"> 
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from <span class="c5 c37">[https://askjan.org/media/Psychiatric.html](https://www.google.com/url?q=https://askjan.org/media/Psychiatric.html&sa=D&ust=1460927166107000&usg=AFQjCNHuo4Ijvy5G1JwOInv3Hd6-ZDoB3g)<span class="c5 c33"> 
 
 Khalema, N.E., & Shankar, J. (2014). “Perspectives on employment integration, mental illness and disability, and workplace health.” _Advances in Public Health_.
-
-> Retrieved from [http://www.hindawi.com/journals/aph/2014/258614/](https://www.google.com/url?q=http://www.hindawi.com/journals/aph/2014/258614/&sa=D&ust=1460927166110000&usg=AFQjCNHW6qnL4xb1VYOHztYBhdZaNW790Q)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.hindawi.com/journals/aph/2014/258614/](https://www.google.com/url?q=http://www.hindawi.com/journals/aph/2014/258614/&sa=D&ust=1460927166110000&usg=AFQjCNHW6qnL4xb1VYOHztYBhdZaNW790Q)
 
 National Alliance on Mental Illness. (2013). _Mental illness: Facts and numbers_.
-
-> Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166112000&usg=AFQjCNH3Qh5qMO7DYNg-P5R8eZTxMZOzwA)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166112000&usg=AFQjCNH3Qh5qMO7DYNg-P5R8eZTxMZOzwA)
 
 National Alliance on Mental Illness. (n.d.a). _What is mental illness: Mental illness facts_.
-
-> Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166113000&usg=AFQjCNE2NCqNf0hM0GJgWMrAu1V_AxE31w)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166113000&usg=AFQjCNE2NCqNf0hM0GJgWMrAu1V_AxE31w)
 
 National Alliance on Mental Illness. (n.d.b). _Mental illness: By illness_.
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166114000&usg=AFQjCNHfc04CHuxrOdUFuGKoiEzyTMB6EQ)
 
-> Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166114000&usg=AFQjCNHfc04CHuxrOdUFuGKoiEzyTMB6EQ)
+National Institute of Mental Health. (2008). _NIMH: The numbers count— Mental disorders in America_.
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nimh.nih.gov](https://www.google.com/url?q=http://www.nimh.nih.gov&sa=D&ust=1460927166115000&usg=AFQjCNGvAxDtomcTKHeEFnSvvtXjGwxlZg)
 
-National Institute of Mental Health. (2008). _NIMH: The numbers count— Mental disorders in America_. 
+National Mental Health Association, (retrieved 2015, April). “Supported employment for persons with psychiatric disabilities: a review of effective services.”
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://starcityblog.typepad.com/files/nmhasupported_employment.pdf](https://www.google.com/url?q=http://starcityblog.typepad.com/files/nmhasupported_employment.pdf&sa=D&ust=1460927166118000&usg=AFQjCNH2OKlNug6LlRbuJRwBh7zq7RX8IA)
 
-> Retrieved from [http://www.nimh.nih.gov](https://www.google.com/url?q=http://www.nimh.nih.gov&sa=D&ust=1460927166115000&usg=AFQjCNGvAxDtomcTKHeEFnSvvtXjGwxlZg)
-
-National Mental Health Association, (retrieved 2015, April). “Supported employment for persons with psychiatric disabilities: a review of effective services.” 
-
-> Retrieved from [http://starcityblog.typepad.com/files/nmhasupported_employment.pdf](https://www.google.com/url?q=http://starcityblog.typepad.com/files/nmhasupported_employment.pdf&sa=D&ust=1460927166118000&usg=AFQjCNH2OKlNug6LlRbuJRwBh7zq7RX8IA)
-
-United States Equal Employment Opportunity Commission. (2009). _EEOC Enforcement guidance on the americans with disabilities act and psychiatric disabilities_. 
-
-> Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927166120000&usg=AFQjCNGf0yqaLQGybHsXU3sCSL4jxInnhQ)
+United States Equal Employment Opportunity Commission. (2009). _EEOC Enforcement guidance on the americans with disabilities act and psychiatric disabilities_.
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927166120000&usg=AFQjCNGf0yqaLQGybHsXU3sCSL4jxInnhQ)
 
 United States Equal Employment Opportunity Commission. (n.d.a.). _The ADA: Your responsibilities as an employer_.
-
-> Retrieved from <span class="c5 c37">[http://www.eeoc.gov/eeoc/publications/ada17.cfm](https://www.google.com/url?q=http://www.eeoc.gov/eeoc/publications/ada17.cfm&sa=D&ust=1460927166121000&usg=AFQjCNGZrLJ_wKnWa1LGT1QxcB4MkcoiEw)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from <span class="c5 c37">[http://www.eeoc.gov/eeoc/publications/ada17.cfm](https://www.google.com/url?q=http://www.eeoc.gov/eeoc/publications/ada17.cfm&sa=D&ust=1460927166121000&usg=AFQjCNGZrLJ_wKnWa1LGT1QxcB4MkcoiEw)
