@@ -7,7 +7,7 @@
 
     <title>Resources :: Open Sourcing Mental Illness - Changing how we talk about mental health in the tech community - Stronger Than Fear</title>
 
-    <meta name="generated" content="Sat Apr 23 2016 17:05:36 GMT-0400 (EDT)">
+    <meta name="generated" content="Sat Apr 23 2016 22:37:03 GMT-0400 (EDT)">
 
     <meta property="og:url" content="http://osmihelp.org/" />
     <meta property="og:title" content="Open Sourcing Mental Illness - Changing how we talk about mental health in the tech community - Stronger Than Fear" />
@@ -228,6 +228,7 @@
 
 
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/cookies-js/dist/cookies.min.js"></script>
 <script src="/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
 <script src="/bower_components/jquery.localScroll/jquery.localScroll.min.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -256,37 +257,6 @@
     });
 </script>
 
-<script src="/bower_components/bootbox.js/bootbox.js"></script>
-<script>
-
-function showDisclaimer(url) {
-    bootbox.dialog({
-        message: "<p>This document was compiled by Open Sourcing Mental Illness contributors using EEOC guidelines; these contributors are not attorneys and the Open Sourcing Mental Illness materials do not constitute legal advice of any type. By using these materials, you agree to accept this disclaimer. Every effort has been made to ensure the accuracy of information shared through the Open Sourcing Mental Illness materials, however, because information is constantly evolving, Open Sourcing Mental Illness cannot be held responsible for the accuracy, errors or omissions related to the Open Sourcing Mental Illness materials. The information provided in the Open Sourcing Mental Illness materials are for educational and informational purposes only. You agree to use your own due diligence and judgment before applying any recommendation or advice that you may receive on or through the materials provided by Open Sourcing Mental Illness. Please contact your employment counsel or <a href=\"mailto:info@eeoc.gov\">info@eeoc.gov</a> for more information and guidance.</p>",
-        title: "Disclaimer",
-        buttons: {
-            agree: {
-                label: "I agree, continue",
-                className: "btn-success",
-                callback: function() {
-                    window.location = url;
-                }
-            },
-            disagree: {
-                label: "I do not agree.",
-                className: "btn-danger"
-            }
-        }
-    });
-};
-
-$(document).ready(function() {
-    $('#link-ada-employers-guide').click(function(e) {
-        showDisclaimer($(this).attr('href'));
-        return false;
-    });
-});
-
-</script>
-
+<script></script>
 </body>
 </html>
