@@ -1,14 +1,14 @@
 {
-  "name": "osmi-feb2016",
+  "name": "osmihelp.org",
   "version": "0.0.0",
   "authors": [
     "Ed Finkler <coj@funkatron.com>"
   ],
   "description": "",
-  "main": "public/index.php",
+  "main": "public/index.html",
   "moduleType": [],
   "license": "Proprietary",
-  "homepage": "http://micit.com",
+  "homepage": "https://osmihelp.org",
   "private": true,
   "ignore": [
     "**/.*",
@@ -21,13 +21,12 @@
     "jquery": "~2.1.4",
     "bootstrap": "~3.3.6",
     "fontawesome": "~4.5.0",
-    "lodash": "~3.10.1",
     "bootstrap-social": "~4.11.0",
     "bootbox.js": "~4.4.0",
-    "parsleyjs": "~2.2.0",
     "vue": "~1.0.15",
     "vue-strap": "~1.0.7",
     "jquery.scrollTo": "~2.1.2",
-    "jquery.localScroll": "~1.4.0"
+    "jquery.localScroll": "~1.4.0",
+    "cookies-js": "~1.2.2"
   }
 }
