@@ -10132,6 +10132,11 @@ fieldset[disabled] .btn-yahoo.focus {
   color: #720e9e;
   background-color: #fff;
 }
+@media (max-width: 480px) {
+  .modal-dialog {
+    width: 300px;
+  }
+}
 /* This is for the fixed navbar */
 body {
   padding-top: 63px;
@@ -10528,4 +10533,8 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 .long-content h1.content-header {
   margin-top: 0;
   font-size: 56px;
+}
+.long-content h1,
+.long-content hr {
+  page-break-before: always;
 }
