@@ -1,4 +1,4 @@
-# OPEN SOURCING MENTAL ILLNESS<br> Mental Health in Tech: Guidelines for Employees
+# Open Sourcing Mental Illness<br> Mental Health in Tech: Guidelines for Employees
 
 ![](./images/osmi-logo-big.png)
 
@@ -87,16 +87,12 @@ Note: While employers are not required to eliminate an essential function, lower
 **For more information visit: [http://www.eeoc.gov/employees/](https://www.google.com/url?q=http://www.eeoc.gov/employees/&sa=D&ust=1460927204167000&usg=AFQjCNFpAwY7a8curG0x-BZg-3RhQsbVJw) or contact:**
 
 **Equal Employment Opportunity Commission**
-
 info@eeoc.gov
-
 P.O. Box 7033
-
 Lawrence, Kansas 66044
-
 (800) 669-4000 (Voice), (800) 669-6820 (TDD)
 
-
+---
 
 **Purpose:** The following handbook  consists of compiled  guidelines for employees  to reference when considering legal rights as an individual with a mental health impairment, including direction from the Equal Employment Opportunity Commision (EEOC) regarding  the Americans with Disabilities Act (ADA).
 
@@ -556,14 +552,26 @@ Job Accommodation Network. (2015). _Accommodation and compliance series: Employe
 
 &nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [https://askjan.org/media/Psychiatric.html](https://www.google.com/url?q=https://askjan.org/media/Psychiatric.html&sa=D&ust=1460927204261000&usg=AFQjCNEBlctfO8jLoQyCKt0u6niASL6YBQ)
 
-National Alliance on Mental Illness. (2013). _Mental illness: Facts and numbers._ Retrieved from <span class="c20 c38">[http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204262000&usg=AFQjCNGBIBgAR2tnjy1Snx7i7JKAJ8lizA)
+National Alliance on Mental Illness. (2013). _Mental illness: Facts and numbers._
 
-National Alliance on Mental Illness. (n.d.a). _What is mental illness: Mental illness facts._ Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204263000&usg=AFQjCNEniDTEpv6QB8EcKw2DL8Jz842hxQ)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204262000&usg=AFQjCNGBIBgAR2tnjy1Snx7i7JKAJ8lizA)
 
-National Alliance on Mental Illness. (n.d.b). _Mental illness: By illness._ Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204264000&usg=AFQjCNEM1Azf_n7ztQC5nPPTJRVr6NyARQ)
+National Alliance on Mental Illness. (n.d.a). _What is mental illness: Mental illness facts._
 
-National Institute of Mental Health. (2008). _NIMH: The numbers count— Mental disorders in America._ Retrieved from [http://www.nimh.nih.gov](https://www.google.com/url?q=http://www.nimh.nih.gov&sa=D&ust=1460927204265000&usg=AFQjCNEWUlLuQo_NoJYu0-LtF4BOsgCYbw)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204263000&usg=AFQjCNEniDTEpv6QB8EcKw2DL8Jz842hxQ)
 
-United States Equal Employment Opportunity Commission. (2009). _EEOC Enforcement guidance on the americans with disabilities act and psychiatric disabilities._ Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927204266000&usg=AFQjCNF8TNBbrik0RCojw6IO08wNdyMOVA)
+National Alliance on Mental Illness. (n.d.b). _Mental illness: By illness._
 
-United States Equal Employment Opportunity Commission. (n.d.a.). _The ADA: Your responsibilities as an employer._ Retrieved from [http://www.eeoc.gov/eeoc/publications/ada17.cfm](https://www.google.com/url?q=http://www.eeoc.gov/eeoc/publications/ada17.cfm&sa=D&ust=1460927204268000&usg=AFQjCNEnexEb81tPdI_pZgQJAhKxvAiZxg)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204264000&usg=AFQjCNEM1Azf_n7ztQC5nPPTJRVr6NyARQ)
+
+National Institute of Mental Health. (2008). _NIMH: The numbers count— Mental disorders in America._
+
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nimh.nih.gov](https://www.google.com/url?q=http://www.nimh.nih.gov&sa=D&ust=1460927204265000&usg=AFQjCNEWUlLuQo_NoJYu0-LtF4BOsgCYbw)
+
+United States Equal Employment Opportunity Commission. (2009). _EEOC Enforcement guidance on the americans with disabilities act and psychiatric disabilities._
+
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927204266000&usg=AFQjCNF8TNBbrik0RCojw6IO08wNdyMOVA)
+
+United States Equal Employment Opportunity Commission. (n.d.a.). _The ADA: Your responsibilities as an employer._
+
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/eeoc/publications/ada17.cfm](https://www.google.com/url?q=http://www.eeoc.gov/eeoc/publications/ada17.cfm&sa=D&ust=1460927204268000&usg=AFQjCNEnexEb81tPdI_pZgQJAhKxvAiZxg)
