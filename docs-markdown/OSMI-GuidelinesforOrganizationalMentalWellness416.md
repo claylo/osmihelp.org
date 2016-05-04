@@ -1,5 +1,7 @@
 # Open Sourcing Mental Illness<br>Mental Health in Tech: Guidelines for Mental Wellness in the Workplace
 
+![](./images/osmi-logo-big.png)
+
 ---
 
 **Purpose**: This document outlines benefits and potential steps to promote mental wellness in an organization. It is not a comprehensive guide to implementing a workplace wellness program, but rather resources and models to consider.
