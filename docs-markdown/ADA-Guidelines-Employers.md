@@ -48,7 +48,7 @@ Breathing, seeing, hearing, sitting, standing, walking, learning, lifting, bendi
 * Employers must provide a reasonable accommodation to a disabled individual upon request
  * What’s a “reasonable accommodation?”  
    * A modification that allows the person to perform the job’s essential functions
-   * An accommodation that would cause “undue hardship” for the employer need not be provided
+     * An accommodation that would cause “undue hardship” for the employer need not be provided
 
 ### What is a “Mental Impairment”?
 
