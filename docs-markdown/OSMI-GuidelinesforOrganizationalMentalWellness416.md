@@ -380,7 +380,7 @@ Trainings: http://www.mentalhealthfirstaid.org/cs/
 
 ## Changing your business culture
 
-*Businesses Materials for a Mental Health Friendly Workplace: Executives Booklet*: [http://store.samhsa.gov/product/Supported-Employment-Evidence-Based-Practices-EBP-KIT/SMA08-4365](http://store.samhsa.gov/product/Supported-Employment-Evidence-Based-Practices-EBP-KIT/SMA08-4365) 
+*Supported Employment Evidence-Based Practices*: [http://store.samhsa.gov/product/Supported-Employment-Evidence-Based-Practices-EBP-KIT/SMA08-4365](http://store.samhsa.gov/product/Supported-Employment-Evidence-Based-Practices-EBP-KIT/SMA08-4365) 
 
 In addition to resources and tips for businesses of different sizes, it lays out common myths (and falsehoods) about mental illness.
 
@@ -456,7 +456,7 @@ The Wellness Council of America ([https://www.welcoa.org/](https://www.welcoa.or
 
 ## World Health Organization
 
-The World Health Organization has also 5 keys to creating a healthier workplace, also including senior leadership support and employee involvement. ([http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua=1](http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua%3D1)).
+The World Health Organization has also 5 keys to creating a healthier workplace, also including senior leadership support and employee involvement. [http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua=1](http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua%3D1).
 
 ## Centers for Disease Control
 
