@@ -236,7 +236,7 @@ A. No. You may hire the most qualified applicant. The ADA only makes it unlawful
 
 **_Q. One of my employees is a diabetic, but takes insulin daily to control his diabetes. As a result, the diabetes has no significant impact on his employment. Is he protected by the ADA?_**
 
-A. Yes. The determination as to whether a person has a disability under the ADA is made without regard to [mitigating measures](https://www.google.com/url?q=http://www.eeoc.gov/eeoc/publications/ada17.cfm%23addendum&sa=D&ust=1460927165991000&usg=AFQjCNE00RAShUgPlb7CeFZmCm2M4X_-dw), such as medications, auxiliary aids and reasonable accommodations. If an individual has an impairment that substantially limits a major life activity, she is protected under the ADA, regardless of the fact that the disease or condition or its effects may be corrected or controlled.
+A. Yes. The determination as to whether a person has a disability under the ADA is made without regard to [mitigating measures](http://www.eeoc.gov/eeoc/publications/ada17.cfm%23addendum), such as medications, auxiliary aids and reasonable accommodations. If an individual has an impairment that substantially limits a major life activity, she is protected under the ADA, regardless of the fact that the disease or condition or its effects may be corrected or controlled.
 
 **_Q. One of my employees has a broken arm that will heal but is temporarily unable to perform the essential functions of his job as a mechanic. Is this employee protected by the ADA?_**
 
@@ -541,7 +541,7 @@ A person has a disability if he/she has a physical or mental impairment that sub
 
 #### Where can employers get additional information about mental health impairments and the ADA?
 
-JAN provides resources on mental health impairments and the ADA at [http://AskJAN.org/media/psyc.htm](https://www.google.com/url?q=https://askjan.org/media/psyc.htm&sa=D&ust=1460927166055000&usg=AFQjCNEEpuDqAijED8CLKBmBKKM9HUSFiQ). This includes accommodation ideas, information on the ADA and its amendments, and guidance from the EEOC. Two EEOC guidances that may be helpful working through the accommodation process are: The ADA and Psychiatric Disabilities at [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927166056000&usg=AFQjCNHGpk_FJ3cPcZ7q7xLmWJU6q--nkA) and The ADA: Applying Performance and Conduct Standards to Employees with Disabilities at [http://www.eeoc.gov/facts/performance-conduct.html](https://www.google.com/url?q=http://www.eeoc.gov/facts/performance-conduct.html&sa=D&ust=1460927166056000&usg=AFQjCNGiooqiygNHqCHnT3QOo3bDtYjBAQ).
+JAN provides resources on mental health impairments and the ADA at [http://AskJAN.org/media/psyc.htm](https://askjan.org/media/psyc.htm). This includes accommodation ideas, information on the ADA and its amendments, and guidance from the EEOC. Two EEOC guidances that may be helpful working through the accommodation process are: The ADA and Psychiatric Disabilities at [http://www.eeoc.gov/policy/docs/psych.html](http://www.eeoc.gov/policy/docs/psych.html) and The ADA: Applying Performance and Conduct Standards to Employees with Disabilities at [http://www.eeoc.gov/facts/performance-conduct.html](http://www.eeoc.gov/facts/performance-conduct.html).
 
 ## Accommodating Employees with Mental Health Impairments
 
@@ -760,31 +760,31 @@ Corbière, M., Lanctôt, N., Lecomte, T., et al., (2010). “A pan-canadian eval
 EEOC Regulations To Implement the Equal Employment Provisions of the Americans With Disabilities Act, as Amended, 29
 &nbsp;&nbsp;&nbsp;&nbsp;C.F.R. § 1630 (2011).
 
-Finkler, E., (retrieved 2015, April). “Open sourcing mental illness: changing how we talk about mental health in the tech community.” Retrieved from [http://funkatron.com/osmi/](https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ)
+Finkler, E., (retrieved 2015, April). “Open sourcing mental illness: changing how we talk about mental health in the tech community.” Retrieved from [http://funkatron.com/osmi/](http://funkatron.com/osmi/)
 
 Job Accommodation Network. (2015). _Accommodation and compliance series: Employees with mental health impairments._
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from <span class="c5 c37">[https://askjan.org/media/Psychiatric.html](https://www.google.com/url?q=https://askjan.org/media/Psychiatric.html&sa=D&ust=1460927166107000&usg=AFQjCNHuo4Ijvy5G1JwOInv3Hd6-ZDoB3g)<span class="c5 c33"> 
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from <span class="c5 c37">[https://askjan.org/media/Psychiatric.html](https://askjan.org/media/Psychiatric.html)<span class="c5 c33"> 
 
 Khalema, N.E., & Shankar, J. (2014). “Perspectives on employment integration, mental illness and disability, and workplace health.” _Advances in Public Health_.
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.hindawi.com/journals/aph/2014/258614/](https://www.google.com/url?q=http://www.hindawi.com/journals/aph/2014/258614/&sa=D&ust=1460927166110000&usg=AFQjCNHW6qnL4xb1VYOHztYBhdZaNW790Q)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.hindawi.com/journals/aph/2014/258614/](http://www.hindawi.com/journals/aph/2014/258614/)
 
 National Alliance on Mental Illness. (2013). _Mental illness: Facts and numbers_.
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166112000&usg=AFQjCNH3Qh5qMO7DYNg-P5R8eZTxMZOzwA)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](http://www.nami.org)
 
 National Alliance on Mental Illness. (n.d.a). _What is mental illness: Mental illness facts_.
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166113000&usg=AFQjCNE2NCqNf0hM0GJgWMrAu1V_AxE31w)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](http://www.nami.org)
 
 National Alliance on Mental Illness. (n.d.b). _Mental illness: By illness_.
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927166114000&usg=AFQjCNHfc04CHuxrOdUFuGKoiEzyTMB6EQ)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](http://www.nami.org)
 
 National Institute of Mental Health. (2008). _NIMH: The numbers count— Mental disorders in America_.
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nimh.nih.gov](https://www.google.com/url?q=http://www.nimh.nih.gov&sa=D&ust=1460927166115000&usg=AFQjCNGvAxDtomcTKHeEFnSvvtXjGwxlZg)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nimh.nih.gov](http://www.nimh.nih.gov)
 
 National Mental Health Association, (retrieved 2015, April). “Supported employment for persons with psychiatric disabilities: a review of effective services.”
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://starcityblog.typepad.com/files/nmhasupported_employment.pdf](https://www.google.com/url?q=http://starcityblog.typepad.com/files/nmhasupported_employment.pdf&sa=D&ust=1460927166118000&usg=AFQjCNH2OKlNug6LlRbuJRwBh7zq7RX8IA)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://starcityblog.typepad.com/files/nmhasupported_employment.pdf](http://starcityblog.typepad.com/files/nmhasupported_employment.pdf)
 
 United States Equal Employment Opportunity Commission. (2009). _EEOC Enforcement guidance on the americans with disabilities act and psychiatric disabilities_.
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927166120000&usg=AFQjCNGf0yqaLQGybHsXU3sCSL4jxInnhQ)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](http://www.eeoc.gov/policy/docs/psych.html)
 
 United States Equal Employment Opportunity Commission. (n.d.a.). _The ADA: Your responsibilities as an employer_.
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from <span class="c5 c37">[http://www.eeoc.gov/eeoc/publications/ada17.cfm](https://www.google.com/url?q=http://www.eeoc.gov/eeoc/publications/ada17.cfm&sa=D&ust=1460927166121000&usg=AFQjCNGZrLJ_wKnWa1LGT1QxcB4MkcoiEw)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from <span class="c5 c37">[http://www.eeoc.gov/eeoc/publications/ada17.cfm](http://www.eeoc.gov/eeoc/publications/ada17.cfm)
