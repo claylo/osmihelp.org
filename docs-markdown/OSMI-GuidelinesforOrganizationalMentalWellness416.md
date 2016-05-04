@@ -56,7 +56,7 @@ The intention of this document is to help you frame these needs and the discussi
 
 # Section III - Putting in place a mental health policy
 
-The [World Health Organization](http://www.who.int/mental_health/policy/services/13_policies%2520programs%2520in%2520workplace_WEB_07.pdf) (2005) advises the development of a mental health policy for any business or organization wishing to improve mental wellness. Developing  a policy is the first step to addressing mental health in an organization. The vision for improving mental health in the workforce and creating a model for action should be addressed in the policy. A mental health policy for the workplace can be developed separately, or as part of a broader health and safety policy. Following are steps outlined by the WHO for putting in place a mental wellness policy:
+The [World Health Organization](http://apps.who.int/iris/bitstream/10665/205530/1/9241546794.pdf) (2005) advises the development of a mental health policy for any business or organization wishing to improve mental wellness. Developing  a policy is the first step to addressing mental health in an organization. The vision for improving mental health in the workforce and creating a model for action should be addressed in the policy. A mental health policy for the workplace can be developed separately, or as part of a broader health and safety policy. Following are steps outlined by the WHO for putting in place a mental wellness policy:
 
 **Step I:** Analysing the mental health issues.
 
@@ -202,7 +202,8 @@ Accommodations are often necessary for employees with mental health impairments 
 *   Allow the presence of a support animal
 *   Allow telephone calls during work hours to doctors and others for needed support
 *   Use a mentor or supervisor to alert the employee when his/her behavior is becoming unprofessional or inappropriate
-*   Assign a supervisor, manager, or mentor to answer the employee's questions Restructure job to include only essential functions during times of stress
+*   Assign a supervisor, manager, or mentor to answer the employee's questions
+*   Restructure job to include only essential functions during times of stress
 *   Refer to counseling, employee assistance programs (EAP)
 *   Provide backup coverage for when the employee needs to take breaks
 *   Allow flexible work environment:
@@ -251,7 +252,7 @@ Accommodations are often necessary for employees with mental health impairments 
 
 #### Working Effectively:
 
-Two common issues that JAN receives inquiries on are: (1) what accommodations will work for individuals with mental health impairments when workplaces are implementing substantial changes, and (2) what accommodations will help supervisors work effectively with individuals with mental health impairments. Many accommodation ideas are born from effective management techniques. When organizations are implementing workplace changes, it is important that key personnel recognize that a change in the environment or in supervisors may be difficult. Maintaining open channels of communication to ensure any transitions are smooth, and providing short weekly or monthly meetings with employees to discuss workplace issues can be helpful.
+Two common issues that the [Job Accommodation Network](http://www.askjan.org) (JAN) receives inquiries on are: (1) what accommodations will work for individuals with mental health impairments when workplaces are implementing substantial changes, and (2) what accommodations will help supervisors work effectively with individuals with mental health impairments. Many accommodation ideas are born from effective management techniques. When organizations are implementing workplace changes, it is important that key personnel recognize that a change in the environment or in supervisors may be difficult. Maintaining open channels of communication to ensure any transitions are smooth, and providing short weekly or monthly meetings with employees to discuss workplace issues can be helpful.
 
 Supervisors can also implement management techniques that support an inclusive workplace culture while simultaneously providing accommodations. Techniques include the following:
 
@@ -340,9 +341,9 @@ Contact: <info@abhw.org>; 202-449-7660
 
 The Association for Behavioral Health & Wellness (ABHW) is a national voice for specialty behavioral health and wellness companies. ABHW member companies provide specialty services to treat mental health, substance use and other behaviors that impact health.
 
-## [American Psychiatric Association (APA)](http://www.psych.org/)
+## [American Psychiatric Association](http://www.psychiatry.org/)
 
-Contact: apa@psych.org; 888-35-PSYCH (77924)
+Contact: [apa@psychiatry.org](mailto:apa@psyciatry.org); 888-35-PSYCH (77924)
 
 The American Psychiatric Association member physicians work together to ensure humane care and effective treatment for all persons with mental disorders, including intellectual disabilities and substance use disorders.
 
