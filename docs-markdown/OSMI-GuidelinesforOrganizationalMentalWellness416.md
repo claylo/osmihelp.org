@@ -1,5 +1,7 @@
 # Open Sourcing Mental Illness<br>Mental Health in Tech: Guidelines for Mental Wellness in the Workplace
 
+![](./images/osmi-logo-big.png)
+
 ---
 
 **Purpose**: This document outlines benefits and potential steps to promote mental wellness in an organization. It is not a comprehensive guide to implementing a workplace wellness program, but rather resources and models to consider.
@@ -56,7 +58,7 @@ The intention of this document is to help you frame these needs and the discussi
 
 # Section III - Putting in place a mental health policy
 
-The [World Health Organization](http://www.who.int/mental_health/policy/services/13_policies%2520programs%2520in%2520workplace_WEB_07.pdf) (2005) advises the development of a mental health policy for any business or organization wishing to improve mental wellness. Developing  a policy is the first step to addressing mental health in an organization. The vision for improving mental health in the workforce and creating a model for action should be addressed in the policy. A mental health policy for the workplace can be developed separately, or as part of a broader health and safety policy. Following are steps outlined by the WHO for putting in place a mental wellness policy:
+The [World Health Organization](http://apps.who.int/iris/bitstream/10665/205530/1/9241546794.pdf) (2005) advises the development of a mental health policy for any business or organization wishing to improve mental wellness. Developing  a policy is the first step to addressing mental health in an organization. The vision for improving mental health in the workforce and creating a model for action should be addressed in the policy. A mental health policy for the workplace can be developed separately, or as part of a broader health and safety policy. Following are steps outlined by the WHO for putting in place a mental wellness policy:
 
 **Step I:** Analysing the mental health issues.
 
@@ -202,7 +204,8 @@ Accommodations are often necessary for employees with mental health impairments 
 *   Allow the presence of a support animal
 *   Allow telephone calls during work hours to doctors and others for needed support
 *   Use a mentor or supervisor to alert the employee when his/her behavior is becoming unprofessional or inappropriate
-*   Assign a supervisor, manager, or mentor to answer the employee's questions Restructure job to include only essential functions during times of stress
+*   Assign a supervisor, manager, or mentor to answer the employee's questions
+*   Restructure job to include only essential functions during times of stress
 *   Refer to counseling, employee assistance programs (EAP)
 *   Provide backup coverage for when the employee needs to take breaks
 *   Allow flexible work environment:
@@ -251,7 +254,7 @@ Accommodations are often necessary for employees with mental health impairments 
 
 #### Working Effectively:
 
-Two common issues that JAN receives inquiries on are: (1) what accommodations will work for individuals with mental health impairments when workplaces are implementing substantial changes, and (2) what accommodations will help supervisors work effectively with individuals with mental health impairments. Many accommodation ideas are born from effective management techniques. When organizations are implementing workplace changes, it is important that key personnel recognize that a change in the environment or in supervisors may be difficult. Maintaining open channels of communication to ensure any transitions are smooth, and providing short weekly or monthly meetings with employees to discuss workplace issues can be helpful.
+Two common issues that the [Job Accommodation Network](http://www.askjan.org) (JAN) receives inquiries on are: (1) what accommodations will work for individuals with mental health impairments when workplaces are implementing substantial changes, and (2) what accommodations will help supervisors work effectively with individuals with mental health impairments. Many accommodation ideas are born from effective management techniques. When organizations are implementing workplace changes, it is important that key personnel recognize that a change in the environment or in supervisors may be difficult. Maintaining open channels of communication to ensure any transitions are smooth, and providing short weekly or monthly meetings with employees to discuss workplace issues can be helpful.
 
 Supervisors can also implement management techniques that support an inclusive workplace culture while simultaneously providing accommodations. Techniques include the following:
 
@@ -304,7 +307,7 @@ It is no surprise that mental wellness is gaining increasing attraction across t
 
     -   Keen has developed a coaching program with three coaches available to their 50 employees (including one doctoral-level psychologist) on staff and available to work with any employee in need, either on a regular basis or ad-hoc. Coaching is opt-in and 95% of the company works with a coach regularly. It is often referred to as the number one perk of working for the Keen. A newly developed peer-coaching program encourages employees to support each other through an introspective process guided by the company coaches.
     -   “Anxious and Excited” or “A&E” (sometimes referred to as “Introspection Happy Hour”) is implemented weekly at the end of the day on Thursdays, for all employees to share their anxieties and excitements. It encourages personal introspection, relatedness, and empathy. It is not a time to solution but rather a time to listen, share, and support one another.
-    -   The People Developers at Keen offer Learning Labs as core curriculum. Topics include Effective Communication [link] and [Managing Emotions](http://learn.keen.io/keen-learning-lab-managing-emotions). Employees learn non-violent communication techniques, methods for delivering feedback, conflict resolution techniques, trust building models, cognitive models for regulation, and mindfulness. Employees establish a common language used to address conflict or disagreement in the workplace, for communicating emotions and regulating when appropriate and improve awareness of others and self. These trainings have been open to the public as well.
+    -   The People Developers at Keen offer Learning Labs as core curriculum. Topics include [Effective Communication](http://learn.keen.io/keen-learning-lab-effective-communication) and [Managing Emotions](http://learn.keen.io/keen-learning-lab-managing-emotions). Employees learn non-violent communication techniques, methods for delivering feedback, conflict resolution techniques, trust building models, cognitive models for regulation, and mindfulness. Employees establish a common language used to address conflict or disagreement in the workplace, for communicating emotions and regulating when appropriate and improve awareness of others and self. These trainings have been open to the public as well.
     -   Organizational values align with mental wellness. At Keen IO, company [values](https://keen.io/blog/141443530686/how-values-help-you-scale-and-maintain-your) were developed to drive a happy culture, which  in turn produces happy employees. Introspection, Continuous learning, Honesty, Personal agency, and Empathy are communicated by behavior, while also driving behavior. The culture constructed from these values is an output of behaviors, structures, processes, reward systems, philosophies, and group norms that are executed day after day within the organization. These values define how Keen employees approach the product, sales, organizational development, and personal development..
     -   Keen implements Active Living Days in April, which falls between President’s day and Memorial day, the longest stretch over the year without a holiday. Employees are encouraged to be active together and multiple activities are typically organized (e.g., hiking trip, day at the trapeze park, bike ride, etc). Active Living Funds are a monthly stipend to be used towards anything encouraging an active life, whether it be a gym membership, a new bike, a trip to Colorado for hiking, or a new pair of dumbbells for the house.
     -   Keen has a generous maternity/paternity leave of five months paid leave for all new parents.
@@ -329,23 +332,22 @@ Fortunately, a myriad of resources are available for managers and senior leaders
 
 ## [National Alliance on Mental Illness (NAMI)](https://www.nami.org/) 
 
-Contact: <info@nami.org>; 800-950-6264
+Contact: [info@nami.org](mailto:info@nami.org); 800-950-6264
 
 The National Alliance on Mental Illness is dedicated to building better lives for the millions of Americans affected by mental illness. Contact NAMI to access support, information, and free education programs for families and individuals living with mental health problems.
 
 * **NAMI Helpline**: [https://www.nami.org/Find-Support/NAMI-HelpLine](https://www.nami.org/Find-Support/NAMI-HelpLine) 
 
 ## [Association for Behavioral Health & Wellness (ABHW)](http://www.abhw.org/) 
-Contact: <info@abhw.org>; 202-449-7660
+Contact: [info@abhw.org](mailto:info@abhw.org); 202-449-7660
 
 The Association for Behavioral Health & Wellness (ABHW) is a national voice for specialty behavioral health and wellness companies. ABHW member companies provide specialty services to treat mental health, substance use and other behaviors that impact health.
 
-## [American Psychiatric Association (APA)](http://www.psych.org/)
+## [American Psychiatric Association](http://www.psychiatry.org/)
 
-Contact: apa@psych.org; 888-35-PSYCH (77924)
+Contact: [apa@psychiatry.org](mailto:apa@psyciatry.org); 888-35-PSYCH (77924)
 
 The American Psychiatric Association member physicians work together to ensure humane care and effective treatment for all persons with mental disorders, including intellectual disabilities and substance use disorders.
-
 
 ## [Mental Health America](http://www.mentalhealthamerica.net/) 
 
@@ -366,7 +368,7 @@ The National Institute of Mental Health (NIMH) is the lead federal agency for re
 
 It may also be helpful to consider models of wellness that could be implemented within your workplace or to contour as needed (Note: Many are from companies who also sell their services), e.g.:
 
-* The National Wellness Institute’s 6 dimensions of wellness: http://www.nationalwellness.org/?page=NWC2014
+* The National Wellness Institute’s 6 dimensions of wellness: http://www.nationalwellness.org/?page=Six_Dimensions
 
 * Workplace Wellness Improvement: http://interpersonalwellness.com/workplace-wellness-improvement-program/
 
@@ -374,14 +376,13 @@ It may also be helpful to consider models of wellness that could be implemented 
 
 * Example of a business offering services with wellness models: http://www.limeade.com
 
-
 ## [Mental Health First Aid](http://www.mentalhealthfirstaid.org/)
 
 Trainings: http://www.mentalhealthfirstaid.org/cs/
 
 ## Changing your business culture
 
-*Businesses Materials for a Mental Health Friendly Workplace: Executives Booklet*: [http://promoteacceptance.samhsa.gov/publications/business_execs.aspx?printid=1&](http://promoteacceptance.samhsa.gov/publications/business_execs.aspx?printid%3D1%26) 
+*Supported Employment Evidence-Based Practices*: [http://store.samhsa.gov/product/Supported-Employment-Evidence-Based-Practices-EBP-KIT/SMA08-4365](http://store.samhsa.gov/product/Supported-Employment-Evidence-Based-Practices-EBP-KIT/SMA08-4365) 
 
 In addition to resources and tips for businesses of different sizes, it lays out common myths (and falsehoods) about mental illness.
 
@@ -415,7 +416,7 @@ Excerpts from this site state:
 
 2.  Reduce turnover: “Two-thirds of both men and women say work has a significant impact on their stress level, and one in four has called in sick or taken a “mental health day” as a result of work stress. Also a significant concern for employers, job stress is estimated to cost U.S. industry $300 billion a year in absenteeism, diminished productivity, employee turnover and direct medical, legal and insurance fees… (S)kyrocketing healthcare costs, global competition and economic uncertainty, employers are concerned about attracting and retaining high-quality employees and keeping up morale. **Minimizing workplace stress** plays a **significant role in the employee retention equation** as organizations look to optimize their human capital… creating workplaces that do more than just improve productivity – they build a strong, vibrant organizational culture that supports the company itself. In short, they build a psychologically healthy workplace.
 
-3.  **Communication KEY** role in success of any workplace program or policy;  and serves as the foundation for all five types of psychologically healthy workplace practices: [http://www.apaexcellence.org/resources/creatingahealthyworkplace/theroleofcommunication/](http://www.apaexcellence.org/resources/creatingahealthyworkplace/theroleofcommunication/)
+3.  **Communication** is a key role in success of any workplace program or policy and serves as the foundation for all five types of psychologically healthy workplace practices: [http://www.apaexcellence.org/resources/creatingahealthyworkplace/theroleofcommunication/](http://www.apaexcellence.org/resources/creatingahealthyworkplace/theroleofcommunication/)
 
     -   Bottom-up communication (from employees to management): employee needs, values, perceptions and opinions
 
@@ -438,11 +439,6 @@ Excerpts from this site state:
 
 1.  [http://apa.org/helpcenter/talk.aspx](http://apa.org/helpcenter/talk.aspx) 
 
-
-## Recognizing and addressing the stigma
-
-Recognizing the stigma and need to overcome are also vital: [http://hrinsider.ca/articles-insight/just-cause-blog/mental-illness-in-the-workplace-prevalent-and-costly-2](http://hrinsider.ca/articles-insight/just-cause-blog/mental-illness-in-the-workplace-prevalent-and-costly-2)
-
 ## Right-sizing your wellness plan
 
 The Massachusetts state government also has a plan as well that can be fashioned to different sized businesses: [http://www.mass.gov/eohhs/docs/eohhs/wellness-tax-credit/model-wellness-guide.pdf](http://www.mass.gov/eohhs/docs/eohhs/wellness-tax-credit/model-wellness-guide.pdf)
@@ -462,7 +458,7 @@ The Wellness Council of America ([https://www.welcoa.org/](https://www.welcoa.or
 
 ## World Health Organization
 
-The World Health Organization has also 5 keys to creating a healthier workplace, also including senior leadership support and employee involvement. ([http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua=1](http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua%3D1)).
+The World Health Organization has also 5 keys to creating a healthier workplace, also including senior leadership support and employee involvement. [http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua=1](http://www.who.int/occupational_health/5_keys_EN_web.pdf?ua%3D1).
 
 ## Centers for Disease Control
 
@@ -470,9 +466,7 @@ Centers for Disease Control discuss how to address depression in a workplace pla
 
 ## Mental Health Works
 
-Guidance on how to talk to an individual worker is included here from “Mental Health Works”: [http://www.mentalhealthworks.ca/employers/faqs/talking-to-employee/approach](http://www.mentalhealthworks.ca/employers/faqs/talking-to-employee/approach)
-
-
+Guidance on how to talk to an individual worker is included here from “Mental Health Works”: [http://www.mentalhealthworks.ca/how-can-i-approach-an-employee-about-their-mental-illness/](http://www.mentalhealthworks.ca/how-can-i-approach-an-employee-about-their-mental-illness/)
 
 # Section VII - References
 

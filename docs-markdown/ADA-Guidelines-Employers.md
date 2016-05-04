@@ -46,9 +46,9 @@ Breathing, seeing, hearing, sitting, standing, walking, learning, lifting, bendi
 ### What’s Required?
 
 * Employers must provide a reasonable accommodation to a disabled individual upon request
-* What’s a “reasonable accommodation?”  
- * A modification that allows the person to perform the job’s essential functions
- * An accommodation that would cause “undue hardship” for the employer need not be provided
+ * What’s a “reasonable accommodation?”  
+   * A modification that allows the person to perform the job’s essential functions
+     * An accommodation that would cause “undue hardship” for the employer need not be provided
 
 ### What is a “Mental Impairment”?
 
@@ -81,7 +81,7 @@ Major life activities that can be impaired by a mental impairment include but ar
     Lawrence, Kansas 66044
     (800) 669-4000 (Voice), (800) 669-6820 (TDD)
 
-*Adopted from <http://www.adldata.com/wp-content/uploads/2015/11/Age-Discrimination-cheat-sheets-241.pdf>*
+*Adopted from <https://www.adldata.com/wp-content/uploads/2015/11/Age-Discrimination-cheat-sheets-241.pdf>*
 
 ---
 
@@ -276,7 +276,7 @@ A. The ADA requires that you post a notice in an accessible format to applicants
 
 ## Psychiatric disability under the ADA
 
-Under the ADA, the term "disability" means:  "(a) A physical or mental impairment that substantially limits one or more of the major life activities of [an] individual; (b) a record of such an impairment; or (c) being regarded as having such an impairment."
+Under the ADA, the term "disability" means:  "(a) A physical or mental impairment that substantially limits one or more of the major life activities of [an] individual; (b) a record of such an impairment; or \(c\) being regarded as having such an impairment."
 
 This guidance focuses on the first prong of the ADA's definition of "disability" because of the great number of questions about how it is applied in the context of psychiatric conditions.
 
@@ -486,7 +486,7 @@ The employer should focus on the employee's conduct and explain to the employee 
 ---
 
 # Section III: Accommodating Employees with Mental Health Impairments
-*(From the Job Accommodation Network)*
+*(From the [Job Accommodation Network](http://www.askjan.org)*
 
 ## What are mental health impairments? _- Revisited_
 
@@ -507,7 +507,7 @@ Approximately 61.5 million Americans, one in four adults, experience a mental he
 
 #### What are some common mental health impairments?
 
-JAN receives numerous accommodation questions related to individuals with mental health impairments working successfully. Although there are various definitions and lists of impairments, this document covers those that are received the most by JAN. NAMI provides useful definitions of mental health impairments and statistics on their prevalence. The following (NAMI, n.d.b) is a summary of these:
+The [Job Accommodation Network](http://www.askjan.org) (JAN) receives numerous accommodation questions related to individuals with mental health impairments working successfully. Although there are various definitions and lists of impairments, this document covers those that are received the most by JAN. NAMI provides useful definitions of mental health impairments and statistics on their prevalence. The following (NAMI, n.d.b) is a summary of these:
 
 * **Bipolar disorder**, sometimes referred to as manic depression, "is a medical illness that causes extreme shifts in mood, energy, and functioning. Bipolar disorder is a chronic and generally life-long condition with recurring episodes of mania and depression that can last from days to months that often begin in adolescence or early adulthood, and occasionally even in children."
  * Estimates indicate approximately 2.6% of American adults, or 6.1 million people, have bipolar disorder (NAMI, 2013)
@@ -621,7 +621,8 @@ JAN provides resources on mental health impairments and the ADA at [http://AskJA
 * Allow the presence of a support animal
 * Allow telephone calls during work hours to doctors and others for needed support
 * Use a mentor or supervisor to alert the employee when his/her behavior is becoming unprofessional or inappropriate
-* Assign a supervisor, manager, or mentor to answer the employee's questions Restructure job to include only essential functions during times of stress
+* Assign a supervisor, manager, or mentor to answer the employee's questions
+* Restructure job to include only essential functions during times of stress
 * Refer to counseling, employee assistance programs (EAP)
 * Provide backup coverage for when the employee needs to take breaks
 * Allow flexible work environment:
@@ -759,7 +760,7 @@ Corbière, M., Lanctôt, N., Lecomte, T., et al., (2010). “A pan-canadian eval
 EEOC Regulations To Implement the Equal Employment Provisions of the Americans With Disabilities Act, as Amended, 29
 &nbsp;&nbsp;&nbsp;&nbsp;C.F.R. § 1630 (2011).
 
-Finkler, E., (retrieved 2015, April). “Open sourcing mental illness: changing how we talk about mental health in the tech community.” Retrieved from [https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ](https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ) [http://funkatron.com/osmi/](https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ)
+Finkler, E., (retrieved 2015, April). “Open sourcing mental illness: changing how we talk about mental health in the tech community.” Retrieved from [http://funkatron.com/osmi/](https://www.google.com/url?q=http://funkatron.com/osmi/&sa=D&ust=1460927166105000&usg=AFQjCNHXHcFrBTgy2-ABKiopMCgZbnCCoQ)
 
 Job Accommodation Network. (2015). _Accommodation and compliance series: Employees with mental health impairments._
 &nbsp;&nbsp;&nbsp;&nbsp;Retrieved from <span class="c5 c37">[https://askjan.org/media/Psychiatric.html](https://www.google.com/url?q=https://askjan.org/media/Psychiatric.html&sa=D&ust=1460927166107000&usg=AFQjCNHuo4Ijvy5G1JwOInv3Hd6-ZDoB3g)<span class="c5 c33"> 
