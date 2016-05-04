@@ -312,7 +312,7 @@ Approximately 61.5 million Americans, one in four adults, experience a mental he
 
 #### What are some common mental health impairments?
 
-JAN receives numerous accommodation questions related to individuals with mental health impairments working successfully. Although there are various definitions and lists of impairments, this document covers those that are received the most by JAN. NAMI provides useful definitions of mental health impairments and statistics on their prevalence. The following (NAMI, n.d.b) is a summary of these:
+The [Job Accommodation Network](http://www.askjan.org) (JAN) receives numerous accommodation questions related to individuals with mental health impairments working successfully. Although there are various definitions and lists of impairments, this document covers those that are received the most by JAN. NAMI provides useful definitions of mental health impairments and statistics on their prevalence. The following (NAMI, n.d.b) is a summary of these:
 
 * **Bipolar disorder**, sometimes referred to as manic depression, "is a medical illness that causes extreme shifts in mood, energy, and functioning. Bipolar disorder is a chronic and generally life-long condition with recurring episodes of mania and depression that can last from days to months that often begin in adolescence or early adulthood, and occasionally even in children."
  * Estimates indicate approximately 2.6% of American adults, or 6.1 million people, have bipolar disorder (NAMI, 2013)
