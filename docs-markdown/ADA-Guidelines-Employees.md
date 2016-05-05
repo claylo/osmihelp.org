@@ -92,7 +92,7 @@ Here are some examples of reasonable accommodations from the EEOC:
 
 Note: While employers are not required to eliminate an essential function, lower a production standard, or provide personal use items, they can do so if they wish. The only limitation on an employer's obligation to provide reasonable accommodations is that no such change or modification is required if it would cause "undue hardship" to the employer. "Undue hardship" means significant difficulty or expense and focuses on the resources and circumstances of the particular employer in relationship to the cost or difficulty of providing a specific accommodation. Undue hardship refers not only to financial difficulty, but to reasonable accommodations that are unduly extensive, substantial, or disruptive, or those that would fundamentally alter the nature or operation of the business. An employer must assess on a case-by-case basis whether a particular reasonable accommodation would cause undue hardship.
 
-**For more information visit: [http://www.eeoc.gov/employees/](https://www.google.com/url?q=http://www.eeoc.gov/employees/&sa=D&ust=1460927204167000&usg=AFQjCNFpAwY7a8curG0x-BZg-3RhQsbVJw) or contact:**
+**For more information visit: [http://www.eeoc.gov/employees/](http://www.eeoc.gov/employees/) or contact:**
 
 **Equal Employment Opportunity Commission**
 info@eeoc.gov
@@ -350,11 +350,11 @@ The [Job Accommodation Network](http://www.askjan.org) (JAN) receives numerous a
 
 The ADA does not contain a list of medical conditions that constitute disabilities. Instead, the ADA has a general definition of disability that each person must meet (EEOC Regulations . . ., 2011). Therefore, some people with mental health impairments will have a disability under the ADA and some will not.
 
-A person has a disability if he/she has a physical or mental impairment that substantially limits one or more major life activities, a record of such an impairment, or is regarded as having an impairment (EEOC Regulations . . . , 2011). For more information about how to determine whether a person has a disability under the ADA, visit [http://AskJAN.org/corner/vol05iss04.htm](https://www.google.com/url?q=http://askjan.org/corner/vol05iss04.htm&sa=D&ust=1460927204218000&usg=AFQjCNFpdBeej-2QgilGJYvu3vei8tEVwQ).
+A person has a disability if he/she has a physical or mental impairment that substantially limits one or more major life activities, a record of such an impairment, or is regarded as having an impairment (EEOC Regulations . . . , 2011). For more information about how to determine whether a person has a disability under the ADA, visit [http://AskJAN.org/corner/vol05iss04.htm](http://askjan.org/corner/vol05iss04.htm).
 
 #### Where can employers get additional information about mental health impairments and the ADA?
 
-JAN provides resources on mental health impairments and the ADA at [http://AskJAN.org/media/psyc.htm](https://www.google.com/url?q=https://askjan.org/media/psyc.htm&sa=D&ust=1460927204219000&usg=AFQjCNHNJI-jhUTSVqL48PyJXIov2CQ4nQ). This includes accommodation ideas, information on the ADA and its amendments, and guidance from the EEOC. Two EEOC guidances that may be helpful working through the accommodation process are: The ADA and Psychiatric Disabilities at [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927204220000&usg=AFQjCNG7E01I5sYOvp3p7LtbyHihPZDrHQ) and The ADA: Applying Performance and Conduct Standards to Employees with Disabilities at [http://www.eeoc.gov/facts/performance-conduct.html](https://www.google.com/url?q=http://www.eeoc.gov/facts/performance-conduct.html&sa=D&ust=1460927204220000&usg=AFQjCNG-qnfc4HwnJygjGjg0tLbQNmPL_w).
+JAN provides resources on mental health impairments and the ADA at [http://AskJAN.org/media/psyc.htm](http://askjan.org/media/psyc.htm). This includes accommodation ideas, information on the ADA and its amendments, and guidance from the EEOC. Two EEOC guidances that may be helpful working through the accommodation process are: The ADA and Psychiatric Disabilities at [http://www.eeoc.gov/policy/docs/psych.html](http://www.eeoc.gov/policy/docs/psych.html) and The ADA: Applying Performance and Conduct Standards to Employees with Disabilities at [http://www.eeoc.gov/facts/performance-conduct.html](http://www.eeoc.gov/facts/performance-conduct.html).
 
 ## Accommodating Employees with Mental Health Impairments
 
@@ -559,28 +559,28 @@ EEOC Regulations To Implement the Equal Employment Provisions of the Americans W
 
 Job Accommodation Network. (2015). _Accommodation and compliance series: Employees with mental health impairments._
 
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [https://askjan.org/media/Psychiatric.html](https://www.google.com/url?q=https://askjan.org/media/Psychiatric.html&sa=D&ust=1460927204261000&usg=AFQjCNEBlctfO8jLoQyCKt0u6niASL6YBQ)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [https://askjan.org/media/Psychiatric.html](https://askjan.org/media/Psychiatric.html)
 
 National Alliance on Mental Illness. (2013). _Mental illness: Facts and numbers._
 
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204262000&usg=AFQjCNGBIBgAR2tnjy1Snx7i7JKAJ8lizA)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](http://www.nami.org)
 
 National Alliance on Mental Illness. (n.d.a). _What is mental illness: Mental illness facts._
 
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204263000&usg=AFQjCNEniDTEpv6QB8EcKw2DL8Jz842hxQ)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](http://www.nami.org)
 
 National Alliance on Mental Illness. (n.d.b). _Mental illness: By illness._
 
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](https://www.google.com/url?q=http://www.nami.org&sa=D&ust=1460927204264000&usg=AFQjCNEM1Azf_n7ztQC5nPPTJRVr6NyARQ)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nami.org](http://www.nami.org)
 
 National Institute of Mental Health. (2008). _NIMH: The numbers count— Mental disorders in America._
 
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nimh.nih.gov](https://www.google.com/url?q=http://www.nimh.nih.gov&sa=D&ust=1460927204265000&usg=AFQjCNEWUlLuQo_NoJYu0-LtF4BOsgCYbw)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.nimh.nih.gov](http://www.nimh.nih.gov)
 
 United States Equal Employment Opportunity Commission. (2009). _EEOC Enforcement guidance on the americans with disabilities act and psychiatric disabilities._
 
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](https://www.google.com/url?q=http://www.eeoc.gov/policy/docs/psych.html&sa=D&ust=1460927204266000&usg=AFQjCNF8TNBbrik0RCojw6IO08wNdyMOVA)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/policy/docs/psych.html](http://www.eeoc.gov/policy/docs/psych.html)
 
 United States Equal Employment Opportunity Commission. (n.d.a.). _The ADA: Your responsibilities as an employer._
 
-&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/eeoc/publications/ada17.cfm](https://www.google.com/url?q=http://www.eeoc.gov/eeoc/publications/ada17.cfm&sa=D&ust=1460927204268000&usg=AFQjCNEnexEb81tPdI_pZgQJAhKxvAiZxg)
+&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from [http://www.eeoc.gov/eeoc/publications/ada17.cfm](http://www.eeoc.gov/eeoc/publications/ada17.cfm)
