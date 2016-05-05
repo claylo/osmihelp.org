@@ -12,6 +12,15 @@
 
 This document was compiled by OSMI contributors using WHO and other guidelines; these contributors are not attorneys and the OSMI materials do not constitute legal advice of any type. By using these materials, you agree to accept this disclaimer. Every effort has been made to ensure the accuracy of information shared through the OSMI materials, however, because information is constantly evolving, OSMI cannot be held responsible for the accuracy, errors or omissions related to the OSMI materials.  The information provided in the OSMI materials are for educational and informational purposes only. You agree to use your own due diligence and judgment before applying any recommendation or advice that you may receive on or through the materials provided by OSMI.   Please contact your employment counsel or <info@eeoc.gov> for more information and guidance.
 
+<div class="panel panel-info">
+    <div class="panel-body">
+        <p class="text-info">
+            <i class="fa fa-pull-left fa-3x fa-creative-commons"></i>
+            <small>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a> license.</small>
+        </p>
+    </div>
+</div>
+
 ---
 
 # Table of Contents
