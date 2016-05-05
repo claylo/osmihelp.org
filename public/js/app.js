@@ -379,3 +379,32 @@ var talksSection = new Vue({
 
 // initialize selected presentation;
 talksSection.selectedPresentation = talksSection.presentations[0];
+
+var OSMI = {
+    addDisclaimer: function(copySelector, cookieKey) {
+        if (Cookies.get(cookieKey) !== 'true') {
+            bootbox.dialog({
+                size: 'large',
+                animate: false,
+                message: "<p>" + $(copySelector).html() + "</p>",
+                title: "Disclaimer",
+                buttons: {
+                    disagree: {
+                        label: "I do not agree.",
+                        className: "btn-danger",
+                        callback: function() {
+                            window.location = "/resources/";
+                        }
+                    },
+                    agree: {
+                        label: "I agree, continue",
+                        className: "btn-success",
+                        callback: function() {
+                            Cookies.set(cookieKey, 'true');
+                        }
+                    }
+                }
+            });
+        }
+    }
+}
