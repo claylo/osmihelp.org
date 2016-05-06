@@ -385,7 +385,6 @@ var OSMI = {
         if (Cookies.get(cookieKey) !== 'true') {
             bootbox.dialog({
                 size: 'large',
-                animate: false,
                 message: "<p>" + $(copySelector).html() + "</p>",
                 title: "Disclaimer",
                 buttons: {
@@ -406,5 +405,21 @@ var OSMI = {
                 }
             });
         }
+    },
+    openVolunteerModal: function(e) {
+        $ct = $(e.currentTarget);
+        var name = $ct.find('.volunteer-name').get(0).innerText;
+        var photo = $ct.find('.volunteer-photo').get(0).src;
+        var bio = $ct.find('.volunteer-bio').get(0).innerHTML;
+        bootbox.alert({
+            title: name,
+            message: "<img class='img-thumbnail img-block clearfix pull-right' style='width:50%' src='" + photo + "'><p>" + bio + "</p><div class='clearfix'></div>",
+            onEscape: true,
+        });
+
     }
 }
+
+$(document).ready(function() {
+    $('.volunteer-thumbnail').bind('click', OSMI.openVolunteerModal);
+});

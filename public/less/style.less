@@ -385,6 +385,10 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 
 .long-content {
   font-size: 16px;
+  a {
+    word-wrap: break-word;
+    hyphens: auto;
+  }
   p {
     line-height: 1.75em;
     margin-top: 1em;
@@ -412,4 +416,23 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
     page-break-before: always;
   }
 
+}
+
+.thumbnail {
+  .volunteer-name {
+    margin: 5px 0;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &.volunteer-thumbnail {
+    cursor: pointer;
+    &:hover {
+      border-color: @brand-primary;
+      .volunteer-name {
+        color: @brand-primary;
+      }
+    }
+  }
 }
