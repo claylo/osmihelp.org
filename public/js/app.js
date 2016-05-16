@@ -4,6 +4,14 @@
  */
 window.PRESENTATIONS = [
     {
+        "ytid": "ytMHC_eq6nI",
+        "video_url": "http://j.mp/osmikalxvideo",
+        "slides_url": "http://j.mp/osmikalx16slides",
+        "event_name": "Kalamazoo X 2016",
+        "event_date": "April 2016",
+        "audio_url": null
+    },
+    {
         "ytid": null,
         "video_url": null,
         "speakerdeck_embed_id": "aa971ab9d8e242d49223e1e728f78e18",
@@ -249,12 +257,6 @@ window.PRESENTATIONS = [
 
 window.UPCOMING_PRESENTATIONS = [
     {
-        'event_url': 'http://www.kalamazoox.org/',
-        'event_name': 'Kalamazoo X 2016',
-        'event_date': 'April 30',
-        'event_location': 'Kalamazoo, MI'
-    },
-    {
         'event_url': 'https://2016.minneapolis.wordcamp.org/',
         'event_name': 'Minneapolis Wordcamp',
         'event_date': 'May 21-22',
@@ -285,7 +287,7 @@ window.UPCOMING_PRESENTATIONS = [
         'event_location': 'Columbus, OH'
     },
     {
-        'event_url': 'http://pyohio.org/',
+        'event_url': 'https://loopconf.com',
         'event_name': 'Loopconf',
         'event_date': 'October 5-7',
         'event_location': 'Ft. Lauderdale, FL'
