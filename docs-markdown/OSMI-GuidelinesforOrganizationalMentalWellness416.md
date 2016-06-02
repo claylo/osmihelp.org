@@ -471,7 +471,7 @@ The World Health Organization has also 5 keys to creating a healthier workplace,
 
 ## Centers for Disease Control
 
-Centers for Disease Control discuss how to address depression in a workplace plan within the context of the “Affordable Care Act.” Guidance on impact and interventions in the workplace to address depression (and other health concerns) are included here: [http://www.cdc.gov/workplacehealthpromotion/healthtopics/index.html](http://www.cdc.gov/workplacehealthpromotion/healthtopics/index.html)
+Centers for Disease Control discuss how to address depression in a workplace plan within the context of the “Affordable Care Act.” Guidance on impact and interventions in the workplace to address depression (and other health concerns) are included here: [http://www.cdc.gov/mentalhealth](http://www.cdc.gov/mentalhealth)
 
 ## Mental Health Works
 
