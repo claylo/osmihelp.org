@@ -4,11 +4,13 @@
  */
 window.PRESENTATIONS = [
     {
-        "ytid": "ytMHC_eq6nI",
-        "video_url": "http://j.mp/osmikalxvideo",
-        "slides_url": "http://j.mp/osmikalx16slides",
-        "event_name": "Kalamazoo X 2016",
-        "event_date": "April 2016",
+        "ytid": null,
+        "video_url": null,
+        "speakerdeck_embed_id": "d621c664fb58443e9a1465c3ec923cd2",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        "slides_url": "http://j.mp/osmiwcmpls16slides",
+        "event_name": "Minneapolis Wordcamp",
+        "event_date": "May 2016",
         "audio_url": null
     },
     {
@@ -256,18 +258,6 @@ window.PRESENTATIONS = [
 ];
 
 window.UPCOMING_PRESENTATIONS = [
-    {
-        'event_url': 'https://2016.minneapolis.wordcamp.org/',
-        'event_name': 'Minneapolis Wordcamp',
-        'event_date': 'May 21-22',
-        'event_location': 'Minneapolis, MN'
-    },
-    {
-        'event_url': 'http://2016.empirejs.org/',
-        'event_name': 'EmpireJS',
-        'event_date': 'May 26-27',
-        'event_location': 'New York, NY'
-    },
     {
         'event_url': 'https://2016.neo.wordcamp.org/',
         'event_name': 'WordCamp Northeast Ohio',
