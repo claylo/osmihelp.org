@@ -4,14 +4,6 @@
  */
 window.PRESENTATIONS = [
     {
-        "ytid": "ytMHC_eq6nI",
-        "video_url": "http://j.mp/osmikalxvideo",
-        "slides_url": "http://j.mp/osmikalx16slides",
-        "event_name": "Kalamazoo X 2016",
-        "event_date": "April 2016",
-        "audio_url": null
-    },
-    {
         "ytid": null,
         "video_url": null,
         "speakerdeck_embed_id": "d621c664fb58443e9a1465c3ec923cd2",
@@ -19,6 +11,14 @@ window.PRESENTATIONS = [
         "slides_url": "http://j.mp/osmiwcmpls16slides",
         "event_name": "Minneapolis Wordcamp",
         "event_date": "May 2016",
+        "audio_url": null
+    },
+    {
+        "ytid": "ytMHC_eq6nI",
+        "video_url": "http://j.mp/osmikalxvideo",
+        "slides_url": "http://j.mp/osmikalx16slides",
+        "event_name": "Kalamazoo X 2016",
+        "event_date": "April 2016",
         "audio_url": null
     },
     {
