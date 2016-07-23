@@ -12,13 +12,7 @@ use Psr7Middlewares\Middleware\TrailingSlash;
 use Aura\Sql\ExtendedPdo;
 use Aura\SqlQuery;
 
-
-if (!defined('SLIM_MODE')) {
-    $mode = getenv('SLIM_MODE') ? getenv('SLIM_MODE') : 'production';
-    define('SLIM_MODE', $mode);
-}
-
-define('APPLICATION_PATH', realpath(dirname(__DIR__) . '/../osmirewards2016'));
+define('APPLICATION_PATH', dirname(__DIR__) . '/../osmirewards2016');
 setlocale(LC_MONETARY, 'en_US');
 date_default_timezone_set('UTC');
 
@@ -26,6 +20,14 @@ date_default_timezone_set('UTC');
  * We use the composer autoloader for everything
  */
 require APPLICATION_PATH . "/../vendor/autoload.php";
+
+$dotenv = new Dotenv\Dotenv(APPLICATION_PATH . '/../');
+$dotenv->load();
+
+if (!defined('SLIM_MODE')) {
+    $mode = getenv('SLIM_MODE') ? getenv('SLIM_MODE') : 'production';
+    define('SLIM_MODE', $mode);
+}
 
 /**
  * init a session
