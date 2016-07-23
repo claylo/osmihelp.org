@@ -10,10 +10,4 @@ return array(
     "twig_debug" => true,
 
     "routerCacheFile" => false,
-
-    "db" => [
-        'connection' => 'mysql:host=localhost;dbname=osmirewards2016',
-        'username' => 'foo',
-        'password' => 'foo',
-    ],
 );
