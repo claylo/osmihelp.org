@@ -9,9 +9,12 @@ def uname():
 def deploy():
     with cd('/var/www/osmihelp.org/'):
         run('git pull')
+        run('chmod 777 cache')
+        run('composer update --optimize-autoloader --no-dev')
         run('npm install')
         run('bower install')
 
 def update():
     with cd('/var/www/osmihelp.org/'):
         run('git pull')
+        run('composer update --optimize-autoloader --no-dev')
