@@ -1,0 +1,19 @@
+{
+    "require": {
+        "slim/slim": "^3.4",
+        "slim/twig-view": "^2.1",
+        "twig/twig": "^1.24",
+        "twig/extensions": "^1.3",
+        "hassankhan/config": "^0.10.0",
+        "monolog/monolog": "^1.20",
+        "beberlei/assert": "^2.5",
+        "oscarotero/psr7-middlewares": "^3.16",
+        "slim/flash": "^0.1.0",
+        "aura/sqlquery": "^2.6",
+        "aura/sql": "^2.5",
+        "vlucas/phpdotenv": "^2.3",
+        "guzzlehttp/guzzle": "^6.2",
+        "php-http/guzzle6-adapter": "^1.1",
+        "sparkpost/sparkpost": "^2.0"
+    }
+}

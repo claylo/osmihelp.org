@@ -5,3 +5,8 @@ bower_components
 vendor
 twig-cache/*
 *.pyc
+/osmirewards2016/app/config/staging.php
+/osmirewards2016/app/config/production.php
+.env
+cache/
+!cache/.gitkeep

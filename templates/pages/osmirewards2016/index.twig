@@ -1,0 +1,122 @@
+{# file pages/resources/index.twig #}
+{% extends 'layouts/default.twig' %}
+
+{% block page_title %}2016 Fundraiser Perks Prefs :: {{ parent() }}{% endblock %}
+
+{% block content %}
+    <div class="container content-container" id="Research">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                <h1 class="content-header">2016 Fundraiser Perks Prefs</h1>
+
+                {% for msg in flash['info'] %}
+                    <div class="alert alert-info">{{ msg }}</div>
+                {% endfor %}
+                {% for msg in flash['error'] %}
+                    <div class="alert alert-danger">{{ msg }}</div>
+                {% endfor %}
+
+                <div class="alert alert-info">Please fill out this form so we know what size of shirt or hoodie to send
+                    you! If you have any questions or concerns, email us at <a href="mailto:info@osmihelp.org">info@osmihelp.org</a></div>
+
+                {% if not email %}
+                    <div class="alert alert-warning">
+                        Valid email address required. See link in the email you received.
+                    </div>
+                {% elseif not result %}
+                    <div class="alert alert-warning">
+                        No perk found for email address {{ email }}.
+                    </div>
+                {% else %}
+                    <form method="post" action="{{ formAction }}">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <p class="form-control-static">{{ email }}</p>
+                            <input type="hidden" name="email" value="{{ email }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Shipping address</label>
+                            <p class="form-control-static">
+                                {{ result['Shipping Name'] }}<br>
+                                {{ result['Shipping Address'] }}<br>
+                                {% if result['Shipping Address2'] %}
+                                    {{ result['Shipping Address2'] }}<br>
+                                {% endif %}
+                                {{ result['Shipping City'] }}, {{ result['Shipping State/Province'] }}<br>
+                                {{ result['Shipping Zip/Postal Code'] }}<br>
+                                {{ result['Shipping Country'] }}
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label for="perk">Your Perk</label>
+                            <p class="form-control-static">{{ result['Perk'] }}</p>
+                        </div>
+                        {% if result['Perk ID'] == 3613098 %}
+                            <div class="form-group" id="shirt-type">
+                                <p><label class="control-label">Type of shirt</label></p>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtType" id="shirtType1" value="unisex"> Unisex
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtType" id="shirtType2" value="women's cut"> Women's Cut
+                                </label>
+                            </div>
+                            <div class="form-group" id="shirt-size">
+                                <p><label class="control-label">Shirt Size</label></p>
+
+                                <div class="alert alert-info"><strong>Please Note!</strong> The women's cut shirts run <i>very small</i>.
+                                    We strongly recommend ordering one size above what you typically wear.</div>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtSize" id="shirtSizeS" value="S"> S
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtSize" id="shirtSizeM" value="M"> M
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtSize" id="shirtSizeL" value="L"> L
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtSize" id="shirtSizeXL" value="XL"> XL
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtSize" id="shirtSizeXXL" value="XXL"> XXL
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="shirtSize" id="shirtSize3XL" value="3XL"> 3XL
+                                </label>
+                            </div>
+                        {% elseif result['Perk ID'] == 3633662 %}
+                            <div class="form-group" id="hoodie-size">
+                                <p><label class="control-label">Hoodie Size</label></p>
+
+                                <label class="radio-inline">
+                                    <input type="radio" name="hoodieSize" id="hoodieSizeS" value="S"> S
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="hoodieSize" id="hoodieSizeM" value="M"> M
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="hoodieSize" id="hoodieSizeL" value="L"> L
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="hoodieSize" id="hoodieSizeXL" value="XL"> XL
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="hoodieSize" id="hoodieSizeXXL" value="XXL"> XXL
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="hoodieSize" id="hoodieSize3XL" value="3XL"> 3XL
+                                </label>
+                            </div>
+                        {% endif %}
+
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-success btn-lg" value="Submit preferences">
+                        </div>
+                    </form>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
