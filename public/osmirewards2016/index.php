@@ -209,12 +209,6 @@ $app->post('/', function (\Slim\Http\Request $request, \Slim\Http\Response $resp
         $pdo = $this->get('pdo');
         $stm = $update->getStatement();
         $sth = $pdo->perform($stm, $update->getBindValues());
-        $affectedRows = $sth->rowCount();
-
-        if ($affectedRows < 1) {
-            $flash->addMessage('error', 'Problem updating: no rows affected');
-            return $response->withStatus(302)->withHeader('Location', $this->router->pathFor('getForm').'?' . http_build_query(['email' => $postParams['email']]));
-        }
     } catch(\Exception $e) {
         $flash->addMessage('error', 'Problem updating: exception thrown when updating');
         return $response->withStatus(302)->withHeader('Location', $this->router->pathFor('getForm').'?' . http_build_query(['email' => $postParams['email']]));
