@@ -4,6 +4,36 @@
  */
 window.PRESENTATIONS = [
     {
+        "ytid": 'E6hU2b0mg18',
+        "video_url": "http://j.mp/osmipyohio16video",
+        "speakerdeck_embed_id": "7d66191fcb79411c9c7e392ce1da84a4",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        "slides_url": "http://j.mp/osmipyohio16slides",
+        'event_name': 'PyOhio 2016',
+        'event_date': 'July 2016',
+        "audio_url": null
+    },
+    {
+        "ytid": 'bWqSuBg8AMo',
+        "video_url": "http://j.mp/osmiyapc16video",
+        "speakerdeck_embed_id": "fa13176df88b4692befd6e1499e97445",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        "slides_url": "http://j.mp/osmiyapcna2016slides",
+        "event_name": "The Perl Conference North America 2016",
+        "event_date": "June 2016",
+        "audio_url": null
+    },
+    {
+        "ytid": null,
+        "video_url": "https://videopress.com/v/df9jBrra",
+        "speakerdeck_embed_id": "3d814b5bf1364acb932fe7f182094e2a",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        "slides_url": "http://j.mp/osmiwcneo16slides",
+        "event_name": "WordCamp NEO",
+        "event_date": "June 2016",
+        "audio_url": null
+    },
+    {
         "ytid": null,
         "video_url": null,
         "speakerdeck_embed_id": "d621c664fb58443e9a1465c3ec923cd2",
@@ -266,24 +296,6 @@ window.PRESENTATIONS = [
 ];
 
 window.UPCOMING_PRESENTATIONS = [
-    {
-        'event_url': 'https://2016.neo.wordcamp.org/',
-        'event_name': 'WordCamp Northeast Ohio',
-        'event_date': 'June 11-12',
-        'event_location': 'Kent, OH'
-    },
-    {
-        'event_url': 'http://www.yapcna.org/yn2016/',
-        'event_name': 'Yet Another Perl Conference::NA 2016',
-        'event_date': 'June 20-22',
-        'event_location': 'Orlando, FL'
-    },
-    {
-        'event_url': 'http://pyohio.org/',
-        'event_name': 'PyOhio 2016',
-        'event_date': 'July 30-31',
-        'event_location': 'Columbus, OH'
-    },
     {
         'event_url': 'https://loopconf.com',
         'event_name': 'Loopconf',
