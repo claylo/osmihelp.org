@@ -297,10 +297,46 @@ window.PRESENTATIONS = [
 
 window.UPCOMING_PRESENTATIONS = [
     {
+        'event_url': 'http://www.meetup.com/Chicago-PHP-User-Group/',
+        'event_name': 'Chicago PHP Users Group',
+        'event_date': 'August 29',
+        'event_location': 'Chicago, IL'
+    },
+    {
+        'event_url': 'http://pnwphp.com',
+        'event_name': 'Pacific Northwest PHP',
+        'event_date': 'Sept 15-17',
+        'event_location': 'Seattle, WA'
+    },
+    {
+        'event_url': 'http://2016.madisonphpconference.com',
+        'event_name': 'Madison PHP Conference',
+        'event_date': 'Sept 30-Oct 1',
+        'event_location': 'Madison, WI'
+    },
+    {
         'event_url': 'https://loopconf.com',
         'event_name': 'Loopconf',
         'event_date': 'October 5-7',
         'event_location': 'Ft. Lauderdale, FL'
+    },
+    {
+        'event_url': 'https://www.devspaceconf.com',
+        'event_name': 'DevSpace Conference',
+        'event_date': 'October 14-15',
+        'event_location': 'Huntsville, AL'
+    },
+    {
+        'event_url': 'http://truenorthphp.ca',
+        'event_name': 'True North PHP Conference',
+        'event_date': 'Nov 3-5',
+        'event_location': 'Toronto, ON, Canada'
+    },
+    {
+        'event_url': 'https://world.phparch.com',
+        'event_name': 'php[world] Conference',
+        'event_date': 'Nov 14-18',
+        'event_location': 'Washington, D.C.'
     }
 ];
 
