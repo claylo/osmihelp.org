@@ -43,6 +43,9 @@ body.splash {
     margin-bottom: 0;
     border-bottom-width: 0;
   }
+  .nav > li > a {
+    padding: 10px 14px;
+  }
 }
 
 // make the red donate button stand out!
@@ -334,6 +337,7 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   font-family: @font-family-sans-serif;
   text-align: center;
   border: 1px solid @gray-light;
+  background-color: white;
   padding: 1em;
 }
 
@@ -373,6 +377,14 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   li {
     font-family: @font-family-sans-serif;
     font-size: 24px;
+    a {
+      color: lighten(@brand-danger, 40%);
+    }
+  }
+  .row-fineprint {
+    padding-top: 1em;
+    font-size: 14px;
+    color: lighten(@color-slate, 40%);
     a {
       color: lighten(@brand-danger, 40%);
     }
