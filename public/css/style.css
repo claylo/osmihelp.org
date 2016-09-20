@@ -10162,6 +10162,9 @@ button {
     border-bottom-width: 0;
   }
 }
+.navbar .nav > li > a {
+  padding: 10px 14px;
+}
 .navbar-inverse .navbar-nav > li > a.btn-primary {
   color: white;
 }
@@ -10455,6 +10458,7 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   font-family: Oswald, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   border: 1px solid #a6a6a6;
+  background-color: white;
   padding: 1em;
 }
 .resource-description {
@@ -10496,6 +10500,14 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   font-size: 24px;
 }
 .footer-container li a {
+  color: #e68d8d;
+}
+.footer-container .row-fineprint {
+  padding-top: 1em;
+  font-size: 14px;
+  color: #c4cbd0;
+}
+.footer-container .row-fineprint a {
   color: #e68d8d;
 }
 .highlight-row {
