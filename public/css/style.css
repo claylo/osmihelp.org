@@ -10134,7 +10134,7 @@ fieldset[disabled] .btn-yahoo.focus {
 }
 /* This is for the fixed navbar */
 body {
-  padding-top: 63px;
+  padding-top: 61px;
 }
 body .navbar {
   background-image: url('/img/osmi-logo-translucent.png');
@@ -10204,27 +10204,27 @@ body.splash #logo-translucent {
 @media (min-width: 768px) {
   #logo {
     width: 330px;
-    margin-top: -18px;
+    margin-top: -16px;
     margin-left: 60px;
   }
 }
 @media (min-width: 992px) {
   #logo {
     width: 450px;
-    margin-top: -18px;
+    margin-top: -16px;
     margin-left: 70px;
   }
 }
 @media (min-width: 1200px) {
   #logo {
     width: 600px;
-    margin-top: -18px;
+    margin-top: -16px;
     margin-left: 80px;
   }
 }
 #logo-translucent {
   width: 1000px;
-  margin-top: -463px;
+  margin-top: -461px;
   margin-left: -700px;
   opacity: .5;
 }
@@ -10232,21 +10232,21 @@ body.splash #logo-translucent {
   #logo-translucent {
     z-index: 1001;
     width: 1050px;
-    margin-top: -575px;
+    margin-top: -573px;
     margin-left: -512px;
   }
 }
 @media (min-width: 992px) {
   #logo-translucent {
     width: 1200px;
-    margin-top: -575px;
+    margin-top: -573px;
     margin-left: -512px;
   }
 }
 @media (min-width: 1200px) {
   #logo-translucent {
     width: 1300px;
-    margin-top: -575px;
+    margin-top: -573px;
     margin-left: -512px;
   }
 }
