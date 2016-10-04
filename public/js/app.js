@@ -4,6 +4,26 @@
  */
 window.PRESENTATIONS = [
     {
+        "ytid": null,
+        "video_url": null,
+        "speakerdeck_embed_id": "fd085d9a5346493cb6541de7eb8035f3",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        "slides_url": "http://j.mp/osmimadisonphp2016slides",
+        'event_name': 'Madison PHP Conference 2016',
+        'event_date': 'October 2016',
+        "audio_url": null
+    },
+    {
+        "ytid": null,
+        "video_url": null,
+        "speakerdeck_embed_id": "4b328a72f7bd43b9a913ed1fcb171335",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        "slides_url": "http://j.mp/osmipnwphp16slides",
+        'event_name': 'PNWPHP 2016',
+        'event_date': 'September 2016',
+        "audio_url": null
+    },
+    {
         "ytid": 'E6hU2b0mg18',
         "video_url": "http://j.mp/osmipyohio16video",
         "speakerdeck_embed_id": "7d66191fcb79411c9c7e392ce1da84a4",
@@ -296,24 +316,6 @@ window.PRESENTATIONS = [
 ];
 
 window.UPCOMING_PRESENTATIONS = [
-    {
-        'event_url': 'http://www.meetup.com/Chicago-PHP-User-Group/',
-        'event_name': 'Chicago PHP Users Group',
-        'event_date': 'August 29',
-        'event_location': 'Chicago, IL'
-    },
-    {
-        'event_url': 'http://pnwphp.com',
-        'event_name': 'Pacific Northwest PHP',
-        'event_date': 'Sept 15-17',
-        'event_location': 'Seattle, WA'
-    },
-    {
-        'event_url': 'http://2016.madisonphpconference.com',
-        'event_name': 'Madison PHP Conference',
-        'event_date': 'Sept 30-Oct 1',
-        'event_location': 'Madison, WI'
-    },
     {
         'event_url': 'https://loopconf.com',
         'event_name': 'Loopconf',
