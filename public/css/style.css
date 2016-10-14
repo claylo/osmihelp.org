@@ -5225,8 +5225,7 @@ a.thumbnail.active {
 }
 .list-group-item {
   position: relative;
-  display: inline-block;
-  width: 100%;
+  display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -10145,6 +10144,10 @@ body .navbar {
 }
 body.splash .navbar {
   background-image: none;
+}
+.list-group-item {
+  display: inline-block;
+  width: 100%;
 }
 .no-lead-padding {
   margin-top: 0;
