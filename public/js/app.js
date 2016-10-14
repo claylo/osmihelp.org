@@ -6,6 +6,16 @@ window.PRESENTATIONS = [
     {
         "ytid": null,
         "video_url": null,
+        "speakerdeck_embed_id": "1df06a7286014cf58acd411452ffd9fa",
+        "speakerdeck_embed_ratio": "1.33333333333333",
+        "slides_url": "http://j.mp/osmidevspace16slides",
+        'event_name': 'DevSpace Conference 2016',
+        'event_date': 'October 2016',
+        "audio_url": null
+    },
+    {
+        "ytid": null,
+        "video_url": null,
         "speakerdeck_embed_id": "fd085d9a5346493cb6541de7eb8035f3",
         "speakerdeck_embed_ratio": "1.33333333333333",
         "slides_url": "http://j.mp/osmimadisonphp2016slides",
@@ -316,18 +326,6 @@ window.PRESENTATIONS = [
 ];
 
 window.UPCOMING_PRESENTATIONS = [
-    {
-        'event_url': 'https://loopconf.com',
-        'event_name': 'Loopconf',
-        'event_date': 'October 5-7',
-        'event_location': 'Ft. Lauderdale, FL'
-    },
-    {
-        'event_url': 'https://www.devspaceconf.com',
-        'event_name': 'DevSpace Conference',
-        'event_date': 'October 14-15',
-        'event_location': 'Huntsville, AL'
-    },
     {
         'event_url': 'http://truenorthphp.ca',
         'event_name': 'True North PHP Conference',
