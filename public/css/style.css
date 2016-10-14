@@ -10145,6 +10145,10 @@ body .navbar {
 body.splash .navbar {
   background-image: none;
 }
+.list-group-item {
+  display: inline-block;
+  width: 100%;
+}
 .no-lead-padding {
   margin-top: 0;
 }
