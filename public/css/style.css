@@ -10682,8 +10682,7 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 }
 .col-splash-highlight,
 .col-splash-highlight-alt {
-  height: auto;
-  min-width: 300px;
+  flex: 1 1 300px;
   background-color: #e45d5d;
   color: white;
   padding: 1em;
