@@ -10264,29 +10264,130 @@ a.panel-osmi-linkwrap:hover {
   text-decoration: none;
   cursor: pointer;
 }
-.panel-osmi {
+.col-panel-osmi {
   background-color: white;
   color: #626262;
+  padding: 0;
+  border: 5px solid #c4cbd0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.panel-osmi {
+  border: 0;
+}
+.panel-osmi .panel-body {
+  border: 0;
 }
 .panel-osmi p {
   font-weight: 300;
+  color: #626262;
 }
 .panel-osmi .fa {
   color: #59656F;
 }
 @media (min-width: 992px) {
-  .panel-osmi {
-    min-height: 460px;
-  }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .panel-osmi {
     font-size: 14px;
-    min-height: 390px;
   }
 }
-.panel-osmi a {
-  color: #DD3131;
+.btn-panel-osmi,
+a.btn-panel-osmi {
+  color: white;
+  background-color: #626262;
+  border-color: #626262;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  align-self: flex-end;
+}
+.btn-panel-osmi:focus,
+a.btn-panel-osmi:focus,
+.btn-panel-osmi.focus,
+a.btn-panel-osmi.focus {
+  color: white;
+  background-color: #494949;
+  border-color: #222222;
+}
+.btn-panel-osmi:hover,
+a.btn-panel-osmi:hover {
+  color: white;
+  background-color: #494949;
+  border-color: #434343;
+}
+.btn-panel-osmi:active,
+a.btn-panel-osmi:active,
+.btn-panel-osmi.active,
+a.btn-panel-osmi.active,
+.open > .dropdown-toggle.btn-panel-osmi,
+.open > .dropdown-togglea.btn-panel-osmi {
+  color: white;
+  background-color: #494949;
+  border-color: #434343;
+}
+.btn-panel-osmi:active:hover,
+a.btn-panel-osmi:active:hover,
+.btn-panel-osmi.active:hover,
+a.btn-panel-osmi.active:hover,
+.open > .dropdown-toggle.btn-panel-osmi:hover,
+.open > .dropdown-togglea.btn-panel-osmi:hover,
+.btn-panel-osmi:active:focus,
+a.btn-panel-osmi:active:focus,
+.btn-panel-osmi.active:focus,
+a.btn-panel-osmi.active:focus,
+.open > .dropdown-toggle.btn-panel-osmi:focus,
+.open > .dropdown-togglea.btn-panel-osmi:focus,
+.btn-panel-osmi:active.focus,
+a.btn-panel-osmi:active.focus,
+.btn-panel-osmi.active.focus,
+a.btn-panel-osmi.active.focus,
+.open > .dropdown-toggle.btn-panel-osmi.focus,
+.open > .dropdown-togglea.btn-panel-osmi.focus {
+  color: white;
+  background-color: #373737;
+  border-color: #222222;
+}
+.btn-panel-osmi:active,
+a.btn-panel-osmi:active,
+.btn-panel-osmi.active,
+a.btn-panel-osmi.active,
+.open > .dropdown-toggle.btn-panel-osmi,
+.open > .dropdown-togglea.btn-panel-osmi {
+  background-image: none;
+}
+.btn-panel-osmi.disabled:hover,
+a.btn-panel-osmi.disabled:hover,
+.btn-panel-osmi[disabled]:hover,
+a.btn-panel-osmi[disabled]:hover,
+fieldset[disabled] .btn-panel-osmi:hover,
+fieldset[disabled] a.btn-panel-osmi:hover,
+.btn-panel-osmi.disabled:focus,
+a.btn-panel-osmi.disabled:focus,
+.btn-panel-osmi[disabled]:focus,
+a.btn-panel-osmi[disabled]:focus,
+fieldset[disabled] .btn-panel-osmi:focus,
+fieldset[disabled] a.btn-panel-osmi:focus,
+.btn-panel-osmi.disabled.focus,
+a.btn-panel-osmi.disabled.focus,
+.btn-panel-osmi[disabled].focus,
+a.btn-panel-osmi[disabled].focus,
+fieldset[disabled] .btn-panel-osmi.focus,
+fieldset[disabled] a.btn-panel-osmi.focus {
+  background-color: #626262;
+  border-color: #626262;
+}
+.btn-panel-osmi .badge,
+a.btn-panel-osmi .badge {
+  color: #626262;
+  background-color: white;
+}
+@media (max-width: 991px) {
+  .btn-panel-osmi,
+  a.btn-panel-osmi {
+    letter-spacing: 0;
+  }
 }
 h2.header-osmi-box {
   color: #DD3131;

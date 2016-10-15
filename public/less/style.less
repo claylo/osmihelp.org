@@ -140,25 +140,46 @@ a.panel-osmi-linkwrap *, a.panel-osmi-linkwrap:active, a.panel-osmi-linkwrap:vis
   cursor: pointer;
 }
 
-.panel-osmi {
+.col-panel-osmi {
   background-color: white;
   color: @gray-dark;
+  padding: 0;
+  border: 5px solid lighten(@color-slate, 40%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.panel-osmi {
+  border: 0;
+  .panel-body {
+    border: 0;
+  }
   p {
     font-weight: 300;
+    color: @gray-dark;
   }
   .fa {
     color: @color-slate;
   }
   @media (min-width: @screen-md-min) {
-    min-height: 460px;
+    //min-height: 460px;
   }
   @media (max-width: @screen-sm-max) and (min-width: @screen-sm-min) {
     font-size: 14px;
-    min-height: 390px;
+    //min-height: 390px;
   }
-  a {
-    color: @brand-primary;
+}
+
+.btn-panel-osmi, a.btn-panel-osmi {
+  .button-variant(white; @gray-dark; @gray-dark);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  @media (max-width: @screen-sm-max) {
+    letter-spacing: 0;
   }
+  align-self: flex-end;
 }
 
 h2.header-osmi-box {
@@ -514,3 +535,4 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   }
   border: 2px solid white;
 }
+
