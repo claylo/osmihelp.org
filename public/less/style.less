@@ -275,10 +275,11 @@ h2.header-osmi-box {
 }
 
 .content-container {
-  padding-top: .5em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   @media (min-width: @screen-sm-min) {
     padding-top: 1em;
+    padding-bottom: 1em;
   }
 }
 
@@ -388,8 +389,11 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 .alt-container {
   background-color: desaturate(@brand-success, 10%);
   color: white;
+  .content-header {
+    color: inherit;
+  }
   a {
-    color: lighten(@brand-danger, 40%);
+    //color: lighten(@brand-danger, 40%);
   }
   .col-quote {
     color: @gray-dark;
