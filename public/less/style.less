@@ -135,6 +135,11 @@ body.splash {
   color: @brand-primary;
 }
 
+a.panel-osmi-linkwrap *, a.panel-osmi-linkwrap:active, a.panel-osmi-linkwrap:visited, a.panel-osmi-linkwrap:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .panel-osmi {
   background-color: white;
   color: @gray-dark;
@@ -242,15 +247,15 @@ h2.header-osmi-box {
 }
 
 .content-container {
-  margin-top: .5em;
-  margin-bottom: 1em;
+  padding-top: .5em;
+  padding-bottom: 1em;
   @media (min-width: @screen-sm-min) {
     padding-top: 1em;
   }
 }
 
 .container-fluid .container {
-  padding:0;
+  //padding:0;
 }
 
 .talks-container {
@@ -452,4 +457,60 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
       }
     }
   }
+}
+
+.row-splash-highlight, .row-splash-highlight-alt {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.col-splash-highlight, .col-splash-highlight-alt  {
+  height: auto;
+  min-width: 300px;
+  background-color: lighten(@brand-primary, 10%);
+  color: white;
+  h2 {
+    font-family: @font-family-serif;
+    margin: 0;
+    padding: .5em;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    @media (max-width: @screen-sm-max) {
+      font-size: 16px;
+    }
+  }
+  input[type=email] {
+    border: 2px solid white;
+    background: transparent;
+    font-family: @font-family-sans-serif;
+    color: white;
+    .placeholder(@color: @gray-lighter)
+  }
+  padding: 1em;
+}
+.col-splash-highlight-alt {
+  background-color: lighten(@brand-primary, 15%);
+  color: white;
+}
+
+.row-splash-highlight-alt {
+  .col-splash-highlight {
+    background-color: darken(@brand-success, 10%);
+  }
+  .col-splash-highlight-alt {
+    background-color: darken(@brand-success, 15%);
+  }
+}
+
+.btn-splash-highlight, a.btn-splash-highlight {
+  .button-variant(white; transparent; white);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  @media (max-width: @screen-sm-max) {
+    letter-spacing: 0;
+  }
+  border: 2px solid white;
 }
