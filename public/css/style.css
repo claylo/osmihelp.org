@@ -10569,3 +10569,117 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 .thumbnail.volunteer-thumbnail:hover .volunteer-name {
   color: #DD3131;
 }
+.row-splash-highlight,
+.row-splash-highlight-alt {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.col-splash-highlight,
+.col-splash-highlight-alt {
+  height: auto;
+  min-width: 300px;
+  background-color: #e45d5d;
+  color: white;
+  padding: 1em;
+}
+.col-splash-highlight h2,
+.col-splash-highlight-alt h2 {
+  font-family: "Merriweather", Palatino, Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: .5em;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+.col-splash-highlight input[type=email],
+.col-splash-highlight-alt input[type=email] {
+  border: 2px solid white;
+  background: transparent;
+  font-family: Oswald, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+.col-splash-highlight input[type=email]::-moz-placeholder,
+.col-splash-highlight-alt input[type=email]::-moz-placeholder {
+  color: #e3e3e3;
+  opacity: 1;
+}
+.col-splash-highlight input[type=email]:-ms-input-placeholder,
+.col-splash-highlight-alt input[type=email]:-ms-input-placeholder {
+  color: #e3e3e3;
+}
+.col-splash-highlight input[type=email]::-webkit-input-placeholder,
+.col-splash-highlight-alt input[type=email]::-webkit-input-placeholder {
+  color: #e3e3e3;
+}
+.col-splash-highlight-alt {
+  background-color: #e87373;
+  color: white;
+}
+.row-splash-highlight-alt .col-splash-highlight {
+  background-color: #759675;
+}
+.row-splash-highlight-alt .col-splash-highlight-alt {
+  background-color: #688a68;
+}
+.btn-splash-highlight {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid white;
+}
+.btn-splash-highlight:focus,
+.btn-splash-highlight.focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #bfbfbf;
+}
+.btn-splash-highlight:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #e0e0e0;
+}
+.btn-splash-highlight:active,
+.btn-splash-highlight.active,
+.open > .dropdown-toggle.btn-splash-highlight {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #e0e0e0;
+}
+.btn-splash-highlight:active:hover,
+.btn-splash-highlight.active:hover,
+.open > .dropdown-toggle.btn-splash-highlight:hover,
+.btn-splash-highlight:active:focus,
+.btn-splash-highlight.active:focus,
+.open > .dropdown-toggle.btn-splash-highlight:focus,
+.btn-splash-highlight:active.focus,
+.btn-splash-highlight.active.focus,
+.open > .dropdown-toggle.btn-splash-highlight.focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #bfbfbf;
+}
+.btn-splash-highlight:active,
+.btn-splash-highlight.active,
+.open > .dropdown-toggle.btn-splash-highlight {
+  background-image: none;
+}
+.btn-splash-highlight.disabled:hover,
+.btn-splash-highlight[disabled]:hover,
+fieldset[disabled] .btn-splash-highlight:hover,
+.btn-splash-highlight.disabled:focus,
+.btn-splash-highlight[disabled]:focus,
+fieldset[disabled] .btn-splash-highlight:focus,
+.btn-splash-highlight.disabled.focus,
+.btn-splash-highlight[disabled].focus,
+fieldset[disabled] .btn-splash-highlight.focus {
+  background-color: transparent;
+  border-color: white;
+}
+.btn-splash-highlight .badge {
+  color: transparent;
+  background-color: white;
+}
