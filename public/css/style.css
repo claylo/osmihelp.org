@@ -10834,3 +10834,19 @@ a.btn-splash-highlight .badge {
     letter-spacing: 0;
   }
 }
+.list-group-item .thumbnail-bookcover {
+  float: right;
+}
+@media (max-width: 767px) {
+  .list-group-item .thumbnail-bookcover {
+    float: none;
+  }
+}
+.list-group-item .thumbnail-bookcover .img-bookcover {
+  width: 160px;
+}
+@media (max-width: 767px) {
+  .list-group-item .thumbnail-bookcover .img-bookcover {
+    width: auto;
+  }
+}
