@@ -10835,6 +10835,7 @@ a.btn-splash-highlight .badge {
   }
 }
 .list-group-item .thumbnail-bookcover {
+  border: 0;
   float: right;
 }
 @media (max-width: 767px) {
