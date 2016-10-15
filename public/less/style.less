@@ -453,3 +453,53 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
     }
   }
 }
+
+.row-splash-highlight, .row-splash-highlight-alt {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.col-splash-highlight, .col-splash-highlight-alt  {
+  height: auto;
+  min-width: 300px;
+  background-color: lighten(@brand-primary, 10%);
+  color: white;
+  h2 {
+    font-family: @font-family-serif;
+    margin: 0;
+    padding: .5em;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+  }
+  input[type=email] {
+    border: 2px solid white;
+    background: transparent;
+    font-family: @font-family-sans-serif;
+    color: white;
+    .placeholder(@color: @gray-lighter)
+  }
+  padding: 1em;
+}
+.col-splash-highlight-alt {
+  background-color: lighten(@brand-primary, 15%);
+  color: white;
+}
+
+.row-splash-highlight-alt {
+  .col-splash-highlight {
+    background-color: darken(@brand-success, 10%);
+  }
+  .col-splash-highlight-alt {
+    background-color: darken(@brand-success, 15%);
+  }
+}
+
+.btn-splash-highlight {
+  .button-variant(white; transparent; white);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid white;
+}
