@@ -10257,6 +10257,13 @@ body.splash #logo-translucent {
 .header-primary {
   color: #DD3131;
 }
+a.panel-osmi-linkwrap *,
+a.panel-osmi-linkwrap:active,
+a.panel-osmi-linkwrap:visited,
+a.panel-osmi-linkwrap:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
 .panel-osmi {
   background-color: white;
   color: #626262;
@@ -10720,8 +10727,4 @@ a.btn-splash-highlight .badge {
   a.btn-splash-highlight {
     letter-spacing: 0;
   }
-}
-#wall-of-awesome-names {
-  max-height: 400px;
-  overflow: auto;
 }
