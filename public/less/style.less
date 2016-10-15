@@ -242,15 +242,15 @@ h2.header-osmi-box {
 }
 
 .content-container {
-  margin-top: .5em;
-  margin-bottom: 1em;
+  padding-top: .5em;
+  padding-bottom: 1em;
   @media (min-width: @screen-sm-min) {
     padding-top: 1em;
   }
 }
 
 .container-fluid .container {
-  padding:0;
+  //padding:0;
 }
 
 .talks-container {
@@ -473,6 +473,9 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 1.5em;
+    @media (max-width: @screen-sm-max) {
+      font-size: 16px;
+    }
   }
   input[type=email] {
     border: 2px solid white;
@@ -497,9 +500,17 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   }
 }
 
-.btn-splash-highlight {
+.btn-splash-highlight, a.btn-splash-highlight {
   .button-variant(white; transparent; white);
   text-transform: uppercase;
   letter-spacing: 2px;
+  @media (max-width: @screen-sm-max) {
+    letter-spacing: 0;
+  }
   border: 2px solid white;
+}
+
+#wall-of-awesome-names {
+  max-height: 400px;
+  overflow: auto;
 }

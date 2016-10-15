@@ -10367,16 +10367,13 @@ h2.header-osmi-box {
   margin-bottom: 0;
 }
 .content-container {
-  margin-top: .5em;
-  margin-bottom: 1em;
+  padding-top: .5em;
+  padding-bottom: 1em;
 }
 @media (min-width: 768px) {
   .content-container {
     padding-top: 1em;
   }
-}
-.container-fluid .container {
-  padding: 0;
 }
 .talks-container {
   background: url('../img/osmi-logo-translucent.png') #a8b1b9 no-repeat fixed 50% 50%;
@@ -10593,6 +10590,12 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   letter-spacing: 1px;
   line-height: 1.5em;
 }
+@media (max-width: 991px) {
+  .col-splash-highlight h2,
+  .col-splash-highlight-alt h2 {
+    font-size: 16px;
+  }
+}
 .col-splash-highlight input[type=email],
 .col-splash-highlight-alt input[type=email] {
   border: 2px solid white;
@@ -10623,7 +10626,8 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
 .row-splash-highlight-alt .col-splash-highlight-alt {
   background-color: #688a68;
 }
-.btn-splash-highlight {
+.btn-splash-highlight,
+a.btn-splash-highlight {
   color: white;
   background-color: transparent;
   border-color: white;
@@ -10632,54 +10636,92 @@ this flexbox stuff is so we can have nicely aligned sponsor logos
   border: 2px solid white;
 }
 .btn-splash-highlight:focus,
-.btn-splash-highlight.focus {
+a.btn-splash-highlight:focus,
+.btn-splash-highlight.focus,
+a.btn-splash-highlight.focus {
   color: white;
   background-color: rgba(0, 0, 0, 0);
   border-color: #bfbfbf;
 }
-.btn-splash-highlight:hover {
+.btn-splash-highlight:hover,
+a.btn-splash-highlight:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0);
   border-color: #e0e0e0;
 }
 .btn-splash-highlight:active,
+a.btn-splash-highlight:active,
 .btn-splash-highlight.active,
-.open > .dropdown-toggle.btn-splash-highlight {
+a.btn-splash-highlight.active,
+.open > .dropdown-toggle.btn-splash-highlight,
+.open > .dropdown-togglea.btn-splash-highlight {
   color: white;
   background-color: rgba(0, 0, 0, 0);
   border-color: #e0e0e0;
 }
 .btn-splash-highlight:active:hover,
+a.btn-splash-highlight:active:hover,
 .btn-splash-highlight.active:hover,
+a.btn-splash-highlight.active:hover,
 .open > .dropdown-toggle.btn-splash-highlight:hover,
+.open > .dropdown-togglea.btn-splash-highlight:hover,
 .btn-splash-highlight:active:focus,
+a.btn-splash-highlight:active:focus,
 .btn-splash-highlight.active:focus,
+a.btn-splash-highlight.active:focus,
 .open > .dropdown-toggle.btn-splash-highlight:focus,
+.open > .dropdown-togglea.btn-splash-highlight:focus,
 .btn-splash-highlight:active.focus,
+a.btn-splash-highlight:active.focus,
 .btn-splash-highlight.active.focus,
-.open > .dropdown-toggle.btn-splash-highlight.focus {
+a.btn-splash-highlight.active.focus,
+.open > .dropdown-toggle.btn-splash-highlight.focus,
+.open > .dropdown-togglea.btn-splash-highlight.focus {
   color: white;
   background-color: rgba(0, 0, 0, 0);
   border-color: #bfbfbf;
 }
 .btn-splash-highlight:active,
+a.btn-splash-highlight:active,
 .btn-splash-highlight.active,
-.open > .dropdown-toggle.btn-splash-highlight {
+a.btn-splash-highlight.active,
+.open > .dropdown-toggle.btn-splash-highlight,
+.open > .dropdown-togglea.btn-splash-highlight {
   background-image: none;
 }
 .btn-splash-highlight.disabled:hover,
+a.btn-splash-highlight.disabled:hover,
 .btn-splash-highlight[disabled]:hover,
+a.btn-splash-highlight[disabled]:hover,
 fieldset[disabled] .btn-splash-highlight:hover,
+fieldset[disabled] a.btn-splash-highlight:hover,
 .btn-splash-highlight.disabled:focus,
+a.btn-splash-highlight.disabled:focus,
 .btn-splash-highlight[disabled]:focus,
+a.btn-splash-highlight[disabled]:focus,
 fieldset[disabled] .btn-splash-highlight:focus,
+fieldset[disabled] a.btn-splash-highlight:focus,
 .btn-splash-highlight.disabled.focus,
+a.btn-splash-highlight.disabled.focus,
 .btn-splash-highlight[disabled].focus,
-fieldset[disabled] .btn-splash-highlight.focus {
+a.btn-splash-highlight[disabled].focus,
+fieldset[disabled] .btn-splash-highlight.focus,
+fieldset[disabled] a.btn-splash-highlight.focus {
   background-color: transparent;
   border-color: white;
 }
-.btn-splash-highlight .badge {
+.btn-splash-highlight .badge,
+a.btn-splash-highlight .badge {
   color: transparent;
   background-color: white;
+}
+@media (max-width: 991px) {
+  .btn-splash-highlight,
+  a.btn-splash-highlight {
+    letter-spacing: 0;
+  }
+}
+#wall-of-awesome-names {
+  max-height: 400px;
+  overflow: auto;
 }
