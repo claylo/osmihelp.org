@@ -10264,6 +10264,11 @@ a.panel-osmi-linkwrap:hover {
   text-decoration: none;
   cursor: pointer;
 }
+.row-panel-osmi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .col-panel-osmi {
   background-color: white;
   color: #626262;
@@ -10272,6 +10277,7 @@ a.panel-osmi-linkwrap:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex: 1 1 300px;
   cursor: pointer;
 }
 .panel-osmi {

@@ -140,6 +140,12 @@ a.panel-osmi-linkwrap *, a.panel-osmi-linkwrap:active, a.panel-osmi-linkwrap:vis
   cursor: pointer;
 }
 
+.row-panel-osmi {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .col-panel-osmi {
   background-color: white;
   color: @gray-dark;
@@ -148,6 +154,7 @@ a.panel-osmi-linkwrap *, a.panel-osmi-linkwrap:active, a.panel-osmi-linkwrap:vis
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex: 1 1 300px; // safari fix
   cursor: pointer;
 }
 
