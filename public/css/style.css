@@ -10481,10 +10481,10 @@ h2.header-osmi-box {
   margin-bottom: 0;
 }
 .content-container {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .content-container {
     padding-top: 1em;
     padding-bottom: 1em;
