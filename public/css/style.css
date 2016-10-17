@@ -10556,26 +10556,74 @@ h3.content-header {
   overflow: auto;
   padding: 3px;
 }
-/*
-this flexbox stuff is so we can have nicely aligned sponsor logos
-*/
-.col-flex {
+.row-sponsor {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  border: 2px solid #626262;
+}
+.row-sponsor.ultra {
+  border-color: #759675;
+}
+.row-sponsor.ultra .col-sponsor-category {
+  background-color: #759675;
+}
+.row-sponsor.mega {
+  border-color: #818a81;
+}
+.row-sponsor.mega .col-sponsor-category {
+  background-color: #818a81;
+}
+.row-sponsor.amaze {
+  border-color: #868686;
+}
+.row-sponsor.amaze .col-sponsor-category {
+  background-color: #868686;
+}
+.col-sponsor-category {
+  height: 170px;
+  min-width: 170px;
+  line-height: 160px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Oswald, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+@media (max-width: 991px) {
+  .col-sponsor-category {
+    height: 70px;
+    line-height: 60px;
+  }
+}
+.col-sponsor {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 1em;
-}
-.col-flex .sponsor-logo-wrapper {
-  max-width: 250px;
-  max-height: 300px;
-  flex: 1 1 250px;
+  margin: 0 auto;
   font-size: 32px;
   font-family: Oswald, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  border: 1px solid #a6a6a6;
-  background-color: white;
-  padding: 1em;
+  padding: .5px;
+  height: 170px;
+}
+@media (max-width: 991px) {
+  .col-sponsor {
+    justify-content: center;
+    height: auto;
+  }
+}
+.col-sponsor a .img-sponsor-logo {
+  display: inline-block;
+  max-height: 150px;
+  max-width: 250px;
+  margin: 5px;
+}
+@media (max-width: 767px) {
+  .col-sponsor a .img-sponsor-logo {
+    display: block;
+  }
 }
 .resource-description {
   margin-left: 2em;
