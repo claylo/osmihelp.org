@@ -1,6 +1,10 @@
 @color-slate: #59656F;
 @fixed-nav-padding: 61px;
 
+@ultra-color: darken(@brand-success, 10%);
+@mega-color: desaturate(@ultra-color, 10%);
+@amaze-color: desaturate(@ultra-color, 15%);
+
 /*
  * import the bootstrap less theme
  */
@@ -358,27 +362,76 @@ h3.content-header {
 }
 
 
-/*
-this flexbox stuff is so we can have nicely aligned sponsor logos
-*/
-.col-flex {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1em;
+.row-sponsor {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  border: 2px solid @gray-dark;
+  &.ultra {
+    border-color: @ultra-color;
+    .col-sponsor-category {
+       background-color: @ultra-color;
+    }
+  }
+  &.mega {
+    border-color: @mega-color;
+    .col-sponsor-category {
+      background-color: @mega-color;
+    }
+  }
+  &.amaze {
+    border-color: @amaze-color;
+    .col-sponsor-category {
+      background-color: @amaze-color;
+    }
+  }
 }
-.col-flex .sponsor-logo-wrapper {
-  max-width: 250px;
-  max-height: 300px;
-  flex: 1 1 250px; // have to be specific about width b/c of webkit bug
+
+.col-sponsor-category {
+  height: 170px;
+  min-width: 170px;
+  line-height: 160px;
+  text-align: center;
+  font-size: 24px;
+  font-family: @font-family-sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  @media (max-width: @screen-sm-max) {
+    height: 70px;
+    line-height: 60px;
+  }
+}
+
+
+
+.col-sponsor {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   font-size: 32px;
   font-family: @font-family-sans-serif;
   text-align: center;
-  border: 1px solid @gray-light;
-  background-color: white;
-  padding: 1em;
+  padding: .5px;
+  height: 170px;
+  @media (max-width: @screen-sm-max) {
+    justify-content: center;
+    height: auto;
+  }
+  a {
+    .img-sponsor-logo {
+      display: inline-block;
+      max-height: 150px;
+      max-width: 250px;
+      margin: 5px;
+      @media (max-width: @screen-xs-max) {
+        display:block;
+      }
+    }
+  }
 }
+
 
 .resource-description {
   margin-left: 2em;
