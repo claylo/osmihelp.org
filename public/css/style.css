@@ -10559,22 +10559,28 @@ h3.content-header {
   border: 2px solid #626262;
 }
 .row-sponsor.ultra {
-  border-color: #759675;
+  border-color: #747d74;
 }
 .row-sponsor.ultra .col-sponsor-category {
-  background-color: #759675;
+  background-color: #747d74;
 }
 .row-sponsor.mega {
-  border-color: #818a81;
+  border-color: #797979;
 }
 .row-sponsor.mega .col-sponsor-category {
-  background-color: #818a81;
+  background-color: #797979;
 }
 .row-sponsor.amaze {
-  border-color: #868686;
+  border-color: #797979;
 }
 .row-sponsor.amaze .col-sponsor-category {
-  background-color: #868686;
+  background-color: #797979;
+}
+.row-sponsor.uber {
+  border-color: #688a68;
+}
+.row-sponsor.uber .col-sponsor-category {
+  background-color: #688a68;
 }
 .col-sponsor-category {
   height: 170px;

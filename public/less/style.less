@@ -1,7 +1,8 @@
 @color-slate: #59656F;
 @fixed-nav-padding: 61px;
 
-@ultra-color: darken(@brand-success, 10%);
+@uber-color: darken(@brand-success, 15%);
+@ultra-color: desaturate(@uber-color, 10%);
 @mega-color: desaturate(@ultra-color, 10%);
 @amaze-color: desaturate(@ultra-color, 15%);
 
@@ -382,6 +383,12 @@ h3.content-header {
     border-color: @amaze-color;
     .col-sponsor-category {
       background-color: @amaze-color;
+    }
+  }
+  &.uber {
+    border-color: @uber-color;
+    .col-sponsor-category {
+      background-color: @uber-color;
     }
   }
 }
