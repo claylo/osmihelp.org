@@ -23,5 +23,5 @@ def deploy():
 def update():
     with cd('/var/www/osmihelp.org/'):
         run('git pull')
-        run('rm cache/*')
+        run('rm cache/*', warn_only=True)
         run('composer update --optimize-autoloader --no-dev')
