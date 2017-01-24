@@ -10191,6 +10191,13 @@ button {
 .navbar-nav li a.btn {
   color: white;
 }
+.navbar-nav .dropdown-menu {
+  z-index: 1099;
+}
+.navbar-nav .dropdown-menu li a,
+.navbar-nav .dropdown-menu a.btn {
+  color: #515151;
+}
 #logo,
 #logo-translucent {
   display: none;
@@ -10203,27 +10210,27 @@ body.splash #logo-translucent {
   display: block;
 }
 #logo {
-  z-index: 1002;
+  z-index: 999;
 }
 @media (min-width: 768px) {
   #logo {
-    width: 330px;
-    margin-top: -16px;
-    margin-left: 60px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 75px;
   }
 }
 @media (min-width: 992px) {
   #logo {
-    width: 450px;
-    margin-top: -16px;
-    margin-left: 70px;
+    width: 407px;
+    margin-top: 10px;
+    margin-left: 85px;
   }
 }
 @media (min-width: 1200px) {
   #logo {
-    width: 600px;
-    margin-top: -16px;
-    margin-left: 80px;
+    width: 514px;
+    margin-top: 10px;
+    margin-left: 95px;
   }
 }
 #logo-translucent {
