@@ -84,6 +84,13 @@ body.splash {
   color: white;
 }
 
+.navbar-nav .dropdown-menu {
+  z-index: 1099;
+  li a, a.btn {
+    color: @gray-darker;
+  }
+}
+
 #logo, #logo-translucent {
   display: none;
 }
@@ -95,21 +102,21 @@ body.splash {
 }
 
 #logo {
-  z-index: 1002;
+  z-index: 999;
   @media (min-width: @screen-sm-min) {
-    width: 330px;
-    margin-top: 45px - @fixed-nav-padding;
-    margin-left: 60px;
+    width: 290px;
+    margin-top: 71px - @fixed-nav-padding;
+    margin-left: 75px;
   }
   @media (min-width: @screen-md-min) {
-    width: 450px;
-    margin-top: 45px - @fixed-nav-padding;
-    margin-left: 70px;
+    width: 407px;
+    margin-top: 71px - @fixed-nav-padding;
+    margin-left: 85px;
   }
   @media (min-width: @screen-lg-min) {
-    width: 600px;
-    margin-top: 45px - @fixed-nav-padding;
-    margin-left: 80px;
+    width: 514px;
+    margin-top: 71px - @fixed-nav-padding;
+    margin-left: 95px;
   }
 }
 
