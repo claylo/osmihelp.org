@@ -4,6 +4,16 @@
  */
 window.PRESENTATIONS = [
     {
+        "ytid": 'e8OVyjtz1uc',
+        "video_url": 'https://www.youtube.com/watch?v=e8OVyjtz1uc',
+        "speakerdeck_embed_id": "e2b877c760b4455a98626adb5d2f5b09",
+        "speakerdeck_embed_ratio": "1.77777777777778",
+        "slides_url": "https://speakerdeck.com/funkatron/stronger-than-fear-mental-health-in-the-developer-community-20",
+        'event_name': 'LoopConf',
+        'event_date': 'February 2017',
+        "audio_url": null
+    },
+    {
         "ytid": null,
         "video_url": null,
         "speakerdeck_embed_id": "1df06a7286014cf58acd411452ffd9fa",
@@ -327,17 +337,23 @@ window.PRESENTATIONS = [
 
 window.UPCOMING_PRESENTATIONS = [
     {
-        'event_url': 'http://truenorthphp.ca',
-        'event_name': 'True North PHP Conference',
-        'event_date': 'Nov 3-5',
-        'event_location': 'Toronto, ON, Canada'
+        'event_url': 'http://www.elixirdaze.com/',
+        'event_name': 'Elixir Daze',
+        'event_date': 'March 2-3',
+        'event_location': 'St. Augustine, Florida'
     },
     {
-        'event_url': 'https://world.phparch.com',
-        'event_name': 'php[world] Conference',
-        'event_date': 'Nov 14-18',
-        'event_location': 'Washington, D.C.'
-    }
+        'event_url': 'http://lonestarphp.com/',
+        'event_name': 'Lone Star PHP',
+        'event_date': 'April 20-22',
+        'event_location': 'Dallas, Texas'
+    },
+    {
+        'event_url': 'https://cakefest.org/',
+        'event_name': 'CakeFest 2017',
+        'event_date': 'June 8-11',
+        'event_location': 'New York City, New York'
+    },
 ];
 
 
