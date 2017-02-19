@@ -1,6 +1,6 @@
 from fabric.api import *
 
-env.hosts = ['coj@funkatron.com:2202']
+env.hosts = ['coj@96.126.108.131:2202']
 env.key_filename = ['~/.ssh/id_rsa']
 
 def uname():
