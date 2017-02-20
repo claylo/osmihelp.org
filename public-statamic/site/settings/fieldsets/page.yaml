@@ -1,0 +1,17 @@
+taxonomies: false
+title: page
+create_title: Page Fieldset
+fields:
+  body_class:
+    type: text
+    display: <BODY> class
+    instructions: a css class applied to the BODY tag
+    width: 50
+  template:
+    type: template
+    display: Template
+    instructions: pick a template to use for the page. Default is "default"
+    width: 50
+  content:
+    type: markdown
+    display: Content
